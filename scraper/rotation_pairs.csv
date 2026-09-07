@@ -1,0 +1,10 @@
+arrival_number,departure_number,route,carrier,carrier_code_schedule,days_operated
+81,82,CNS,Jetstar,JQ,"Monday,Tuesday"
+85,86,CNS,Skytrans,QN,"Friday,Sunday"
+832,833,MEL,Jetstar,JQ,"Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday"
+834,835,BNE,Jetstar,JQ,"Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday"
+836,837,BNE,Jetstar,JQ,"Tuesday,Thursday,Saturday,Sunday"
+838,839,SYD,Jetstar,JQ,"Monday,Wednesday,Friday,Sunday"
+840,841,SYD,Jetstar,JQ,"Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday"
+1113,1114,BNE,Virgin,VA,Sunday
+1117,1118,BNE,Virgin,VA,"Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday"
