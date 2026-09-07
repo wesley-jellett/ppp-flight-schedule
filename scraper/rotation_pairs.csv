@@ -1,5 +1,5 @@
 arrival_number,departure_number,route,carrier,carrier_code_schedule,days_operated
-81,82,CNS,Jetstar,JQ,"Monday,Tuesday"
+81,82,CNS,Skytrans,QN,"Monday,Tuesday"
 85,86,CNS,Skytrans,QN,"Friday,Sunday"
 832,833,MEL,Jetstar,JQ,"Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday"
 834,835,BNE,Jetstar,JQ,"Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday"
