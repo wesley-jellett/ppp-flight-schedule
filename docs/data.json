@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T09:15:37.422044+10:00",
+  "generated_at": "2026-09-09T09:30:44.831326+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -17,10 +17,10 @@
         "flight": "JQ833",
         "carrier": "JQ",
         "number": 833,
-        "destination": "Melbourne",
+        "destination": "Melbourne  Check in close 10:35",
         "std": "11:15",
         "etd": "11:15",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
@@ -40,11 +40,11 @@
         "flight": "JQ835",
         "carrier": "JQ",
         "number": 835,
-        "destination": "Brisbane",
+        "destination": "Brisbane  Check in close 11:35",
         "std": "12:15",
         "etd": "12:30",
-        "status": "Delayed 15min",
-        "delayed": true
+        "status": "Check-in Open",
+        "delayed": false
       },
       "at_risk": false
     },
@@ -55,21 +55,25 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "14:05",
-        "status": null,
-        "delayed": false
+        "eta": "14:20",
+        "status": "Delayed 15min",
+        "eta_slipped": {
+          "prev_eta": "14:05",
+          "slip_min": 15
+        },
+        "delayed": true
       },
       "departure": {
         "flight": "JQ841",
         "carrier": "JQ",
         "number": 841,
-        "destination": "Sydney",
+        "destination": "Sydney  Check in open 12:45 until 14:05",
         "std": "14:45",
         "etd": "14:45",
         "status": null,
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     },
     {
       "arrival": {
@@ -86,7 +90,7 @@
         "flight": "VA1118",
         "carrier": "VA",
         "number": 1118,
-        "destination": "Brisbane",
+        "destination": "Brisbane  Check in open 13:30 until 14:45",
         "std": "15:15",
         "etd": "15:15",
         "status": null,
@@ -109,7 +113,7 @@
         "flight": "JQ839",
         "carrier": "JQ",
         "number": 839,
-        "destination": "Sydney",
+        "destination": "Sydney  Check in open 16:50 until 18:10",
         "std": "18:50",
         "etd": "18:50",
         "status": null,
