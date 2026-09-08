@@ -277,6 +277,186 @@ def risk_flag(pair):
     return turnaround_buffer < 40 and not already_adjusted
 
 
+
+def load_previous_pairs(data_json_path: str) -> list:
+    """Load pairs from the previous data.json, if it exists and is from today."""
+    try:
+        with open(data_json_path) as f:
+            prev = json.load(f)
+        if not prev.get("generated_at"):
+            return []
+        # Only use previous data if it was generated today (Brisbane time)
+        gen = datetime.fromisoformat(prev["generated_at"])
+        now = datetime.now(BRISBANE_TZ)
+        if gen.date() != now.date():
+            return []
+        return prev.get("pairs", [])
+    except (FileNotFoundError, json.JSONDecodeError, KeyError, ValueError):
+        return []
+
+
+def carry_forward_arrivals(new_pairs: list, prev_pairs: list) -> list:
+    """
+    For any arrival that was in prev_pairs but is missing from new_pairs,
+    carry it forward if its paired departure hasn't yet departed.
+
+    This handles the FIDS dropping landed arrivals from the board before
+    the turnaround departure has pushed back.
+    """
+    if not prev_pairs:
+        return new_pairs
+
+    now_brisbane = datetime.now(BRISBANE_TZ)
+    now_minutes = now_brisbane.hour * 60 + now_brisbane.minute
+
+    # Index current pairs by departure flight number (the stable key once
+    # the arrival drops off)
+    new_dep_flights = {
+        p["departure"]["flight"]
+        for p in new_pairs
+        if p.get("departure")
+    }
+    new_arr_flights = {
+        p["arrival"]["flight"]
+        for p in new_pairs
+        if p.get("arrival")
+    }
+
+    carried = 0
+    for prev_pair in prev_pairs:
+        arr = prev_pair.get("arrival")
+        dep = prev_pair.get("departure")
+        if not arr:
+            continue  # nothing to carry forward
+
+        arr_flight = arr.get("flight")
+        dep_flight = dep.get("flight") if dep else None
+
+        # Skip if this arrival is already in the new data
+        if arr_flight in new_arr_flights:
+            continue
+
+        # Skip if the paired departure has also already left the board
+        # (meaning the whole rotation is done)
+        if dep_flight and dep_flight not in new_dep_flights:
+            # Check if the departure's ETD has passed — if so, rotation complete
+            etd = dep.get("etd") or dep.get("std")
+            if etd:
+                try:
+                    h, m = map(int, etd.split(":"))
+                    dep_minutes = h * 60 + m
+                    if now_minutes > dep_minutes + 15:
+                        continue  # departed >15 min ago, drop the pair
+                except ValueError:
+                    pass
+            continue  # departure gone from board, treat rotation as complete
+
+        # Arrival has landed but departure is still on the board —
+        # carry the arrival forward with Landed status
+        carried_arr = dict(arr)
+        if not carried_arr.get("status") or "landed" not in carried_arr["status"].lower():
+            carried_arr["status"] = "Landed"
+        carried_arr["delayed"] = False
+
+        # Find the matching new pair (departure only, no arrival yet) and inject
+        injected = False
+        for new_pair in new_pairs:
+            new_dep = new_pair.get("departure")
+            if new_dep and new_dep.get("flight") == dep_flight and not new_pair.get("arrival"):
+                new_pair["arrival"] = carried_arr
+                injected = True
+                carried += 1
+                break
+
+        if not injected and dep_flight in new_dep_flights:
+            # The departure exists in a paired row — still inject if arrival slot empty
+            for new_pair in new_pairs:
+                nd = new_pair.get("departure")
+                if nd and nd.get("flight") == dep_flight:
+                    if not new_pair.get("arrival"):
+                        new_pair["arrival"] = carried_arr
+                        carried += 1
+                        break
+
+    if carried:
+        print(f"Carried forward {carried} landed arrival(s) from previous fetch")
+    return new_pairs
+
+
+def detect_eta_slippage(new_pairs: list, prev_pairs: list, threshold_min: int = 15) -> list:
+    """
+    Compare current ETAs/ETDs against the previous fetch.
+    Where a flight's estimated time has slipped by more than threshold_min,
+    add an 'eta_slipped' dict to the leg with:
+      - prev_eta: the ETA from the last fetch
+      - slip_min: how many minutes later it is now
+    This lets the UI show "was 11:35" even when the FIDS board doesn't
+    explicitly label the flight as delayed.
+    """
+    if not prev_pairs:
+        return new_pairs
+
+    def to_min(t):
+        if not t:
+            return None
+        try:
+            h, m = map(int, t.split(":"))
+            return h * 60 + m
+        except ValueError:
+            return None
+
+    # Build lookup: flight_code -> (eta_or_etd, sta_or_std)
+    prev_arr = {p["arrival"]["flight"]: p["arrival"]
+                for p in prev_pairs if p.get("arrival")}
+    prev_dep = {p["departure"]["flight"]: p["departure"]
+                for p in prev_pairs if p.get("departure")}
+
+    slipped = 0
+    for pair in new_pairs:
+        arr = pair.get("arrival")
+        dep = pair.get("departure")
+
+        if arr and arr.get("flight") in prev_arr:
+            prev = prev_arr[arr["flight"]]
+            cur_eta  = to_min(arr.get("eta") or arr.get("sta"))
+            prev_eta = to_min(prev.get("eta") or prev.get("sta"))
+            if cur_eta is not None and prev_eta is not None:
+                slip = cur_eta - prev_eta
+                if slip >= threshold_min:
+                    arr["eta_slipped"] = {
+                        "prev_eta": prev.get("eta") or prev.get("sta"),
+                        "slip_min": slip,
+                    }
+                    # Also mark as delayed if the board hasn't already
+                    arr["delayed"] = True
+                    slipped += 1
+                elif slip <= -threshold_min:
+                    # Flight moved earlier — also worth flagging
+                    arr["eta_slipped"] = {
+                        "prev_eta": prev.get("eta") or prev.get("sta"),
+                        "slip_min": slip,  # negative = earlier
+                    }
+                    slipped += 1
+
+        if dep and dep.get("flight") in prev_dep:
+            prev = prev_dep[dep["flight"]]
+            cur_etd  = to_min(dep.get("etd") or dep.get("std"))
+            prev_etd = to_min(prev.get("etd") or prev.get("std"))
+            if cur_etd is not None and prev_etd is not None:
+                slip = cur_etd - prev_etd
+                if abs(slip) >= threshold_min:
+                    dep["etd_slipped"] = {
+                        "prev_etd": prev.get("etd") or prev.get("std"),
+                        "slip_min": slip,
+                    }
+                    if slip > 0:
+                        dep["delayed"] = True
+                    slipped += 1
+
+    if slipped:
+        print(f"Detected {slipped} ETA/ETD slippage(s) vs previous fetch")
+    return new_pairs
+
 def main():
     try:
         arr_df = get_today_table(ARRIVALS_URL, ["FLIGHT", "FROM", "STA", "ETA"])
@@ -289,6 +469,13 @@ def main():
     departures = parse_departures(dep_df)
     rotation_map = load_rotation_map()
     pairs = pair_rotations(arrivals, departures, rotation_map)
+
+    # Carry forward any arrivals that landed and dropped off the FIDS board
+    # but whose departure is still upcoming / on the board.
+    data_json_path = "docs/data.json"
+    prev_pairs = load_previous_pairs(data_json_path)
+    pairs = carry_forward_arrivals(pairs, prev_pairs)
+    pairs = detect_eta_slippage(pairs, prev_pairs)
 
     for p in pairs:
         p["at_risk"] = risk_flag(p)
