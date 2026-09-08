@@ -2,8 +2,13 @@ name: Update PPP flight data
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    # Fallback: every 30 min between 07:00 and 18:00 Brisbane time (UTC+10)
+    # Brisbane = UTC+10 (no DST), so 07:00-18:00 AEST = 21:00-08:00 UTC
+    - cron: "*/30 21-23 * * *"   # 07:00-09:30 AEST
+    - cron: "*/30 0-8 * * *"     # 10:00-18:30 AEST
   workflow_dispatch:
+  repository_dispatch:
+    types: [scrape]
 
 permissions:
   contents: write
@@ -12,9 +17,9 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -28,6 +33,6 @@ jobs:
         run: |
           git config user.name "ppp-flight-tracker-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add docs/data.json
+          git add docs/data.json docs/history.json
           git diff --cached --quiet || git commit -m "Update flight data"
           git push
