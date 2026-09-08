@@ -457,6 +457,91 @@ def detect_eta_slippage(new_pairs: list, prev_pairs: list, threshold_min: int = 
         print(f"Detected {slipped} ETA/ETD slippage(s) vs previous fetch")
     return new_pairs
 
+
+HISTORY_JSON = "docs/history.json"
+
+def append_to_history(pairs: list, generated_at: str) -> None:
+    """
+    Append a snapshot of the current finalised flight states to history.json.
+
+    Structure:
+      { "date": "YYYY-MM-DD", "snapshots": [ { "at": "HH:MM", "flights": [...] } ] }
+
+    One file per day (keyed by date). Each scrape run appends a snapshot only
+    when something meaningful has changed vs the previous snapshot — i.e. at
+    least one flight's ETA/ETD, status, or presence has changed — to avoid
+    filling the file with identical rows.
+
+    A flight record in history:
+      { "flight", "kind" (arr/dep), "route", "scheduled", "estimated",
+        "status", "delayed", "at_risk", "recorded_at" }
+    """
+    import os
+
+    now = datetime.fromisoformat(generated_at)
+    today_str = now.strftime("%Y-%m-%d")
+    time_str  = now.strftime("%H:%M")
+
+    # Build flat list of flight records from current pairs
+    def flight_record(leg, kind, at_risk):
+        if not leg:
+            return None
+        sched = leg.get("sta") or leg.get("std")
+        est   = leg.get("eta") or leg.get("etd")
+        return {
+            "flight":    leg.get("flight"),
+            "kind":      kind,
+            "route":     leg.get("origin") or leg.get("destination"),
+            "scheduled": sched,
+            "estimated": est,
+            "status":    leg.get("status"),
+            "delayed":   leg.get("delayed", False),
+            "at_risk":   at_risk,
+        }
+
+    current_flights = []
+    for p in pairs:
+        rec = flight_record(p.get("arrival"),   "arr", p.get("at_risk", False))
+        if rec:
+            current_flights.append(rec)
+        rec = flight_record(p.get("departure"), "dep", p.get("at_risk", False))
+        if rec:
+            current_flights.append(rec)
+
+    # Load existing history
+    try:
+        with open(HISTORY_JSON) as f:
+            history = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        history = {}
+
+    # Get or create today's entry
+    day_entry = history.get(today_str, {"date": today_str, "snapshots": []})
+    snapshots = day_entry["snapshots"]
+
+    # Only append if something changed vs the last snapshot
+    def flights_key(flights):
+        return {r["flight"]: (r["estimated"], r["status"]) for r in flights}
+
+    if snapshots:
+        prev_key = flights_key(snapshots[-1]["flights"])
+        curr_key = flights_key(current_flights)
+        if prev_key == curr_key:
+            return  # nothing changed, skip
+
+    snapshots.append({"at": time_str, "flights": current_flights})
+    day_entry["snapshots"] = snapshots
+    history[today_str] = day_entry
+
+    # Prune entries older than 90 days to keep the file from growing forever
+    cutoff = (now.replace(tzinfo=None) - __import__('datetime').timedelta(days=90)).strftime("%Y-%m-%d")
+    history = {k: v for k, v in history.items() if k >= cutoff}
+
+    with open(HISTORY_JSON, "w") as f:
+        json.dump(history, f, indent=2)
+
+    print(f"History updated: {today_str} now has {len(snapshots)} snapshot(s)")
+
 def main():
     try:
         arr_df = get_today_table(ARRIVALS_URL, ["FLIGHT", "FROM", "STA", "ETA"])
@@ -498,6 +583,9 @@ def main():
         json.dump(out, f, indent=2)
 
     print(f"Wrote {len(pairs)} rows to docs/data.json")
+
+    # Append to running history log
+    append_to_history(pairs, out["generated_at"])
 
 
 if __name__ == "__main__":
