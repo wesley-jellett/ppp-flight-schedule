@@ -3590,6 +3590,31 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "18:50",
+        "flights": [
+          {
+            "flight": "JQ838",
+            "kind": "arr",
+            "route": "Sydney",
+            "scheduled": "18:15",
+            "estimated": "18:01",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ839",
+            "kind": "dep",
+            "route": "Sydney  Check in open 16:50 until 18:10",
+            "scheduled": "18:50",
+            "estimated": "18:55",
+            "status": "Boarding",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
