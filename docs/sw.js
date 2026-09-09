@@ -1,7 +1,7 @@
 // Minimal service worker: caches the app shell so the page still opens
 // (with stale data) if the tablet is briefly offline. data.json is always
 // fetched fresh (network) since flight times need to be current.
-const CACHE = 'ppp-flight-board-v1';
+const CACHE = 'ppp-flight-board-v3';
 const SHELL = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', (e) => {

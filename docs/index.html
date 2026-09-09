@@ -499,17 +499,6 @@ function render() {
     sectionHTML(morning,   'Morning') +
     sectionHTML(afternoon, 'Afternoon');
 
-  // tap-to-select
-  rowsEl.querySelectorAll('.row').forEach(el => {
-    el.addEventListener('click', () => {
-      const key = el.dataset.key;
-      if (!key) return;
-      if (selected.has(key)) selected.delete(key);
-      else selected.add(key);
-      updateToggleBtn();
-      render();
-    });
-  });
 }
 
 function updateToggleBtn() {
@@ -557,6 +546,17 @@ async function load(isManual) {
     if (isManual) setTimeout(() => refreshBtn.classList.remove('spinning'), 400);
   }
 }
+
+// Event delegation for row taps — survives innerHTML re-renders
+rowsEl.addEventListener('click', (e) => {
+  const row = e.target.closest('.row');
+  if (!row || !row.dataset.key) return;
+  const key = row.dataset.key;
+  if (selected.has(key)) selected.delete(key);
+  else selected.add(key);
+  updateToggleBtn();
+  render();
+});
 
 refreshBtn.addEventListener('click', () => load(true));
 load(false);
