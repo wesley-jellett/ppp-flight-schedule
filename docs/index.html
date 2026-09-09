@@ -199,8 +199,7 @@
   }
 
   .row.hidden-flight {
-    opacity: 0.18;
-    pointer-events: none;
+    display: none;
   }
 
   /* ── LEG ── */
@@ -487,6 +486,10 @@ function render() {
 
   function sectionHTML(pairs, label) {
     if (!pairs.length) return '';
+    // Hide the section divider entirely if all rows in it are hidden
+    const allHidden = !showAll && selected.size > 0 &&
+      pairs.every(p => !selected.has(pairKey(p)));
+    if (allHidden) return '';
     return `<div class="section-divider">
         <div class="label">${label}</div>
         <div class="line"></div>
