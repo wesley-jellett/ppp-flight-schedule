@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T12:15:33.865522+10:00",
+  "generated_at": "2026-09-09T12:30:46.871584+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,34 +20,7 @@
         "destination": "Brisbane  Check in close 11:35",
         "std": "12:15",
         "etd": "12:35",
-        "status": "Final Call",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "QN81",
-        "carrier": "QN",
-        "number": 81,
-        "origin": "Cairns",
-        "sta": "12:16",
-        "eta": "12:16",
-        "status": "On The Way",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN82",
-        "carrier": "QN",
-        "number": 82,
-        "destination": "Cairns",
-        "std": "12:55",
-        "etd": "14:55",
-        "status": "Check-in Open",
-        "etd_slipped": {
-          "prev_etd": "12:55",
-          "slip_min": 120
-        },
+        "status": "Closed",
         "delayed": false
       },
       "at_risk": false
@@ -59,7 +32,7 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "14:10",
+        "eta": "14:05",
         "status": "On The Way",
         "delayed": false
       },
@@ -71,6 +44,33 @@
         "std": "14:45",
         "etd": "14:45",
         "status": "Relax",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "QN81",
+        "carrier": "QN",
+        "number": 81,
+        "origin": "Cairns",
+        "sta": "14:17",
+        "eta": "14:17",
+        "status": null,
+        "eta_slipped": {
+          "prev_eta": "12:16",
+          "slip_min": 121
+        },
+        "delayed": false
+      },
+      "departure": {
+        "flight": "QN82",
+        "carrier": "QN",
+        "number": 82,
+        "destination": "Cairns",
+        "std": "12:55",
+        "etd": "14:55",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
