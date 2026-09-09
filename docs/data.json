@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T10:00:57.283919+10:00",
+  "generated_at": "2026-09-09T10:15:39.031114+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,7 +9,7 @@
         "number": 832,
         "origin": "Melbourne",
         "sta": "10:35",
-        "eta": "10:21",
+        "eta": "10:19",
         "status": "On The Way",
         "delayed": false
       },
@@ -44,6 +44,29 @@
         "std": "12:15",
         "etd": "12:30",
         "status": "Check-in Open",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "QN81",
+        "carrier": "QN",
+        "number": 81,
+        "origin": "Cairns",
+        "sta": "12:16",
+        "eta": "12:16",
+        "status": null,
+        "delayed": false
+      },
+      "departure": {
+        "flight": "QN82",
+        "carrier": "QN",
+        "number": 82,
+        "destination": "Cairns",
+        "std": "12:55",
+        "etd": "12:55",
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
