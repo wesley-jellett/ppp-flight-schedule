@@ -1,53 +1,7 @@
 {
-  "generated_at": "2026-09-09T15:45:35.623403+10:00",
+  "generated_at": "2026-09-09T16:00:57.325028+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "14:05",
-        "eta": "14:06",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney  Check in open 12:45 until 14:05",
-        "std": "14:45",
-        "etd": "14:53",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "QN81",
-        "carrier": "QN",
-        "number": 81,
-        "origin": "Cairns",
-        "sta": "14:17",
-        "eta": "14:20",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN82",
-        "carrier": "QN",
-        "number": 82,
-        "destination": "Cairns",
-        "std": "12:55",
-        "etd": "14:59",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "VA1117",
@@ -78,8 +32,12 @@
         "number": 838,
         "origin": "Sydney",
         "sta": "18:15",
-        "eta": "18:15",
-        "status": null,
+        "eta": "17:59",
+        "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "18:15",
+          "slip_min": -16
+        },
         "delayed": false
       },
       "departure": {
@@ -89,7 +47,7 @@
         "destination": "Sydney  Check in open 16:50 until 18:10",
         "std": "18:50",
         "etd": "18:50",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
