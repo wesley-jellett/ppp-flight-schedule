@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-09-09T16:45:37.761630+10:00",
+  "generated_at": "2026-09-09T17:00:55.502150+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "VA1117",
-        "carrier": "VA",
-        "number": 1117,
-        "origin": "Brisbane",
-        "sta": "14:35",
-        "eta": "14:23",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "VA1118",
-        "carrier": "VA",
-        "number": 1118,
-        "destination": "Brisbane  Check in open 13:30 until 14:45",
-        "std": "15:15",
-        "etd": "15:18",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ838",
@@ -32,11 +9,11 @@
         "number": 838,
         "origin": "Sydney",
         "sta": "18:15",
-        "eta": "18:15",
+        "eta": "18:00",
         "status": "On The Way",
         "eta_slipped": {
-          "prev_eta": "18:00",
-          "slip_min": 15
+          "prev_eta": "18:15",
+          "slip_min": -15
         },
         "delayed": false
       },
