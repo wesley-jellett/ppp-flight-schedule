@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T09:15:36.896064+10:00",
+  "generated_at": "2026-09-10T09:30:48.139701+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,7 +9,7 @@
         "number": 832,
         "origin": "Melbourne",
         "sta": "10:35",
-        "eta": "10:18",
+        "eta": "10:17",
         "status": "On The Way",
         "delayed": false
       },
@@ -17,10 +17,10 @@
         "flight": "JQ833",
         "carrier": "JQ",
         "number": 833,
-        "destination": "Melbourne",
+        "destination": "Melbourne  Check in close 10:35",
         "std": "11:15",
         "etd": "11:15",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
@@ -40,10 +40,10 @@
         "flight": "JQ835",
         "carrier": "JQ",
         "number": 835,
-        "destination": "Brisbane",
+        "destination": "Brisbane  Check in open 11:35",
         "std": "12:15",
         "etd": "12:15",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
@@ -63,7 +63,7 @@
         "flight": "JQ841",
         "carrier": "JQ",
         "number": 841,
-        "destination": "Sydney",
+        "destination": "Sydney  Check in open 12:45 until 14:05",
         "std": "14:45",
         "etd": "14:45",
         "status": null,
@@ -86,7 +86,7 @@
         "flight": "VA1118",
         "carrier": "VA",
         "number": 1118,
-        "destination": "Brisbane",
+        "destination": "Brisbane  Check in open 13:30 until 14:45",
         "std": "15:15",
         "etd": "15:15",
         "status": null,
@@ -109,7 +109,7 @@
         "flight": "JQ837",
         "carrier": "JQ",
         "number": 837,
-        "destination": "Brisbane",
+        "destination": "Brisbane  Check in open 12:45 until 14:45",
         "std": "15:25",
         "etd": "15:25",
         "status": null,
