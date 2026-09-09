@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-09-09T14:45:39.135877+10:00",
+  "generated_at": "2026-09-09T15:00:55.177938+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "14:05",
-        "eta": "14:06",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney  Check in open 12:45 until 14:05",
-        "std": "14:45",
-        "etd": "14:45",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "QN81",
@@ -42,7 +19,7 @@
         "number": 82,
         "destination": "Cairns",
         "std": "12:55",
-        "etd": "14:55",
+        "etd": "15:06",
         "status": "Boarding Soon",
         "delayed": false
       },
@@ -66,7 +43,30 @@
         "destination": "Brisbane  Check in open 13:30 until 14:45",
         "std": "15:15",
         "etd": "15:15",
-        "status": "Boarding Soon",
+        "status": "Closed",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ840",
+        "carrier": "JQ",
+        "number": 840,
+        "origin": "Sydney",
+        "sta": "14:05",
+        "eta": "14:06",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ841",
+        "carrier": "JQ",
+        "number": 841,
+        "destination": "Sydney  Check in open 12:45 until 14:05",
+        "std": "14:45",
+        "etd": "14:53",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
