@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T14:00:55.037787+10:00",
+  "generated_at": "2026-09-10T14:15:40.099162+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,8 +9,8 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "14:07",
-        "status": "On The Way",
+        "eta": "14:10",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -20,7 +20,7 @@
         "destination": "Sydney  Check in open 12:45 until 14:05",
         "std": "14:45",
         "etd": "14:45",
-        "status": "Check-in Open",
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
@@ -32,7 +32,7 @@
         "number": 836,
         "origin": "Brisbane",
         "sta": "14:45",
-        "eta": "15:00",
+        "eta": "15:02",
         "status": "On The Way",
         "delayed": false
       },
@@ -42,11 +42,15 @@
         "number": 837,
         "destination": "Brisbane  Check in open 12:45 until 14:45",
         "std": "15:25",
-        "etd": "15:25",
+        "etd": "15:40",
         "status": "Check-in Open",
+        "etd_slipped": {
+          "prev_etd": "15:25",
+          "slip_min": 15
+        },
         "delayed": false
       },
-      "at_risk": true
+      "at_risk": false
     },
     {
       "arrival": {
@@ -55,7 +59,7 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:35",
-        "eta": "15:08",
+        "eta": "15:03",
         "status": "On The Way",
         "delayed": false
       },
