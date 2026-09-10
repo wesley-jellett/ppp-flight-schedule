@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T13:45:41.821524+10:00",
+  "generated_at": "2026-09-10T13:53:10.789851+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,7 +9,7 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "14:06",
+        "eta": "14:07",
         "status": "On The Way",
         "delayed": false
       },
@@ -33,8 +33,8 @@
         "origin": "Brisbane",
         "sta": "14:45",
         "eta": "15:02",
-        "status": "Delayed 17min",
-        "delayed": true
+        "status": "On The Way",
+        "delayed": false
       },
       "departure": {
         "flight": "JQ837",
@@ -56,8 +56,8 @@
         "origin": "Brisbane",
         "sta": "14:35",
         "eta": "15:03",
-        "status": "Delayed 28min",
-        "delayed": true
+        "status": "On The Way",
+        "delayed": false
       },
       "departure": {
         "flight": "VA1118",
