@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T08:00:54.264171+10:00",
+  "generated_at": "2026-09-11T08:15:42.893340+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -19,9 +19,13 @@
         "number": 833,
         "destination": "Melbourne",
         "std": "11:15",
-        "etd": "11:15",
-        "status": null,
-        "delayed": false
+        "etd": "11:35",
+        "status": "Delayed 20min",
+        "etd_slipped": {
+          "prev_etd": "11:15",
+          "slip_min": 20
+        },
+        "delayed": true
       },
       "at_risk": false
     },
