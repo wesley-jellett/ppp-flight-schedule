@@ -1,5 +1,172 @@
 {
-  "generated_at": "2026-09-10T18:49:10.412948+10:00",
+  "generated_at": "2026-09-11T07:01:00.493747+10:00",
   "airport": "PPP",
-  "pairs": []
+  "pairs": [
+    {
+      "arrival": {
+        "flight": "JQ832",
+        "carrier": "JQ",
+        "number": 832,
+        "origin": "Melbourne",
+        "sta": "10:35",
+        "eta": "10:35",
+        "status": null,
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ833",
+        "carrier": "JQ",
+        "number": 833,
+        "destination": "Melbourne",
+        "std": "11:15",
+        "etd": "11:15",
+        "status": null,
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "QN85",
+        "carrier": "QN",
+        "number": 85,
+        "origin": "Cairns",
+        "sta": "11:20",
+        "eta": "11:20",
+        "status": null,
+        "delayed": false
+      },
+      "departure": {
+        "flight": "QN86",
+        "carrier": "QN",
+        "number": 86,
+        "destination": "Cairns",
+        "std": "11:50",
+        "etd": "11:50",
+        "status": null,
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "QN2308",
+        "carrier": "QN",
+        "number": 2308,
+        "origin": "Cairns",
+        "sta": "11:20",
+        "eta": "11:20",
+        "status": null,
+        "delayed": false
+      },
+      "departure": null,
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ834",
+        "carrier": "JQ",
+        "number": 834,
+        "origin": "Brisbane",
+        "sta": "11:35",
+        "eta": "11:35",
+        "status": null,
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ835",
+        "carrier": "JQ",
+        "number": 835,
+        "destination": "Brisbane",
+        "std": "12:15",
+        "etd": "12:15",
+        "status": null,
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": null,
+      "departure": {
+        "flight": "QN2310",
+        "carrier": "QN",
+        "number": 2310,
+        "destination": "Cairns",
+        "std": "11:50",
+        "etd": "11:50",
+        "status": null,
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ840",
+        "carrier": "JQ",
+        "number": 840,
+        "origin": "Sydney",
+        "sta": "14:05",
+        "eta": "14:05",
+        "status": null,
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ841",
+        "carrier": "JQ",
+        "number": 841,
+        "destination": "Sydney",
+        "std": "14:45",
+        "etd": "14:45",
+        "status": null,
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "VA1117",
+        "carrier": "VA",
+        "number": 1117,
+        "origin": "Brisbane",
+        "sta": "14:35",
+        "eta": "14:35",
+        "status": null,
+        "delayed": false
+      },
+      "departure": {
+        "flight": "VA1118",
+        "carrier": "VA",
+        "number": 1118,
+        "destination": "Brisbane",
+        "std": "15:15",
+        "etd": "15:15",
+        "status": null,
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ838",
+        "carrier": "JQ",
+        "number": 838,
+        "origin": "Sydney",
+        "sta": "18:15",
+        "eta": "18:15",
+        "status": null,
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ839",
+        "carrier": "JQ",
+        "number": 839,
+        "destination": "Sydney",
+        "std": "18:50",
+        "etd": "18:50",
+        "status": null,
+        "delayed": false
+      },
+      "at_risk": false
+    }
+  ]
 }
