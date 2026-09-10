@@ -6630,6 +6630,51 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "16:00",
+        "flights": [
+          {
+            "flight": "VA1117",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "14:35",
+            "estimated": "15:06",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1118",
+            "kind": "dep",
+            "route": "Brisbane  Check in open 13:30 until 14:45",
+            "scheduled": "15:15",
+            "estimated": "15:40",
+            "status": "Final Call",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ836",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "14:45",
+            "estimated": "15:00",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ837",
+            "kind": "dep",
+            "route": "Brisbane  Check in open 12:45 until 14:45",
+            "scheduled": "15:25",
+            "estimated": "15:45",
+            "status": "Final Call",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
