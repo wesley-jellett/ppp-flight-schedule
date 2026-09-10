@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T08:45:37.201952+10:00",
+  "generated_at": "2026-09-11T08:54:42.981217+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,9 +9,9 @@
         "number": 832,
         "origin": "Melbourne",
         "sta": "10:35",
-        "eta": "10:54",
-        "status": "Delayed 19min",
-        "delayed": true
+        "eta": "10:56",
+        "status": "On The Way",
+        "delayed": false
       },
       "departure": {
         "flight": "JQ833",
@@ -43,7 +43,7 @@
         "destination": "Cairns",
         "std": "11:50",
         "etd": "11:50",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
@@ -80,7 +80,7 @@
         "destination": "Cairns",
         "std": "11:50",
         "etd": "11:50",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
