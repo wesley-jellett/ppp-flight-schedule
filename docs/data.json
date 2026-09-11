@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-09-11T15:45:43.123479+10:00",
+  "generated_at": "2026-09-11T16:00:58.445335+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "14:05",
-        "eta": "13:51",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney",
-        "std": "14:45",
-        "etd": "14:50",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "VA1117",
@@ -55,18 +32,18 @@
         "number": 838,
         "origin": "Sydney",
         "sta": "18:15",
-        "eta": "18:15",
-        "status": null,
-        "delayed": false
+        "eta": "18:25",
+        "status": "Delayed 10min",
+        "delayed": true
       },
       "departure": {
         "flight": "JQ839",
         "carrier": "JQ",
         "number": 839,
-        "destination": "Sydney",
+        "destination": "Sydney  Check in open 16:50 until 18:10",
         "std": "18:50",
         "etd": "18:50",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
