@@ -1,21 +1,7 @@
 {
-  "generated_at": "2026-09-11T11:45:33.077417+10:00",
+  "generated_at": "2026-09-11T12:00:52.066869+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ832",
-        "carrier": "JQ",
-        "number": 832,
-        "origin": "Melbourne",
-        "sta": "10:35",
-        "eta": "10:52",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": null,
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ834",
@@ -34,7 +20,7 @@
         "destination": "Brisbane",
         "std": "12:15",
         "etd": "12:15",
-        "status": "Final Call",
+        "status": "Closed",
         "delayed": false
       },
       "at_risk": false
@@ -57,7 +43,7 @@
         "destination": "Cairns",
         "std": "11:50",
         "etd": "11:50",
-        "status": "Boarding Soon",
+        "status": "Closed",
         "delayed": false
       },
       "at_risk": false
@@ -83,8 +69,12 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "14:05",
-        "status": null,
+        "eta": "13:47",
+        "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "14:05",
+          "slip_min": -18
+        },
         "delayed": false
       },
       "departure": {
@@ -106,9 +96,9 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:35",
-        "eta": "14:35",
-        "status": null,
-        "delayed": false
+        "eta": "14:41",
+        "status": "Delayed 6min",
+        "delayed": true
       },
       "departure": {
         "flight": "VA1118",
