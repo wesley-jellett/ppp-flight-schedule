@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T16:00:58.445335+10:00",
+  "generated_at": "2026-09-11T16:15:33.754440+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -32,9 +32,13 @@
         "number": 838,
         "origin": "Sydney",
         "sta": "18:15",
-        "eta": "18:25",
-        "status": "Delayed 10min",
-        "delayed": true
+        "eta": "18:09",
+        "status": "Early 6min",
+        "eta_slipped": {
+          "prev_eta": "18:25",
+          "slip_min": -16
+        },
+        "delayed": false
       },
       "departure": {
         "flight": "JQ839",
