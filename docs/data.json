@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-09-11T12:15:42.510733+10:00",
+  "generated_at": "2026-09-11T12:30:50.054569+10:00",
   "airport": "PPP",
   "pairs": [
+    {
+      "arrival": null,
+      "departure": {
+        "flight": "QN2310",
+        "carrier": "QN",
+        "number": 2310,
+        "destination": "Cairns",
+        "std": "11:50",
+        "etd": "11:50",
+        "status": "Departed",
+        "delayed": false
+      },
+      "at_risk": false
+    },
     {
       "arrival": {
         "flight": "QN85",
@@ -21,24 +35,6 @@
         "std": "11:50",
         "etd": "12:13",
         "status": "Departed",
-        "etd_slipped": {
-          "prev_etd": "11:50",
-          "slip_min": 23
-        },
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": null,
-      "departure": {
-        "flight": "QN2310",
-        "carrier": "QN",
-        "number": 2310,
-        "destination": "Cairns",
-        "std": "11:50",
-        "etd": "11:50",
-        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
@@ -60,8 +56,8 @@
         "number": 835,
         "destination": "Brisbane",
         "std": "12:15",
-        "etd": "12:10",
-        "status": "Closed",
+        "etd": "12:18",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -73,8 +69,12 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "13:50",
+        "eta": "14:05",
         "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "13:50",
+          "slip_min": 15
+        },
         "delayed": false
       },
       "departure": {
@@ -107,8 +107,8 @@
         "destination": "Brisbane",
         "std": "15:15",
         "etd": "15:25",
-        "status": "Delayed 10min",
-        "delayed": true
+        "status": "Relax",
+        "delayed": false
       },
       "at_risk": false
     },
