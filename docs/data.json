@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T10:15:43.966309+10:00",
+  "generated_at": "2026-09-11T10:30:44.783148+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,7 +9,7 @@
         "number": 832,
         "origin": "Melbourne",
         "sta": "10:35",
-        "eta": "10:52",
+        "eta": "10:54",
         "status": "On The Way",
         "delayed": false
       },
@@ -27,39 +27,16 @@
     },
     {
       "arrival": {
-        "flight": "QN85",
-        "carrier": "QN",
-        "number": 85,
-        "origin": "Cairns",
-        "sta": "11:20",
-        "eta": "11:17",
-        "status": "Early 3min",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN86",
-        "carrier": "QN",
-        "number": 86,
-        "destination": "Cairns",
-        "std": "11:50",
-        "etd": "11:50",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
         "flight": "JQ834",
         "carrier": "JQ",
         "number": 834,
         "origin": "Brisbane",
         "sta": "11:35",
-        "eta": "11:35",
+        "eta": "11:16",
         "status": "On The Way",
         "eta_slipped": {
-          "prev_eta": "11:13",
-          "slip_min": 22
+          "prev_eta": "11:35",
+          "slip_min": -19
         },
         "delayed": false
       },
@@ -70,6 +47,29 @@
         "destination": "Brisbane",
         "std": "12:15",
         "etd": "12:15",
+        "status": "Check-in Open",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "QN85",
+        "carrier": "QN",
+        "number": 85,
+        "origin": "Cairns",
+        "sta": "11:20",
+        "eta": "11:18",
+        "status": "On The Way",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "QN86",
+        "carrier": "QN",
+        "number": 86,
+        "destination": "Cairns",
+        "std": "11:50",
+        "etd": "11:50",
         "status": "Check-in Open",
         "delayed": false
       },
