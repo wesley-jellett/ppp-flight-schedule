@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T11:15:40.235928+10:00",
+  "generated_at": "2026-09-11T11:30:44.837759+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -13,16 +13,7 @@
         "status": "Landed",
         "delayed": false
       },
-      "departure": {
-        "flight": "JQ833",
-        "carrier": "JQ",
-        "number": 833,
-        "destination": "Melbourne",
-        "std": "11:15",
-        "etd": "11:35",
-        "status": "Boarding Soon",
-        "delayed": false
-      },
+      "departure": null,
       "at_risk": false
     },
     {
@@ -33,7 +24,7 @@
         "origin": "Brisbane",
         "sta": "11:35",
         "eta": "11:16",
-        "status": "On The Way",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -43,7 +34,7 @@
         "destination": "Brisbane",
         "std": "12:15",
         "etd": "12:15",
-        "status": "Check-in Open",
+        "status": "Boarding",
         "delayed": false
       },
       "at_risk": false
@@ -55,8 +46,8 @@
         "number": 85,
         "origin": "Cairns",
         "sta": "11:20",
-        "eta": "11:22",
-        "status": "On The Way",
+        "eta": "11:21",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -66,7 +57,7 @@
         "destination": "Cairns",
         "std": "11:50",
         "etd": "11:50",
-        "status": "Check-in Open",
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
