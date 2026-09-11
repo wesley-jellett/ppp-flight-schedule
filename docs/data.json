@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-09-11T12:00:52.066869+10:00",
+  "generated_at": "2026-09-11T12:15:42.510733+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "11:35",
-        "eta": "11:16",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane",
-        "std": "12:15",
-        "etd": "12:15",
-        "status": "Closed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "QN85",
@@ -32,7 +9,7 @@
         "number": 85,
         "origin": "Cairns",
         "sta": "11:20",
-        "eta": "11:31",
+        "eta": "11:30",
         "status": "Landed",
         "delayed": false
       },
@@ -42,8 +19,12 @@
         "number": 86,
         "destination": "Cairns",
         "std": "11:50",
-        "etd": "11:50",
-        "status": "Closed",
+        "etd": "12:13",
+        "status": "Departed",
+        "etd_slipped": {
+          "prev_etd": "11:50",
+          "slip_min": 23
+        },
         "delayed": false
       },
       "at_risk": false
@@ -64,17 +45,36 @@
     },
     {
       "arrival": {
+        "flight": "JQ834",
+        "carrier": "JQ",
+        "number": 834,
+        "origin": "Brisbane",
+        "sta": "11:35",
+        "eta": "11:16",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ835",
+        "carrier": "JQ",
+        "number": 835,
+        "destination": "Brisbane",
+        "std": "12:15",
+        "etd": "12:10",
+        "status": "Closed",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
         "flight": "JQ840",
         "carrier": "JQ",
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "13:47",
+        "eta": "13:50",
         "status": "On The Way",
-        "eta_slipped": {
-          "prev_eta": "14:05",
-          "slip_min": -18
-        },
         "delayed": false
       },
       "departure": {
