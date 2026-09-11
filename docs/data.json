@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-09-11T13:15:38.691225+10:00",
+  "generated_at": "2026-09-11T13:30:49.525579+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "11:35",
-        "eta": "11:16",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane",
-        "std": "12:15",
-        "etd": "12:18",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ840",
@@ -56,8 +33,8 @@
         "origin": "Brisbane",
         "sta": "14:35",
         "eta": "14:39",
-        "status": "Delayed 4min",
-        "delayed": true
+        "status": "On The Way",
+        "delayed": false
       },
       "departure": {
         "flight": "VA1118",
@@ -65,7 +42,7 @@
         "number": 1118,
         "destination": "Brisbane",
         "std": "15:15",
-        "etd": "15:25",
+        "etd": "15:31",
         "status": "Relax",
         "delayed": false
       },
