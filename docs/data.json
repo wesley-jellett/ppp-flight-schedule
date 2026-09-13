@@ -1,84 +1,7 @@
 {
-  "generated_at": "2026-09-13T10:34:24.502261+10:00",
+  "generated_at": "2026-09-13T14:00:37.453577+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ832",
-        "carrier": "JQ",
-        "number": 832,
-        "origin": "Melbourne",
-        "sta": "10:35",
-        "eta": "10:20",
-        "status": "Landed",
-        "eta_slipped": {
-          "prev_eta": "10:35",
-          "slip_min": -15
-        },
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ833",
-        "carrier": "JQ",
-        "number": 833,
-        "destination": "Melbourne",
-        "std": "11:15",
-        "etd": "11:15",
-        "status": "Boarding Soon",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "11:30",
-        "eta": "11:12",
-        "status": "On The Way",
-        "eta_slipped": {
-          "prev_eta": "11:30",
-          "slip_min": -18
-        },
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane",
-        "std": "12:05",
-        "etd": "12:05",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "QN85",
-        "carrier": "QN",
-        "number": 85,
-        "origin": "Cairns",
-        "sta": "11:20",
-        "eta": "11:18",
-        "status": "On The Way",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN86",
-        "carrier": "QN",
-        "number": 86,
-        "destination": "Cairns",
-        "std": "11:50",
-        "etd": "11:50",
-        "status": "Check-in Open",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ840",
@@ -86,8 +9,12 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "14:05",
-        "status": null,
+        "eta": "13:46",
+        "status": "Landed",
+        "eta_slipped": {
+          "prev_eta": "14:05",
+          "slip_min": -19
+        },
         "delayed": false
       },
       "departure": {
@@ -97,7 +24,7 @@
         "destination": "Sydney",
         "std": "14:45",
         "etd": "14:45",
-        "status": null,
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
@@ -109,8 +36,8 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:35",
-        "eta": "14:35",
-        "status": null,
+        "eta": "14:30",
+        "status": "On The Way",
         "delayed": false
       },
       "departure": {
@@ -120,7 +47,7 @@
         "destination": "Brisbane",
         "std": "15:15",
         "etd": "15:15",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
@@ -132,8 +59,8 @@
         "number": 836,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "15:00",
-        "status": null,
+        "eta": "14:59",
+        "status": "On The Way",
         "delayed": false
       },
       "departure": {
@@ -143,7 +70,7 @@
         "destination": "Brisbane",
         "std": "15:40",
         "etd": "15:40",
-        "status": null,
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
