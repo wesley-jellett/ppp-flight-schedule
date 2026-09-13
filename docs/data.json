@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T07:45:35.693530+10:00",
+  "generated_at": "2026-09-14T08:00:58.204453+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -46,20 +46,6 @@
         "status": null,
         "delayed": false
       },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "QN2311",
-        "carrier": "QN",
-        "number": 2311,
-        "origin": "Cairns",
-        "sta": "13:50",
-        "eta": "13:50",
-        "status": null,
-        "delayed": false
-      },
-      "departure": null,
       "at_risk": false
     },
     {
