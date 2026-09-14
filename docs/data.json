@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T13:45:36.877068+10:00",
+  "generated_at": "2026-09-14T14:00:55.737286+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Cairns",
         "std": "14:20",
         "etd": "14:20",
-        "status": "Boarding Soon",
+        "status": "Boarding",
         "delayed": false
       },
       "at_risk": false
@@ -32,7 +32,7 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "14:06",
+        "eta": "14:00",
         "status": "On The Way",
         "delayed": false
       },
