@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T14:08:50.614041+10:00",
+  "generated_at": "2026-09-14T14:15:38.254220+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -49,27 +49,13 @@
       "at_risk": false
     },
     {
-      "arrival": null,
-      "departure": {
-        "flight": "QN2352",
-        "carrier": "QN",
-        "number": 2352,
-        "destination": "Cairns",
-        "std": "14:20",
-        "etd": "14:20",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
       "arrival": {
         "flight": "VA1117",
         "carrier": "VA",
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:35",
-        "eta": "14:26",
+        "eta": "14:20",
         "status": "On The Way",
         "delayed": false
       },
@@ -80,6 +66,20 @@
         "destination": "Brisbane",
         "std": "15:15",
         "etd": "15:15",
+        "status": "Relax",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": null,
+      "departure": {
+        "flight": "QN2352",
+        "carrier": "QN",
+        "number": 2352,
+        "destination": "Cairns",
+        "std": "14:20",
+        "etd": "14:20",
         "status": "Relax",
         "delayed": false
       },
