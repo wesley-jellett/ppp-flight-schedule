@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-09-15T14:30:45.373215+10:00",
+  "generated_at": "2026-09-15T14:45:35.916952+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "14:05",
-        "eta": "13:57",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney",
-        "std": "14:45",
-        "etd": "14:45",
-        "status": "Final Call",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "VA1117",
@@ -55,8 +32,8 @@
         "number": 836,
         "origin": "Brisbane",
         "sta": "14:45",
-        "eta": "14:48",
-        "status": "On The Way",
+        "eta": "14:45",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -66,7 +43,30 @@
         "destination": "Brisbane",
         "std": "15:25",
         "etd": "15:25",
-        "status": "Check-in Open",
+        "status": "Boarding Soon",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ840",
+        "carrier": "JQ",
+        "number": 840,
+        "origin": "Sydney",
+        "sta": "14:05",
+        "eta": "13:57",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ841",
+        "carrier": "JQ",
+        "number": 841,
+        "destination": "Sydney",
+        "std": "14:45",
+        "etd": "14:45",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -79,8 +79,8 @@
         "origin": "Cairns",
         "sta": "13:50",
         "eta": "15:19",
-        "status": "Delayed 1h 29min",
-        "delayed": true
+        "status": "Landed",
+        "delayed": false
       },
       "departure": {
         "flight": "QN82",
