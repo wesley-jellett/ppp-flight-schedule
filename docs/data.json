@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T11:00:53.051627+10:00",
+  "generated_at": "2026-09-15T11:15:42.471575+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -32,7 +32,7 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "11:35",
-        "eta": "11:21",
+        "eta": "11:23",
         "status": "On The Way",
         "delayed": false
       },
@@ -96,29 +96,6 @@
     },
     {
       "arrival": {
-        "flight": "QN81",
-        "carrier": "QN",
-        "number": 81,
-        "origin": "Cairns",
-        "sta": "13:50",
-        "eta": "14:44",
-        "status": "Delayed 54min",
-        "delayed": true
-      },
-      "departure": {
-        "flight": "QN82",
-        "carrier": "QN",
-        "number": 82,
-        "destination": "Cairns",
-        "std": "14:20",
-        "etd": "14:20",
-        "status": null,
-        "delayed": false
-      },
-      "at_risk": true
-    },
-    {
-      "arrival": {
         "flight": "JQ836",
         "carrier": "JQ",
         "number": 836,
@@ -139,6 +116,33 @@
         "delayed": false
       },
       "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "QN81",
+        "carrier": "QN",
+        "number": 81,
+        "origin": "Cairns",
+        "sta": "13:50",
+        "eta": "15:19",
+        "status": "Delayed 1h 29min",
+        "eta_slipped": {
+          "prev_eta": "14:44",
+          "slip_min": 35
+        },
+        "delayed": true
+      },
+      "departure": {
+        "flight": "QN82",
+        "carrier": "QN",
+        "number": 82,
+        "destination": "Cairns",
+        "std": "14:20",
+        "etd": "14:20",
+        "status": null,
+        "delayed": false
+      },
+      "at_risk": true
     }
   ]
 }
