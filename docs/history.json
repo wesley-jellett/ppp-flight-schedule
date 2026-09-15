@@ -17976,6 +17976,31 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "16:15",
+        "flights": [
+          {
+            "flight": "QN81",
+            "kind": "arr",
+            "route": "Cairns",
+            "scheduled": "13:50",
+            "estimated": "15:19",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "QN82",
+            "kind": "dep",
+            "route": "Cairns",
+            "scheduled": "14:20",
+            "estimated": "18:00",
+            "status": "Delayed",
+            "delayed": true,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
