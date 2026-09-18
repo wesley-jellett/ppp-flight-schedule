@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T10:30:46.844489+10:00",
+  "generated_at": "2026-09-18T10:45:35.925482+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,30 +20,34 @@
         "destination": "Melbourne",
         "std": "11:15",
         "etd": "11:15",
-        "status": "Boarding",
+        "status": "Closed",
         "delayed": false
       },
       "at_risk": false
     },
     {
       "arrival": {
-        "flight": "QN85",
-        "carrier": "QN",
-        "number": 85,
-        "origin": "Cairns",
-        "sta": "11:20",
-        "eta": "11:15",
+        "flight": "JQ834",
+        "carrier": "JQ",
+        "number": 834,
+        "origin": "Brisbane",
+        "sta": "11:35",
+        "eta": "11:16",
         "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "11:36",
+          "slip_min": -20
+        },
         "delayed": false
       },
       "departure": {
-        "flight": "QN86",
-        "carrier": "QN",
-        "number": 86,
-        "destination": "Cairns",
-        "std": "11:50",
-        "etd": "11:50",
-        "status": "Relax",
+        "flight": "JQ835",
+        "carrier": "JQ",
+        "number": 835,
+        "destination": "Brisbane",
+        "std": "12:15",
+        "etd": "12:15",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
@@ -64,23 +68,23 @@
     },
     {
       "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "11:35",
-        "eta": "11:36",
+        "flight": "QN85",
+        "carrier": "QN",
+        "number": 85,
+        "origin": "Cairns",
+        "sta": "11:20",
+        "eta": "11:20",
         "status": "On The Way",
         "delayed": false
       },
       "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane",
-        "std": "12:15",
-        "etd": "12:15",
-        "status": "Check-in Open",
+        "flight": "QN86",
+        "carrier": "QN",
+        "number": 86,
+        "destination": "Cairns",
+        "std": "11:50",
+        "etd": "11:50",
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
