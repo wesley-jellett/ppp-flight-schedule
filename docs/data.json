@@ -1,21 +1,7 @@
 {
-  "generated_at": "2026-09-18T12:30:42.588296+10:00",
+  "generated_at": "2026-09-18T12:45:36.667920+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": null,
-      "departure": {
-        "flight": "QN2310",
-        "carrier": "QN",
-        "number": 2310,
-        "destination": "Cairns",
-        "std": "11:50",
-        "etd": "11:50",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ834",
@@ -48,10 +34,6 @@
         "sta": "14:05",
         "eta": "13:36",
         "status": "On The Way",
-        "eta_slipped": {
-          "prev_eta": "14:09",
-          "slip_min": -33
-        },
         "delayed": false
       },
       "departure": {
