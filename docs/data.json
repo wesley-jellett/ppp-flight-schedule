@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-18T12:15:38.261316+10:00",
+  "generated_at": "2026-09-18T12:30:42.588296+10:00",
   "airport": "PPP",
   "pairs": [
     {
-      "arrival": {
-        "flight": "QN2308",
+      "arrival": null,
+      "departure": {
+        "flight": "QN2310",
         "carrier": "QN",
-        "number": 2308,
-        "origin": "Cairns",
-        "sta": "11:20",
-        "eta": "11:20",
-        "status": "Landed",
+        "number": 2310,
+        "destination": "Cairns",
+        "std": "11:50",
+        "etd": "11:50",
+        "status": "Departed",
         "delayed": false
       },
-      "departure": null,
       "at_risk": false
     },
     {
@@ -41,50 +41,17 @@
     },
     {
       "arrival": {
-        "flight": "QN85",
-        "carrier": "QN",
-        "number": 85,
-        "origin": "Cairns",
-        "sta": "11:20",
-        "eta": "11:26",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN86",
-        "carrier": "QN",
-        "number": 86,
-        "destination": "Cairns",
-        "std": "11:50",
-        "etd": "11:43",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": null,
-      "departure": {
-        "flight": "QN2310",
-        "carrier": "QN",
-        "number": 2310,
-        "destination": "Cairns",
-        "std": "11:50",
-        "etd": "11:50",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
         "flight": "JQ840",
         "carrier": "JQ",
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "14:09",
+        "eta": "13:36",
         "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "14:09",
+          "slip_min": -33
+        },
         "delayed": false
       },
       "departure": {
