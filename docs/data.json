@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T17:45:40.824644+10:00",
+  "generated_at": "2026-09-18T18:56:38.947991+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Sydney",
         "std": "18:50",
         "etd": "18:50",
-        "status": "Boarding Soon",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
