@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T08:15:34.168486+10:00",
+  "generated_at": "2026-09-21T08:30:42.567164+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -34,10 +34,6 @@
         "sta": "11:35",
         "eta": "12:35",
         "status": "Delayed 1h",
-        "eta_slipped": {
-          "prev_eta": "11:35",
-          "slip_min": 60
-        },
         "delayed": true
       },
       "departure": {
@@ -48,26 +44,8 @@
         "std": "12:15",
         "etd": "13:10",
         "status": "Delayed 55min",
-        "etd_slipped": {
-          "prev_etd": "12:15",
-          "slip_min": 55
-        },
         "delayed": true
       },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "QN2311",
-        "carrier": "QN",
-        "number": 2311,
-        "origin": "Cairns",
-        "sta": "13:50",
-        "eta": "13:50",
-        "status": null,
-        "delayed": false
-      },
-      "departure": null,
       "at_risk": false
     },
     {
