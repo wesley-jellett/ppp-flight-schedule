@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T11:45:37.256851+10:00",
+  "generated_at": "2026-09-21T12:00:50.285609+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -19,8 +19,12 @@
         "number": 833,
         "destination": "Melbourne",
         "std": "11:15",
-        "etd": "11:15",
-        "status": "Boarding Soon",
+        "etd": "11:42",
+        "status": "Departed",
+        "etd_slipped": {
+          "prev_etd": "11:15",
+          "slip_min": 27
+        },
         "delayed": false
       },
       "at_risk": false
@@ -34,10 +38,6 @@
         "sta": "11:35",
         "eta": "13:40",
         "status": "Delayed 2h 5min",
-        "eta_slipped": {
-          "prev_eta": "12:55",
-          "slip_min": 45
-        },
         "delayed": true
       },
       "departure": {
