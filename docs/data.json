@@ -1,76 +1,7 @@
 {
-  "generated_at": "2026-09-21T12:30:45.681963+10:00",
+  "generated_at": "2026-09-21T12:45:42.891268+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ832",
-        "carrier": "JQ",
-        "number": 832,
-        "origin": "Melbourne",
-        "sta": "10:35",
-        "eta": "10:34",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ833",
-        "carrier": "JQ",
-        "number": 833,
-        "destination": "Melbourne",
-        "std": "11:15",
-        "etd": "11:42",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "11:35",
-        "eta": "13:40",
-        "status": "Delayed 2h 5min",
-        "delayed": true
-      },
-      "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane",
-        "std": "12:15",
-        "etd": "13:30",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "14:05",
-        "eta": "14:05",
-        "status": "On The Way",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney",
-        "std": "14:45",
-        "etd": "14:45",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": null,
       "departure": {
@@ -110,6 +41,37 @@
     },
     {
       "arrival": {
+        "flight": "JQ840",
+        "carrier": "JQ",
+        "number": 840,
+        "origin": "Sydney",
+        "sta": "14:05",
+        "eta": "14:30",
+        "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "14:05",
+          "slip_min": 25
+        },
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ841",
+        "carrier": "JQ",
+        "number": 841,
+        "destination": "Sydney",
+        "std": "14:45",
+        "etd": "15:00",
+        "status": "Relax",
+        "etd_slipped": {
+          "prev_etd": "14:45",
+          "slip_min": 15
+        },
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
         "flight": "VA1117",
         "carrier": "VA",
         "number": 1117,
@@ -127,6 +89,37 @@
         "std": "15:15",
         "etd": "15:15",
         "status": "Relax",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ834",
+        "carrier": "JQ",
+        "number": 834,
+        "origin": "Brisbane",
+        "sta": "11:35",
+        "eta": "15:10",
+        "status": "Delayed 3h 35min",
+        "eta_slipped": {
+          "prev_eta": "13:40",
+          "slip_min": 90
+        },
+        "delayed": true
+      },
+      "departure": {
+        "flight": "JQ835",
+        "carrier": "JQ",
+        "number": 835,
+        "destination": "Brisbane",
+        "std": "12:15",
+        "etd": "15:45",
+        "status": "Relax",
+        "etd_slipped": {
+          "prev_etd": "13:30",
+          "slip_min": 135
+        },
         "delayed": false
       },
       "at_risk": false
