@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T16:45:34.332655+10:00",
+  "generated_at": "2026-09-21T17:00:49.551902+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Sydney",
         "std": "18:50",
         "etd": "18:50",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
