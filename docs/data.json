@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T12:45:42.891268+10:00",
+  "generated_at": "2026-09-21T13:00:55.832273+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -48,10 +48,6 @@
         "sta": "14:05",
         "eta": "14:30",
         "status": "On The Way",
-        "eta_slipped": {
-          "prev_eta": "14:05",
-          "slip_min": 25
-        },
         "delayed": false
       },
       "departure": {
@@ -62,10 +58,6 @@
         "std": "14:45",
         "etd": "15:00",
         "status": "Relax",
-        "etd_slipped": {
-          "prev_etd": "14:45",
-          "slip_min": 15
-        },
         "delayed": false
       },
       "at_risk": false
@@ -102,10 +94,6 @@
         "sta": "11:35",
         "eta": "15:10",
         "status": "Delayed 3h 35min",
-        "eta_slipped": {
-          "prev_eta": "13:40",
-          "slip_min": 90
-        },
         "delayed": true
       },
       "departure": {
@@ -116,10 +104,6 @@
         "std": "12:15",
         "etd": "15:45",
         "status": "Relax",
-        "etd_slipped": {
-          "prev_etd": "13:30",
-          "slip_min": 135
-        },
         "delayed": false
       },
       "at_risk": false
