@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T12:00:50.285609+10:00",
+  "generated_at": "2026-09-21T12:15:36.950832+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -21,10 +21,6 @@
         "std": "11:15",
         "etd": "11:42",
         "status": "Departed",
-        "etd_slipped": {
-          "prev_etd": "11:15",
-          "slip_min": 27
-        },
         "delayed": false
       },
       "at_risk": false
@@ -47,29 +43,6 @@
         "destination": "Brisbane",
         "std": "12:15",
         "etd": "13:30",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "QN81",
-        "carrier": "QN",
-        "number": 81,
-        "origin": "Cairns",
-        "sta": "13:50",
-        "eta": "13:50",
-        "status": null,
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN82",
-        "carrier": "QN",
-        "number": 82,
-        "destination": "Cairns",
-        "std": "14:20",
-        "etd": "14:20",
         "status": "Relax",
         "delayed": false
       },
@@ -114,13 +87,40 @@
     },
     {
       "arrival": {
+        "flight": "QN81",
+        "carrier": "QN",
+        "number": 81,
+        "origin": "Cairns",
+        "sta": "13:50",
+        "eta": "14:29",
+        "status": "Delayed 39min",
+        "eta_slipped": {
+          "prev_eta": "13:50",
+          "slip_min": 39
+        },
+        "delayed": true
+      },
+      "departure": {
+        "flight": "QN82",
+        "carrier": "QN",
+        "number": 82,
+        "destination": "Cairns",
+        "std": "14:20",
+        "etd": "14:20",
+        "status": "Relax",
+        "delayed": false
+      },
+      "at_risk": true
+    },
+    {
+      "arrival": {
         "flight": "VA1117",
         "carrier": "VA",
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:35",
-        "eta": "14:49",
-        "status": "Delayed 14min",
+        "eta": "14:46",
+        "status": "Delayed 11min",
         "delayed": true
       },
       "departure": {
@@ -130,7 +130,7 @@
         "destination": "Brisbane",
         "std": "15:15",
         "etd": "15:15",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
