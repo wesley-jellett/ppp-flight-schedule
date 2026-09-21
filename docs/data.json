@@ -1,44 +1,7 @@
 {
-  "generated_at": "2026-09-21T15:45:35.771746+10:00",
+  "generated_at": "2026-09-21T16:00:50.136664+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "14:05",
-        "eta": "14:27",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney",
-        "std": "14:45",
-        "etd": "15:05",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "11:35",
-        "eta": "15:06",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": null,
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "VA1117",
@@ -56,8 +19,12 @@
         "number": 1118,
         "destination": "Brisbane",
         "std": "15:15",
-        "etd": "15:25",
+        "etd": "15:50",
         "status": "Closed",
+        "etd_slipped": {
+          "prev_etd": "15:25",
+          "slip_min": 25
+        },
         "delayed": false
       },
       "at_risk": false
@@ -80,7 +47,7 @@
         "destination": "Sydney",
         "std": "18:50",
         "etd": "18:50",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
