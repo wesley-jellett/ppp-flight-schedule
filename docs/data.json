@@ -1,29 +1,5 @@
 {
-  "generated_at": "2026-09-21T17:45:35.547282+10:00",
+  "generated_at": "2026-09-21T20:09:06.816498+10:00",
   "airport": "PPP",
-  "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ838",
-        "carrier": "JQ",
-        "number": 838,
-        "origin": "Sydney",
-        "sta": "18:15",
-        "eta": "18:10",
-        "status": "On The Way",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ839",
-        "carrier": "JQ",
-        "number": 839,
-        "destination": "Sydney",
-        "std": "18:50",
-        "etd": "18:50",
-        "status": "Check-in Open",
-        "delayed": false
-      },
-      "at_risk": false
-    }
-  ]
+  "pairs": []
 }
