@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T13:15:38.500001+10:00",
+  "generated_at": "2026-09-21T13:30:46.686947+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -11,6 +11,29 @@
         "destination": "Cairns",
         "std": "14:20",
         "etd": "14:20",
+        "status": "Relax",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ840",
+        "carrier": "JQ",
+        "number": 840,
+        "origin": "Sydney",
+        "sta": "14:05",
+        "eta": "14:28",
+        "status": "On The Way",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ841",
+        "carrier": "JQ",
+        "number": 841,
+        "destination": "Sydney",
+        "std": "14:45",
+        "etd": "15:05",
         "status": "Relax",
         "delayed": false
       },
@@ -38,29 +61,6 @@
         "delayed": false
       },
       "at_risk": true
-    },
-    {
-      "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "14:05",
-        "eta": "14:30",
-        "status": "On The Way",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney",
-        "std": "14:45",
-        "etd": "15:05",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
     },
     {
       "arrival": {
