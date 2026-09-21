@@ -1,44 +1,7 @@
 {
-  "generated_at": "2026-09-21T13:45:36.443993+10:00",
+  "generated_at": "2026-09-21T14:00:51.247527+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": null,
-      "departure": {
-        "flight": "QN2352",
-        "carrier": "QN",
-        "number": 2352,
-        "destination": "Cairns",
-        "std": "14:20",
-        "etd": "14:20",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "QN81",
-        "carrier": "QN",
-        "number": 81,
-        "origin": "Cairns",
-        "sta": "13:50",
-        "eta": "14:27",
-        "status": "On The Way",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN82",
-        "carrier": "QN",
-        "number": 82,
-        "destination": "Cairns",
-        "std": "14:20",
-        "etd": "14:20",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": true
-    },
     {
       "arrival": {
         "flight": "JQ840",
@@ -46,7 +9,7 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "14:28",
+        "eta": "14:24",
         "status": "On The Way",
         "delayed": false
       },
@@ -64,12 +27,35 @@
     },
     {
       "arrival": {
+        "flight": "QN81",
+        "carrier": "QN",
+        "number": 81,
+        "origin": "Cairns",
+        "sta": "13:50",
+        "eta": "14:31",
+        "status": "On The Way",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "QN82",
+        "carrier": "QN",
+        "number": 82,
+        "destination": "Cairns",
+        "std": "14:20",
+        "etd": "14:20",
+        "status": "Relax",
+        "delayed": false
+      },
+      "at_risk": true
+    },
+    {
+      "arrival": {
         "flight": "VA1117",
         "carrier": "VA",
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:35",
-        "eta": "14:45",
+        "eta": "14:44",
         "status": "On The Way",
         "delayed": false
       },
@@ -79,7 +65,7 @@
         "number": 1118,
         "destination": "Brisbane",
         "std": "15:15",
-        "etd": "15:15",
+        "etd": "15:21",
         "status": "Relax",
         "delayed": false
       },
@@ -93,8 +79,8 @@
         "origin": "Brisbane",
         "sta": "11:35",
         "eta": "15:10",
-        "status": "Delayed 3h 35min",
-        "delayed": true
+        "status": "On The Way",
+        "delayed": false
       },
       "departure": {
         "flight": "JQ835",
