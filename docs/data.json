@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T15:15:33.572198+10:00",
+  "generated_at": "2026-09-21T15:30:40.302200+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -19,8 +19,8 @@
         "number": 1118,
         "destination": "Brisbane",
         "std": "15:15",
-        "etd": "15:21",
-        "status": "Boarding Soon",
+        "etd": "15:25",
+        "status": "Closed",
         "delayed": false
       },
       "at_risk": false
@@ -43,7 +43,7 @@
         "destination": "Sydney",
         "std": "14:45",
         "etd": "15:05",
-        "status": "Final Call",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -59,8 +59,17 @@
         "status": "Landed",
         "delayed": false
       },
-      "departure": null,
-      "at_risk": false
+      "departure": {
+        "flight": "JQ835",
+        "carrier": "JQ",
+        "number": 835,
+        "destination": "Brisbane",
+        "std": "12:15",
+        "etd": "12:15",
+        "status": "Boarding Soon",
+        "delayed": false
+      },
+      "at_risk": true
     },
     {
       "arrival": {
