@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-09-22T15:00:57.428161+10:00",
+  "generated_at": "2026-09-22T15:15:38.271751+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "14:05",
-        "eta": "14:04",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney",
-        "std": "14:45",
-        "etd": "14:45",
-        "status": "Final Call",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "QN81",
@@ -43,7 +20,7 @@
         "destination": "Cairns",
         "std": "14:20",
         "etd": "15:05",
-        "status": "Boarding Soon",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -66,7 +43,30 @@
         "destination": "Brisbane",
         "std": "15:15",
         "etd": "15:23",
-        "status": "Boarding Soon",
+        "status": "Boarding",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ840",
+        "carrier": "JQ",
+        "number": 840,
+        "origin": "Sydney",
+        "sta": "14:05",
+        "eta": "14:04",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ841",
+        "carrier": "JQ",
+        "number": 841,
+        "destination": "Sydney",
+        "std": "14:45",
+        "etd": "14:45",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -89,7 +89,7 @@
         "destination": "Brisbane",
         "std": "15:25",
         "etd": "15:25",
-        "status": "Boarding Soon",
+        "status": "Boarding",
         "delayed": false
       },
       "at_risk": false
