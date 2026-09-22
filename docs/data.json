@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T12:30:52.166066+10:00",
+  "generated_at": "2026-09-22T12:45:39.951236+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -19,9 +19,9 @@
         "number": 835,
         "destination": "Brisbane",
         "std": "12:15",
-        "etd": "12:40",
-        "status": "Delayed 25min",
-        "delayed": true
+        "etd": "12:35",
+        "status": "Departed",
+        "delayed": false
       },
       "at_risk": false
     },
@@ -32,8 +32,12 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "14:25",
+        "eta": "14:05",
         "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "14:25",
+          "slip_min": -20
+        },
         "delayed": false
       },
       "departure": {
@@ -46,7 +50,7 @@
         "status": "Relax",
         "delayed": false
       },
-      "at_risk": true
+      "at_risk": false
     },
     {
       "arrival": {
