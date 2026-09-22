@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T14:01:31.435542+10:00",
+  "generated_at": "2026-09-22T14:04:53.592808+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,8 +9,8 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "14:03",
-        "status": "On The Way",
+        "eta": "14:04",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -20,30 +20,7 @@
         "destination": "Sydney",
         "std": "14:45",
         "etd": "14:45",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "QN81",
-        "carrier": "QN",
-        "number": 81,
-        "origin": "Cairns",
-        "sta": "13:50",
-        "eta": "14:39",
-        "status": "On The Way",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN82",
-        "carrier": "QN",
-        "number": 82,
-        "destination": "Cairns",
-        "std": "14:20",
-        "etd": "15:05",
-        "status": "Check-in Open",
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
@@ -67,6 +44,29 @@
         "std": "15:15",
         "etd": "15:15",
         "status": "Relax",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "QN81",
+        "carrier": "QN",
+        "number": 81,
+        "origin": "Cairns",
+        "sta": "13:50",
+        "eta": "14:43",
+        "status": "On The Way",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "QN82",
+        "carrier": "QN",
+        "number": 82,
+        "destination": "Cairns",
+        "std": "14:20",
+        "etd": "15:05",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
