@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T14:30:41.227868+10:00",
+  "generated_at": "2026-09-22T14:45:37.152533+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -27,36 +27,13 @@
     },
     {
       "arrival": {
-        "flight": "VA1117",
-        "carrier": "VA",
-        "number": 1117,
-        "origin": "Brisbane",
-        "sta": "14:35",
-        "eta": "14:40",
-        "status": "On The Way",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "VA1118",
-        "carrier": "VA",
-        "number": 1118,
-        "destination": "Brisbane",
-        "std": "15:15",
-        "etd": "15:15",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
         "flight": "QN81",
         "carrier": "QN",
         "number": 81,
         "origin": "Cairns",
         "sta": "13:50",
-        "eta": "14:40",
-        "status": "On The Way",
+        "eta": "14:37",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -66,7 +43,30 @@
         "destination": "Cairns",
         "std": "14:20",
         "etd": "15:05",
-        "status": "Check-in Open",
+        "status": "Boarding Soon",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "VA1117",
+        "carrier": "VA",
+        "number": 1117,
+        "origin": "Brisbane",
+        "sta": "14:35",
+        "eta": "14:42",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "VA1118",
+        "carrier": "VA",
+        "number": 1118,
+        "destination": "Brisbane",
+        "std": "15:15",
+        "etd": "15:23",
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
