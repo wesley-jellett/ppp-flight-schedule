@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:00:56.265067+10:00",
+  "generated_at": "2026-09-22T13:15:38.822811+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -32,7 +32,7 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "14:05",
+        "eta": "14:06",
         "status": "On The Way",
         "delayed": false
       },
@@ -65,11 +65,15 @@
         "number": 82,
         "destination": "Cairns",
         "std": "14:20",
-        "etd": "14:20",
+        "etd": "15:05",
         "status": "Relax",
+        "etd_slipped": {
+          "prev_etd": "14:20",
+          "slip_min": 45
+        },
         "delayed": false
       },
-      "at_risk": true
+      "at_risk": false
     },
     {
       "arrival": {
@@ -78,9 +82,9 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:35",
-        "eta": "14:35",
-        "status": null,
-        "delayed": false
+        "eta": "14:45",
+        "status": "Delayed 10min",
+        "delayed": true
       },
       "departure": {
         "flight": "VA1118",
