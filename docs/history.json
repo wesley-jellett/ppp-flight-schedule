@@ -36436,6 +36436,31 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "19:26",
+        "flights": [
+          {
+            "flight": "JQ838",
+            "kind": "arr",
+            "route": "Sydney",
+            "scheduled": "18:15",
+            "estimated": "18:34",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ839",
+            "kind": "dep",
+            "route": "Sydney",
+            "scheduled": "18:50",
+            "estimated": "19:20",
+            "status": "Closed",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
