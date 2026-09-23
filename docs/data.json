@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T14:01:36.397339+10:00",
+  "generated_at": "2026-09-23T14:15:38.060481+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,7 +9,7 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "14:27",
+        "eta": "14:23",
         "status": "On The Way",
         "delayed": false
       },
@@ -20,7 +20,7 @@
         "destination": "Sydney",
         "std": "14:45",
         "etd": "15:00",
-        "status": "Check-in Open",
+        "status": "Check-in Closed",
         "delayed": false
       },
       "at_risk": false
@@ -65,8 +65,8 @@
         "number": 839,
         "destination": "Sydney",
         "std": "18:50",
-        "etd": "19:00",
-        "status": "Delayed 10min",
+        "etd": "19:10",
+        "status": "Delayed 20min",
         "delayed": true
       },
       "at_risk": false
