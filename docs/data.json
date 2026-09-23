@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-09-23T15:45:48.362899+10:00",
+  "generated_at": "2026-09-23T16:00:50.963170+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "14:05",
-        "eta": "14:22",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney",
-        "std": "14:45",
-        "etd": "15:00",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "VA1117",
@@ -32,8 +9,8 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:35",
-        "eta": "15:50",
-        "status": "On The Way",
+        "eta": "15:52",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -43,7 +20,7 @@
         "destination": "Brisbane",
         "std": "15:15",
         "etd": "16:25",
-        "status": "Check-in Closed",
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
