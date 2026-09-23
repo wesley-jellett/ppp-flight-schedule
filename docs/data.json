@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T11:30:47.016465+10:00",
+  "generated_at": "2026-09-23T11:38:36.211832+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -55,9 +55,13 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "14:05",
-        "status": null,
-        "delayed": false
+        "eta": "14:20",
+        "status": "Delayed 15min",
+        "eta_slipped": {
+          "prev_eta": "14:05",
+          "slip_min": 15
+        },
+        "delayed": true
       },
       "departure": {
         "flight": "JQ841",
@@ -69,7 +73,7 @@
         "status": null,
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     },
     {
       "arrival": {
