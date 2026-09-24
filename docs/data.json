@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T08:00:55.643697+10:00",
+  "generated_at": "2026-09-25T08:15:32.130451+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,8 +9,8 @@
         "number": 832,
         "origin": "Melbourne",
         "sta": "10:35",
-        "eta": "10:35",
-        "status": null,
+        "eta": "10:30",
+        "status": "On The Way",
         "delayed": false
       },
       "departure": {
@@ -20,7 +20,7 @@
         "destination": "Melbourne",
         "std": "11:15",
         "etd": "11:15",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
@@ -55,9 +55,13 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "11:35",
-        "eta": "11:35",
-        "status": null,
-        "delayed": false
+        "eta": "11:50",
+        "status": "Delayed 15min",
+        "eta_slipped": {
+          "prev_eta": "11:35",
+          "slip_min": 15
+        },
+        "delayed": true
       },
       "departure": {
         "flight": "JQ835",
@@ -65,9 +69,9 @@
         "number": 835,
         "destination": "Brisbane",
         "std": "12:15",
-        "etd": "12:15",
-        "status": null,
-        "delayed": false
+        "etd": "12:25",
+        "status": "Delayed 10min",
+        "delayed": true
       },
       "at_risk": false
     },
