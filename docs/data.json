@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T12:45:36.189776+10:00",
+  "generated_at": "2026-09-24T13:00:53.953418+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -32,8 +32,12 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "14:10",
+        "eta": "13:51",
         "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "14:10",
+          "slip_min": -19
+        },
         "delayed": false
       },
       "departure": {
@@ -43,30 +47,7 @@
         "destination": "Sydney",
         "std": "14:45",
         "etd": "14:45",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "VA1117",
-        "carrier": "VA",
-        "number": 1117,
-        "origin": "Brisbane",
-        "sta": "14:35",
-        "eta": "14:43",
-        "status": "Delayed 8min",
-        "delayed": true
-      },
-      "departure": {
-        "flight": "VA1118",
-        "carrier": "VA",
-        "number": 1118,
-        "destination": "Brisbane",
-        "std": "15:15",
-        "etd": "15:15",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
@@ -89,10 +70,33 @@
         "destination": "Brisbane",
         "std": "15:25",
         "etd": "15:25",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "VA1117",
+        "carrier": "VA",
+        "number": 1117,
+        "origin": "Brisbane",
+        "sta": "14:35",
+        "eta": "14:55",
+        "status": "Delayed 20min",
+        "delayed": true
+      },
+      "departure": {
+        "flight": "VA1118",
+        "carrier": "VA",
+        "number": 1118,
+        "destination": "Brisbane",
+        "std": "15:15",
+        "etd": "15:15",
+        "status": "Relax",
+        "delayed": false
+      },
+      "at_risk": true
     }
   ]
 }
