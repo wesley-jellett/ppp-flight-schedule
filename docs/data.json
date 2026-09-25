@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T10:45:34.663683+10:00",
+  "generated_at": "2026-09-25T11:00:53.796057+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -32,7 +32,7 @@
         "number": 85,
         "origin": "Cairns",
         "sta": "11:20",
-        "eta": "11:26",
+        "eta": "11:35",
         "status": "On The Way",
         "delayed": false
       },
@@ -46,7 +46,7 @@
         "status": "Check-in Open",
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     },
     {
       "arrival": {
@@ -55,9 +55,9 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "11:35",
-        "eta": "12:20",
-        "status": "Delayed 45min",
-        "delayed": true
+        "eta": "12:25",
+        "status": "On The Way",
+        "delayed": false
       },
       "departure": {
         "flight": "JQ835",
