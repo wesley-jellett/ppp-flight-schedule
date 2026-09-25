@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T11:30:46.052577+10:00",
+  "generated_at": "2026-09-25T11:45:36.963946+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -32,9 +32,9 @@
         "number": 85,
         "origin": "Cairns",
         "sta": "11:20",
-        "eta": "11:30",
-        "status": "Delayed 10min",
-        "delayed": true
+        "eta": "11:31",
+        "status": "Landed",
+        "delayed": false
       },
       "departure": {
         "flight": "QN86",
@@ -43,7 +43,7 @@
         "destination": "Cairns",
         "std": "11:50",
         "etd": "11:50",
-        "status": "Boarding Soon",
+        "status": "Boarding",
         "delayed": false
       },
       "at_risk": false
@@ -55,7 +55,7 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "11:35",
-        "eta": "12:11",
+        "eta": "12:12",
         "status": "On The Way",
         "delayed": false
       },
@@ -89,7 +89,7 @@
         "destination": "Sydney",
         "std": "14:45",
         "etd": "14:45",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
