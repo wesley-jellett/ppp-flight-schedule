@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:00:54.554980+10:00",
+  "generated_at": "2026-09-25T17:15:35.476494+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -17,7 +17,7 @@
         "flight": "JQ839",
         "carrier": "JQ",
         "number": 839,
-        "destination": "Sydney",
+        "destination": "Sydney  Check in close at 19:20.",
         "std": "18:50",
         "etd": "20:00",
         "status": "Check-in Open",
