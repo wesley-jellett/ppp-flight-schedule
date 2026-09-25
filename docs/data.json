@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T11:45:36.963946+10:00",
+  "generated_at": "2026-09-25T12:00:55.078942+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -43,7 +43,7 @@
         "destination": "Cairns",
         "std": "11:50",
         "etd": "11:50",
-        "status": "Boarding",
+        "status": "Closed",
         "delayed": false
       },
       "at_risk": false
@@ -55,7 +55,7 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "11:35",
-        "eta": "12:12",
+        "eta": "12:13",
         "status": "On The Way",
         "delayed": false
       },
@@ -78,8 +78,8 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "14:05",
-        "status": null,
+        "eta": "14:18",
+        "status": "On The Way",
         "delayed": false
       },
       "departure": {
