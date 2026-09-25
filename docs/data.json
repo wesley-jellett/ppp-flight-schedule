@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:01:28.232918+10:00",
+  "generated_at": "2026-09-25T16:15:38.813784+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -11,10 +11,6 @@
         "sta": "18:15",
         "eta": "19:45",
         "status": "Delayed 1h 30min",
-        "eta_slipped": {
-          "prev_eta": "19:25",
-          "slip_min": 20
-        },
         "delayed": true
       },
       "departure": {
