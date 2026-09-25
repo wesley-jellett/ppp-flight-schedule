@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T11:15:36.666501+10:00",
+  "generated_at": "2026-09-25T11:30:46.052577+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Melbourne",
         "std": "11:15",
         "etd": "11:15",
-        "status": "Boarding",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -32,9 +32,9 @@
         "number": 85,
         "origin": "Cairns",
         "sta": "11:20",
-        "eta": "11:33",
-        "status": "On The Way",
-        "delayed": false
+        "eta": "11:30",
+        "status": "Delayed 10min",
+        "delayed": true
       },
       "departure": {
         "flight": "QN86",
@@ -43,7 +43,7 @@
         "destination": "Cairns",
         "std": "11:50",
         "etd": "11:50",
-        "status": "Check-in Open",
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
@@ -55,7 +55,7 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "11:35",
-        "eta": "12:25",
+        "eta": "12:11",
         "status": "On The Way",
         "delayed": false
       },
