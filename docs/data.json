@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T14:00:52.780930+10:00",
+  "generated_at": "2026-09-25T14:11:28.132121+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -10,7 +10,7 @@
         "origin": "Sydney",
         "sta": "14:05",
         "eta": "14:02",
-        "status": "On The Way",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -20,7 +20,7 @@
         "destination": "Sydney",
         "std": "14:45",
         "etd": "14:45",
-        "status": "Check-in Open",
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
@@ -67,10 +67,6 @@
         "std": "18:50",
         "etd": "19:55",
         "status": "Delayed 1h 5min",
-        "etd_slipped": {
-          "prev_etd": "18:50",
-          "slip_min": 65
-        },
         "delayed": true
       },
       "at_risk": false
