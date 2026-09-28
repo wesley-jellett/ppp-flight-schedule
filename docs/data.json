@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T09:00:49.366708+10:00",
+  "generated_at": "2026-09-29T09:15:38.463829+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -11,10 +11,6 @@
         "sta": "10:35",
         "eta": "10:35",
         "status": "On The Way",
-        "eta_slipped": {
-          "prev_eta": "10:55",
-          "slip_min": -20
-        },
         "delayed": false
       },
       "departure": {
@@ -47,7 +43,7 @@
         "destination": "Brisbane",
         "std": "12:15",
         "etd": "12:15",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
