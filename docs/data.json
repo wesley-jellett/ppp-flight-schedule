@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:30:47.651744+10:00",
+  "generated_at": "2026-09-28T14:33:47.353857+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -67,10 +67,6 @@
         "std": "15:15",
         "etd": "15:47",
         "status": "Relax",
-        "etd_slipped": {
-          "prev_etd": "15:15",
-          "slip_min": 32
-        },
         "delayed": false
       },
       "at_risk": false
