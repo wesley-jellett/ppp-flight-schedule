@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-09-28T13:00:55.440059+10:00",
+  "generated_at": "2026-09-28T13:15:45.588171+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "11:35",
-        "eta": "11:24",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane",
-        "std": "12:15",
-        "etd": "12:15",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "QN81",
@@ -32,7 +9,7 @@
         "number": 81,
         "origin": "Cairns",
         "sta": "13:50",
-        "eta": "13:47",
+        "eta": "13:57",
         "status": "On The Way",
         "delayed": false
       },
