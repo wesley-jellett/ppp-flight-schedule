@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T12:00:52.530924+10:00",
+  "generated_at": "2026-09-29T12:15:34.259834+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -27,36 +27,13 @@
     },
     {
       "arrival": {
-        "flight": "JQ832",
-        "carrier": "JQ",
-        "number": 832,
-        "origin": "Melbourne",
-        "sta": "10:35",
-        "eta": "10:30",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ833",
-        "carrier": "JQ",
-        "number": 833,
-        "destination": "Melbourne",
-        "std": "11:15",
-        "etd": "11:30",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
         "flight": "JQ840",
         "carrier": "JQ",
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "14:05",
-        "status": null,
+        "eta": "14:08",
+        "status": "On The Way",
         "delayed": false
       },
       "departure": {
@@ -112,7 +89,7 @@
         "destination": "Brisbane",
         "std": "15:15",
         "etd": "15:15",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
@@ -134,9 +111,13 @@
         "number": 837,
         "destination": "Brisbane",
         "std": "15:25",
-        "etd": "15:25",
-        "status": null,
-        "delayed": false
+        "etd": "16:05",
+        "status": "Delayed 40min",
+        "etd_slipped": {
+          "prev_etd": "15:25",
+          "slip_min": 40
+        },
+        "delayed": true
       },
       "at_risk": false
     }
