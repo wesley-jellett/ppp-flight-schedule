@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T13:15:43.035924+10:00",
+  "generated_at": "2026-09-29T13:30:46.005888+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -88,11 +88,15 @@
         "number": 82,
         "destination": "Cairns",
         "std": "14:20",
-        "etd": "14:20",
+        "etd": "16:15",
         "status": "Relax",
+        "etd_slipped": {
+          "prev_etd": "14:20",
+          "slip_min": 115
+        },
         "delayed": false
       },
-      "at_risk": true
+      "at_risk": false
     }
   ]
 }
