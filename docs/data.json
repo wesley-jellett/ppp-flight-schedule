@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T09:00:51.170634+10:00",
+  "generated_at": "2026-09-30T09:15:36.222275+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,9 +9,13 @@
         "number": 832,
         "origin": "Melbourne",
         "sta": "10:35",
-        "eta": "11:15",
-        "status": "Delayed 40min",
-        "delayed": true
+        "eta": "10:35",
+        "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "11:15",
+          "slip_min": -40
+        },
+        "delayed": false
       },
       "departure": {
         "flight": "JQ833",
@@ -19,8 +23,12 @@
         "number": 833,
         "destination": "Melbourne",
         "std": "11:15",
-        "etd": "11:40",
+        "etd": "11:15",
         "status": "Relax",
+        "etd_slipped": {
+          "prev_etd": "11:40",
+          "slip_min": -25
+        },
         "delayed": false
       },
       "at_risk": false
@@ -43,7 +51,7 @@
         "destination": "Brisbane",
         "std": "12:15",
         "etd": "12:15",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
