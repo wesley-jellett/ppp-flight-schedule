@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T15:01:24.413625+10:00",
+  "generated_at": "2026-09-29T15:15:37.697253+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Brisbane",
         "std": "15:15",
         "etd": "15:15",
-        "status": "Boarding",
+        "status": "Closed",
         "delayed": false
       },
       "at_risk": false
@@ -55,9 +55,9 @@
         "number": 81,
         "origin": "Cairns",
         "sta": "13:50",
-        "eta": "15:44",
-        "status": "Delayed 1h 54min",
-        "delayed": true
+        "eta": "15:53",
+        "status": "On The Way",
+        "delayed": false
       },
       "departure": {
         "flight": "QN82",
