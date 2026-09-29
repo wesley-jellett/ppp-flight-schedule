@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-09-29T11:15:37.432798+10:00",
+  "generated_at": "2026-09-29T11:30:46.298738+10:00",
   "airport": "PPP",
   "pairs": [
+    {
+      "arrival": {
+        "flight": "JQ834",
+        "carrier": "JQ",
+        "number": 834,
+        "origin": "Brisbane",
+        "sta": "11:35",
+        "eta": "11:29",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ835",
+        "carrier": "JQ",
+        "number": 835,
+        "destination": "Brisbane",
+        "std": "12:15",
+        "etd": "12:15",
+        "status": "Boarding Soon",
+        "delayed": false
+      },
+      "at_risk": false
+    },
     {
       "arrival": {
         "flight": "JQ832",
@@ -20,34 +43,7 @@
         "destination": "Melbourne",
         "std": "11:15",
         "etd": "11:30",
-        "status": "Closed",
-        "etd_slipped": {
-          "prev_etd": "11:15",
-          "slip_min": 15
-        },
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "11:35",
-        "eta": "11:28",
-        "status": "On The Way",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane",
-        "std": "12:15",
-        "etd": "12:15",
-        "status": "Relax",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -93,7 +89,7 @@
         "destination": "Cairns",
         "std": "14:20",
         "etd": "14:20",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": true
