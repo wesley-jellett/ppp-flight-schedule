@@ -49487,6 +49487,31 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "17:15",
+        "flights": [
+          {
+            "flight": "JQ836",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "14:50",
+            "estimated": "11:29",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ837",
+            "kind": "dep",
+            "route": "Brisbane",
+            "scheduled": "15:25",
+            "estimated": "17:35",
+            "status": "Boarding",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
