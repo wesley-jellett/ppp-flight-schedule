@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T11:00:49.786777+10:00",
+  "generated_at": "2026-09-29T11:15:37.432798+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -19,8 +19,12 @@
         "number": 833,
         "destination": "Melbourne",
         "std": "11:15",
-        "etd": "11:15",
-        "status": "Final Call",
+        "etd": "11:30",
+        "status": "Closed",
+        "etd_slipped": {
+          "prev_etd": "11:15",
+          "slip_min": 15
+        },
         "delayed": false
       },
       "at_risk": false
@@ -32,7 +36,7 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "11:35",
-        "eta": "11:27",
+        "eta": "11:28",
         "status": "On The Way",
         "delayed": false
       },
