@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T16:30:41.762477+10:00",
+  "generated_at": "2026-09-29T16:45:35.128840+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Cairns",
         "std": "14:20",
         "etd": "16:15",
-        "status": "Boarding Soon",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -42,7 +42,7 @@
         "number": 837,
         "destination": "Brisbane",
         "std": "15:25",
-        "etd": "17:30",
+        "etd": "17:35",
         "status": "Relax",
         "delayed": false
       },
