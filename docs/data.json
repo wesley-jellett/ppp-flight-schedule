@@ -1,34 +1,7 @@
 {
-  "generated_at": "2026-09-29T15:45:35.499066+10:00",
+  "generated_at": "2026-09-29T16:00:50.686891+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ836",
-        "carrier": "JQ",
-        "number": 836,
-        "origin": "Brisbane",
-        "sta": "14:50",
-        "eta": "11:29",
-        "status": "Early 3h 20min",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ837",
-        "carrier": "JQ",
-        "number": 837,
-        "destination": "Brisbane",
-        "std": "15:25",
-        "etd": "17:30",
-        "status": "Relax",
-        "etd_slipped": {
-          "prev_etd": "15:25",
-          "slip_min": 125
-        },
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "VA1117",
@@ -59,8 +32,8 @@
         "number": 81,
         "origin": "Cairns",
         "sta": "13:50",
-        "eta": "16:01",
-        "status": "On The Way",
+        "eta": "15:56",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -70,6 +43,29 @@
         "destination": "Cairns",
         "std": "14:20",
         "etd": "16:15",
+        "status": "Boarding Soon",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ836",
+        "carrier": "JQ",
+        "number": 836,
+        "origin": "Brisbane",
+        "sta": "14:50",
+        "eta": "11:29",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ837",
+        "carrier": "JQ",
+        "number": 837,
+        "destination": "Brisbane",
+        "std": "15:25",
+        "etd": "17:30",
         "status": "Relax",
         "delayed": false
       },
