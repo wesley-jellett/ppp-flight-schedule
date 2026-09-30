@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T11:45:37.778600+10:00",
+  "generated_at": "2026-09-30T12:00:52.516630+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -36,16 +36,7 @@
         "status": "Landed",
         "delayed": false
       },
-      "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane",
-        "std": "12:15",
-        "etd": "12:15",
-        "status": "Boarding",
-        "delayed": false
-      },
+      "departure": null,
       "at_risk": false
     },
     {
