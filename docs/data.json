@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T10:19:29.250341+10:00",
+  "generated_at": "2026-10-01T10:30:54.043520+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,8 +9,8 @@
         "number": 832,
         "origin": "Melbourne",
         "sta": "10:35",
-        "eta": "10:27",
-        "status": "On The Way",
+        "eta": "10:25",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -20,7 +20,7 @@
         "destination": "Melbourne  Check in close 10:35",
         "std": "11:15",
         "etd": "11:15",
-        "status": "Check-in Open",
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
@@ -63,7 +63,7 @@
         "flight": "JQ841",
         "carrier": "JQ",
         "number": 841,
-        "destination": "Sydney",
+        "destination": "Sydney  Check in open 12:45 until 14:05",
         "std": "14:45",
         "etd": "14:45",
         "status": null,
@@ -86,7 +86,7 @@
         "flight": "VA1118",
         "carrier": "VA",
         "number": 1118,
-        "destination": "Brisbane",
+        "destination": "Brisbane  Check in open 13:30 until 14:45",
         "std": "15:15",
         "etd": "15:15",
         "status": null,
@@ -109,7 +109,7 @@
         "flight": "JQ837",
         "carrier": "JQ",
         "number": 837,
-        "destination": "Brisbane",
+        "destination": "Brisbane  Check in open 12:45 until 14:45",
         "std": "15:25",
         "etd": "15:25",
         "status": null,
