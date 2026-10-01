@@ -54205,6 +54205,31 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "16:01",
+        "flights": [
+          {
+            "flight": "JQ836",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "14:50",
+            "estimated": "15:10",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ837",
+            "kind": "dep",
+            "route": "Brisbane  Check in open 12:45 until 14:45",
+            "scheduled": "15:25",
+            "estimated": "16:00",
+            "status": "Departed",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
