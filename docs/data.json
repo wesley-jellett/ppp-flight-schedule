@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-10-01T11:00:53.769182+10:00",
+  "generated_at": "2026-10-01T11:15:33.967060+10:00",
   "airport": "PPP",
   "pairs": [
+    {
+      "arrival": {
+        "flight": "JQ834",
+        "carrier": "JQ",
+        "number": 834,
+        "origin": "Brisbane",
+        "sta": "11:35",
+        "eta": "11:11",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ835",
+        "carrier": "JQ",
+        "number": 835,
+        "destination": "Brisbane  Check in close 11:35",
+        "std": "12:15",
+        "etd": "12:15",
+        "status": "Boarding Soon",
+        "delayed": false
+      },
+      "at_risk": false
+    },
     {
       "arrival": {
         "flight": "JQ832",
@@ -20,30 +43,7 @@
         "destination": "Melbourne  Check in close 10:35",
         "std": "11:15",
         "etd": "11:25",
-        "status": "Final Call",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "11:35",
-        "eta": "11:04",
-        "status": "On The Way",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane  Check in close 11:35",
-        "std": "12:15",
-        "etd": "12:15",
-        "status": "Check-in Open",
+        "status": "Closed",
         "delayed": false
       },
       "at_risk": false
@@ -101,9 +101,9 @@
         "number": 836,
         "origin": "Brisbane",
         "sta": "14:50",
-        "eta": "14:50",
-        "status": null,
-        "delayed": false
+        "eta": "15:00",
+        "status": "Delayed 10min",
+        "delayed": true
       },
       "departure": {
         "flight": "JQ837",
