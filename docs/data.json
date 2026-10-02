@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:00:57.060071+10:00",
+  "generated_at": "2026-10-02T17:15:38.132460+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,8 +9,12 @@
         "number": 838,
         "origin": "Sydney",
         "sta": "18:15",
-        "eta": "18:15",
+        "eta": "18:45",
         "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "18:15",
+          "slip_min": 30
+        },
         "delayed": false
       },
       "departure": {
@@ -23,7 +27,7 @@
         "status": "Check-in Open",
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     }
   ]
 }
