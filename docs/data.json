@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-10-02T11:45:33.805581+10:00",
+  "generated_at": "2026-10-02T12:00:53.796434+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "11:35",
-        "eta": "11:13",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane  Check in close 11:35",
-        "std": "12:15",
-        "etd": "12:15",
-        "status": "Final Call",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ832",
@@ -43,7 +20,7 @@
         "destination": "Melbourne  Check in close 10:35",
         "std": "11:15",
         "etd": "11:25",
-        "status": "Closed",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -55,8 +32,8 @@
         "number": 85,
         "origin": "Cairns",
         "sta": "11:20",
-        "eta": "12:08",
-        "status": "On The Way",
+        "eta": "12:00",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -66,7 +43,30 @@
         "destination": "Cairns  Check in open 10:20 until 11:20",
         "std": "11:50",
         "etd": "12:20",
-        "status": "Check-in Closed",
+        "status": "Boarding Soon",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ834",
+        "carrier": "JQ",
+        "number": 834,
+        "origin": "Brisbane",
+        "sta": "11:35",
+        "eta": "11:13",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ835",
+        "carrier": "JQ",
+        "number": 835,
+        "destination": "Brisbane  Check in close 11:35",
+        "std": "12:15",
+        "etd": "12:15",
+        "status": "Closed",
         "delayed": false
       },
       "at_risk": false
