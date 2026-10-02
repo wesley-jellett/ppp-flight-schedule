@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:28:05.149997+10:00",
+  "generated_at": "2026-10-02T10:30:49.151942+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -27,6 +27,33 @@
     },
     {
       "arrival": {
+        "flight": "JQ834",
+        "carrier": "JQ",
+        "number": 834,
+        "origin": "Brisbane",
+        "sta": "11:35",
+        "eta": "11:13",
+        "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "11:32",
+          "slip_min": -19
+        },
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ835",
+        "carrier": "JQ",
+        "number": 835,
+        "destination": "Brisbane  Check in close 11:35",
+        "std": "12:15",
+        "etd": "12:15",
+        "status": "Check-in Open",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
         "flight": "QN85",
         "carrier": "QN",
         "number": 85,
@@ -43,33 +70,6 @@
         "destination": "Cairns  Check in open 10:20 until 11:20",
         "std": "11:50",
         "etd": "12:20",
-        "status": "Check-in Open",
-        "etd_slipped": {
-          "prev_etd": "11:50",
-          "slip_min": 30
-        },
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "11:35",
-        "eta": "11:32",
-        "status": "On The Way",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane  Check in close 11:35",
-        "std": "12:15",
-        "etd": "12:15",
         "status": "Check-in Open",
         "delayed": false
       },
