@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-10-02T12:45:38.518074+10:00",
+  "generated_at": "2026-10-02T13:00:55.963615+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "QN85",
-        "carrier": "QN",
-        "number": 85,
-        "origin": "Cairns",
-        "sta": "11:20",
-        "eta": "12:00",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN86",
-        "carrier": "QN",
-        "number": 86,
-        "destination": "Cairns  Check in open 10:20 until 11:20",
-        "std": "11:50",
-        "etd": "12:20",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ834",
@@ -50,12 +27,35 @@
     },
     {
       "arrival": {
+        "flight": "QN85",
+        "carrier": "QN",
+        "number": 85,
+        "origin": "Cairns",
+        "sta": "11:20",
+        "eta": "12:00",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "QN86",
+        "carrier": "QN",
+        "number": 86,
+        "destination": "Cairns  Check in open 10:20 until 11:20",
+        "std": "11:50",
+        "etd": "12:20",
+        "status": "Departed",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
         "flight": "JQ840",
         "carrier": "JQ",
         "number": 840,
         "origin": "Sydney",
         "sta": "14:05",
-        "eta": "14:05",
+        "eta": "13:54",
         "status": "On The Way",
         "delayed": false
       },
