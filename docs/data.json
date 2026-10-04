@@ -1,53 +1,26 @@
 {
-  "generated_at": "2026-10-04T12:49:20.618557+10:00",
+  "generated_at": "2026-10-04T15:05:27.162418+10:00",
   "airport": "PPP",
   "pairs": [
     {
       "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
+        "flight": "VA1117",
+        "carrier": "VA",
+        "number": 1117,
         "origin": "Brisbane",
-        "sta": "11:35",
-        "eta": "11:35",
+        "sta": "15:00",
+        "eta": "14:46",
         "status": "Landed",
         "delayed": false
       },
       "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
+        "flight": "VA1118",
+        "carrier": "VA",
+        "number": 1118,
         "destination": "Brisbane",
-        "std": "12:15",
-        "etd": "12:15",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "13:05",
-        "eta": "12:56",
-        "status": "On The Way",
-        "eta_slipped": {
-          "prev_eta": "14:14",
-          "slip_min": -78
-        },
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney",
-        "std": "13:45",
-        "etd": "13:45",
-        "status": "Check-in Open",
+        "std": "15:40",
+        "etd": "15:40",
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
@@ -59,8 +32,8 @@
         "number": 836,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "15:00",
-        "status": null,
+        "eta": "14:51",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -70,30 +43,7 @@
         "destination": "Brisbane",
         "std": "15:45",
         "etd": "15:45",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "VA1117",
-        "carrier": "VA",
-        "number": 1117,
-        "origin": "Brisbane",
-        "sta": "15:00",
-        "eta": "15:00",
-        "status": null,
-        "delayed": false
-      },
-      "departure": {
-        "flight": "VA1118",
-        "carrier": "VA",
-        "number": 1118,
-        "destination": "Brisbane",
-        "std": "15:40",
-        "etd": "15:40",
-        "status": "Relax",
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
@@ -117,10 +67,6 @@
         "std": "10:15",
         "etd": "15:20",
         "status": "Relax",
-        "etd_slipped": {
-          "prev_etd": "10:15",
-          "slip_min": 305
-        },
         "delayed": false
       },
       "at_risk": false
@@ -132,11 +78,11 @@
         "number": 838,
         "origin": "Sydney",
         "sta": "17:15",
-        "eta": "18:24",
-        "status": "Delayed 1h 9min",
+        "eta": "17:35",
+        "status": "Delayed 20min",
         "eta_slipped": {
-          "prev_eta": "17:15",
-          "slip_min": 69
+          "prev_eta": "18:24",
+          "slip_min": -49
         },
         "delayed": true
       },
@@ -146,11 +92,15 @@
         "number": 839,
         "destination": "Sydney",
         "std": "17:50",
-        "etd": "17:50",
-        "status": null,
-        "delayed": false
+        "etd": "18:10",
+        "status": "Delayed 20min",
+        "etd_slipped": {
+          "prev_etd": "17:50",
+          "slip_min": 20
+        },
+        "delayed": true
       },
-      "at_risk": true
+      "at_risk": false
     }
   ]
 }
