@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:00:56.422721+10:00",
+  "generated_at": "2026-10-05T12:15:37.407028+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -27,39 +27,16 @@
     },
     {
       "arrival": {
-        "flight": "JQ832",
-        "carrier": "JQ",
-        "number": 832,
-        "origin": "Melbourne",
-        "sta": "09:35",
-        "eta": "10:11",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ833",
-        "carrier": "JQ",
-        "number": 833,
-        "destination": "Melbourne  Check in close 10:15",
-        "std": "10:15",
-        "etd": "12:20",
-        "status": "Delayed",
-        "delayed": true
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
         "flight": "JQ840",
         "carrier": "JQ",
         "number": 840,
         "origin": "Sydney",
         "sta": "13:05",
-        "eta": "13:05",
+        "eta": "13:40",
         "status": "On The Way",
         "eta_slipped": {
-          "prev_eta": "13:40",
-          "slip_min": -35
+          "prev_eta": "13:05",
+          "slip_min": 35
         },
         "delayed": false
       },
@@ -69,8 +46,12 @@
         "number": 841,
         "destination": "Sydney  Check in open 11:45 until 13:05",
         "std": "13:45",
-        "etd": "13:45",
+        "etd": "14:00",
         "status": "Check-in Open",
+        "etd_slipped": {
+          "prev_etd": "13:45",
+          "slip_min": 15
+        },
         "delayed": false
       },
       "at_risk": false
@@ -95,6 +76,33 @@
         "etd": "14:20",
         "status": "Relax",
         "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ832",
+        "carrier": "JQ",
+        "number": 832,
+        "origin": "Melbourne",
+        "sta": "09:35",
+        "eta": "10:11",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ833",
+        "carrier": "JQ",
+        "number": 833,
+        "destination": "Melbourne  Check in close 10:15",
+        "std": "10:15",
+        "etd": "14:00",
+        "status": "Delayed",
+        "etd_slipped": {
+          "prev_etd": "12:20",
+          "slip_min": 100
+        },
+        "delayed": true
       },
       "at_risk": false
     },
