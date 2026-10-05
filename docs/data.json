@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T11:00:49.475969+10:00",
+  "generated_at": "2026-10-05T11:15:33.374973+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,8 +20,8 @@
         "destination": "Melbourne  Check in close 10:15",
         "std": "10:15",
         "etd": "10:50",
-        "status": "Departed",
-        "delayed": false
+        "status": "Delayed",
+        "delayed": true
       },
       "at_risk": false
     },
@@ -32,7 +32,7 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "11:35",
-        "eta": "11:22",
+        "eta": "11:15",
         "status": "On The Way",
         "delayed": false
       },
@@ -55,9 +55,13 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:05",
-        "eta": "13:20",
-        "status": "Delayed 15min",
-        "delayed": true
+        "eta": "13:40",
+        "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "13:20",
+          "slip_min": 20
+        },
+        "delayed": false
       },
       "departure": {
         "flight": "JQ841",
@@ -124,9 +128,13 @@
         "number": 838,
         "origin": "Sydney",
         "sta": "17:15",
-        "eta": "17:15",
-        "status": null,
-        "delayed": false
+        "eta": "18:24",
+        "status": "Delayed 1h 9min",
+        "eta_slipped": {
+          "prev_eta": "17:15",
+          "slip_min": 69
+        },
+        "delayed": true
       },
       "departure": {
         "flight": "JQ839",
@@ -138,7 +146,7 @@
         "status": null,
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     }
   ]
 }
