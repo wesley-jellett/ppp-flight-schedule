@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T13:15:36.186747+10:00",
+  "generated_at": "2026-10-05T13:30:45.018446+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,8 +9,8 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:05",
-        "eta": "13:15",
-        "status": "On The Way",
+        "eta": "13:19",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -20,7 +20,7 @@
         "destination": "Sydney  Check in open 11:45 until 13:05",
         "std": "13:45",
         "etd": "14:00",
-        "status": "Check-in Open",
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
@@ -32,7 +32,7 @@
         "number": 81,
         "origin": "Cairns",
         "sta": "13:50",
-        "eta": "13:44",
+        "eta": "13:41",
         "status": "On The Way",
         "delayed": false
       },
@@ -101,9 +101,13 @@
         "number": 838,
         "origin": "Sydney",
         "sta": "17:15",
-        "eta": "17:15",
-        "status": null,
-        "delayed": false
+        "eta": "18:00",
+        "status": "Delayed 45min",
+        "eta_slipped": {
+          "prev_eta": "17:15",
+          "slip_min": 45
+        },
+        "delayed": true
       },
       "departure": {
         "flight": "JQ839",
@@ -115,7 +119,7 @@
         "status": null,
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     }
   ]
 }
