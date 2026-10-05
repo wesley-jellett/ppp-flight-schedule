@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T11:30:39.332477+10:00",
+  "generated_at": "2026-10-05T11:45:34.672942+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Brisbane  Check in close 11:35",
         "std": "12:15",
         "etd": "12:15",
-        "status": "Boarding Soon",
+        "status": "Boarding",
         "delayed": false
       },
       "at_risk": false
@@ -44,10 +44,6 @@
         "std": "10:15",
         "etd": "12:20",
         "status": "Delayed",
-        "etd_slipped": {
-          "prev_etd": "10:50",
-          "slip_min": 90
-        },
         "delayed": true
       },
       "at_risk": false
@@ -70,7 +66,7 @@
         "destination": "Sydney  Check in open 11:45 until 13:05",
         "std": "13:45",
         "etd": "13:55",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
