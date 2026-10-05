@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T10:45:37.074757+10:00",
+  "generated_at": "2026-10-05T11:00:49.475969+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Melbourne  Check in close 10:15",
         "std": "10:15",
         "etd": "10:50",
-        "status": "Closed",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -66,8 +66,8 @@
         "destination": "Sydney  Check in open 11:45 until 13:05",
         "std": "13:45",
         "etd": "13:55",
-        "status": "Delayed 10min",
-        "delayed": true
+        "status": "Relax",
+        "delayed": false
       },
       "at_risk": false
     },
