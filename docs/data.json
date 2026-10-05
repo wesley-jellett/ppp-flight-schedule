@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-10-05T14:15:34.243538+10:00",
+  "generated_at": "2026-10-05T14:30:46.862299+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "QN81",
-        "carrier": "QN",
-        "number": 81,
-        "origin": "Cairns",
-        "sta": "13:50",
-        "eta": "13:38",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN82",
-        "carrier": "QN",
-        "number": 82,
-        "destination": "Cairns  Check in open 12:50 until 13:50",
-        "std": "14:20",
-        "etd": "14:20",
-        "status": "Closed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ832",
@@ -43,6 +20,29 @@
         "destination": "Melbourne  Check in close 10:15",
         "std": "10:15",
         "etd": "14:00",
+        "status": "Boarding",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "QN81",
+        "carrier": "QN",
+        "number": 81,
+        "origin": "Cairns",
+        "sta": "13:50",
+        "eta": "13:38",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "QN82",
+        "carrier": "QN",
+        "number": 82,
+        "destination": "Cairns  Check in open 12:50 until 13:50",
+        "std": "14:20",
+        "etd": "14:20",
         "status": "Departed",
         "delayed": false
       },
@@ -65,9 +65,13 @@
         "number": 841,
         "destination": "Sydney  Check in open 11:45 until 13:05",
         "std": "13:45",
-        "etd": "14:00",
-        "status": "Delayed",
-        "delayed": true
+        "etd": "14:35",
+        "status": "Boarding",
+        "etd_slipped": {
+          "prev_etd": "14:00",
+          "slip_min": 35
+        },
+        "delayed": false
       },
       "at_risk": false
     },
@@ -78,7 +82,7 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "14:43",
+        "eta": "14:46",
         "status": "On The Way",
         "delayed": false
       },
@@ -111,11 +115,15 @@
         "number": 839,
         "destination": "Sydney  Check in open 15:50 until 17:10",
         "std": "17:50",
-        "etd": "17:50",
-        "status": null,
-        "delayed": false
+        "etd": "18:35",
+        "status": "Delayed 45min",
+        "etd_slipped": {
+          "prev_etd": "17:50",
+          "slip_min": 45
+        },
+        "delayed": true
       },
-      "at_risk": true
+      "at_risk": false
     }
   ]
 }
