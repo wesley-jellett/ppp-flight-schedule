@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-10-05T14:46:12.358380+10:00",
+  "generated_at": "2026-10-05T14:50:44.145231+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ832",
-        "carrier": "JQ",
-        "number": 832,
-        "origin": "Melbourne",
-        "sta": "09:35",
-        "eta": "10:11",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ833",
-        "carrier": "JQ",
-        "number": 833,
-        "destination": "Melbourne  Check in close 10:15",
-        "std": "10:15",
-        "etd": "14:00",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "QN81",
@@ -50,29 +27,6 @@
     },
     {
       "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "13:05",
-        "eta": "13:19",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney  Check in open 11:45 until 13:05",
-        "std": "13:45",
-        "etd": "14:35",
-        "status": "Closed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
         "flight": "VA1117",
         "carrier": "VA",
         "number": 1117,
@@ -90,6 +44,33 @@
         "std": "15:40",
         "etd": "15:40",
         "status": "Relax",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ840",
+        "carrier": "JQ",
+        "number": 840,
+        "origin": "Sydney",
+        "sta": "13:05",
+        "eta": "13:19",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ841",
+        "carrier": "JQ",
+        "number": 841,
+        "destination": "Sydney  Check in open 11:45 until 13:05",
+        "std": "13:45",
+        "etd": "15:00",
+        "status": "Closed",
+        "etd_slipped": {
+          "prev_etd": "14:35",
+          "slip_min": 25
+        },
         "delayed": false
       },
       "at_risk": false
