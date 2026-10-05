@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-10-05T15:15:36.127960+10:00",
+  "generated_at": "2026-10-05T15:30:44.158954+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "VA1117",
-        "carrier": "VA",
-        "number": 1117,
-        "origin": "Brisbane",
-        "sta": "15:00",
-        "eta": "14:45",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "VA1118",
-        "carrier": "VA",
-        "number": 1118,
-        "destination": "Brisbane  Check in open 14:10 until 15:10",
-        "std": "15:40",
-        "etd": "15:40",
-        "status": "Boarding",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ840",
@@ -44,6 +21,29 @@
         "std": "13:45",
         "etd": "15:00",
         "status": "Departed",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "VA1117",
+        "carrier": "VA",
+        "number": 1117,
+        "origin": "Brisbane",
+        "sta": "15:00",
+        "eta": "14:45",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "VA1118",
+        "carrier": "VA",
+        "number": 1118,
+        "destination": "Brisbane  Check in open 14:10 until 15:10",
+        "std": "15:40",
+        "etd": "15:40",
+        "status": "Closed",
         "delayed": false
       },
       "at_risk": false
