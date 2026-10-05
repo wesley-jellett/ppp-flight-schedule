@@ -61676,6 +61676,21 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "22:07",
+        "flights": [
+          {
+            "flight": "JQ838",
+            "kind": "arr",
+            "route": "Sydney",
+            "scheduled": "17:15",
+            "estimated": "17:46",
+            "status": "Delayed 31min",
+            "delayed": true,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }

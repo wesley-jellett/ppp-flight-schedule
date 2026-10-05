@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T17:45:37.049960+10:00",
+  "generated_at": "2026-10-05T22:07:54.119038+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -10,19 +10,10 @@
         "origin": "Sydney",
         "sta": "17:15",
         "eta": "17:46",
-        "status": "On The Way",
-        "delayed": false
+        "status": "Delayed 31min",
+        "delayed": true
       },
-      "departure": {
-        "flight": "JQ839",
-        "carrier": "JQ",
-        "number": 839,
-        "destination": "Sydney  Check in open 15:50 until 17:10",
-        "std": "17:50",
-        "etd": "18:35",
-        "status": "Relax",
-        "delayed": false
-      },
+      "departure": null,
       "at_risk": false
     }
   ]
