@@ -1,7 +1,53 @@
 {
-  "generated_at": "2026-10-05T14:00:58.331192+10:00",
+  "generated_at": "2026-10-05T14:15:34.243538+10:00",
   "airport": "PPP",
   "pairs": [
+    {
+      "arrival": {
+        "flight": "QN81",
+        "carrier": "QN",
+        "number": 81,
+        "origin": "Cairns",
+        "sta": "13:50",
+        "eta": "13:38",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "QN82",
+        "carrier": "QN",
+        "number": 82,
+        "destination": "Cairns  Check in open 12:50 until 13:50",
+        "std": "14:20",
+        "etd": "14:20",
+        "status": "Closed",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ832",
+        "carrier": "JQ",
+        "number": 832,
+        "origin": "Melbourne",
+        "sta": "09:35",
+        "eta": "10:11",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ833",
+        "carrier": "JQ",
+        "number": 833,
+        "destination": "Melbourne  Check in close 10:15",
+        "std": "10:15",
+        "etd": "14:00",
+        "status": "Departed",
+        "delayed": false
+      },
+      "at_risk": false
+    },
     {
       "arrival": {
         "flight": "JQ840",
@@ -27,63 +73,13 @@
     },
     {
       "arrival": {
-        "flight": "QN81",
-        "carrier": "QN",
-        "number": 81,
-        "origin": "Cairns",
-        "sta": "13:50",
-        "eta": "13:38",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN82",
-        "carrier": "QN",
-        "number": 82,
-        "destination": "Cairns  Check in open 12:50 until 13:50",
-        "std": "14:20",
-        "etd": "14:20",
-        "status": "Boarding",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "JQ832",
-        "carrier": "JQ",
-        "number": 832,
-        "origin": "Melbourne",
-        "sta": "09:35",
-        "eta": "10:11",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ833",
-        "carrier": "JQ",
-        "number": 833,
-        "destination": "Melbourne  Check in close 10:15",
-        "std": "10:15",
-        "etd": "14:00",
-        "status": "Delayed",
-        "delayed": true
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
         "flight": "VA1117",
         "carrier": "VA",
         "number": 1117,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "14:44",
+        "eta": "14:43",
         "status": "On The Way",
-        "eta_slipped": {
-          "prev_eta": "15:00",
-          "slip_min": -16
-        },
         "delayed": false
       },
       "departure": {
