@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T12:30:43.809382+10:00",
+  "generated_at": "2026-10-06T12:46:44.915321+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Brisbane",
         "std": "12:15",
         "etd": "12:25",
-        "status": "Closed",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -32,7 +32,7 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:05",
-        "eta": "13:02",
+        "eta": "13:03",
         "status": "On The Way",
         "delayed": false
       },
@@ -89,7 +89,7 @@
         "destination": "Brisbane",
         "std": "15:40",
         "etd": "15:40",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
@@ -109,7 +109,7 @@
         "flight": "QN82",
         "carrier": "QN",
         "number": 82,
-        "destination": "Cairns",
+        "destination": "Cairns  Check in open from 16:15 until 17:15",
         "std": "17:45",
         "etd": "17:45",
         "status": null,
