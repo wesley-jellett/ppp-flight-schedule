@@ -1,29 +1,5 @@
 {
-  "generated_at": "2026-10-06T17:45:34.998143+10:00",
+  "generated_at": "2026-10-06T23:02:29.151994+10:00",
   "airport": "PPP",
-  "pairs": [
-    {
-      "arrival": {
-        "flight": "QN81",
-        "carrier": "QN",
-        "number": 81,
-        "origin": "Cairns",
-        "sta": "17:15",
-        "eta": "16:59",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN82",
-        "carrier": "QN",
-        "number": 82,
-        "destination": "Cairns  Check in open from 16:15 until 17:15",
-        "std": "17:45",
-        "etd": "17:45",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    }
-  ]
+  "pairs": []
 }
