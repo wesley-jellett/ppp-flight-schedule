@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T08:00:46.339952+10:00",
+  "generated_at": "2026-10-07T08:15:32.736443+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,8 +9,12 @@
         "number": 832,
         "origin": "Melbourne",
         "sta": "09:35",
-        "eta": "09:35",
+        "eta": "09:53",
         "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "09:35",
+          "slip_min": 18
+        },
         "delayed": false
       },
       "departure": {
@@ -19,8 +23,12 @@
         "number": 833,
         "destination": "Melbourne",
         "std": "10:15",
-        "etd": "10:15",
+        "etd": "10:30",
         "status": "Relax",
+        "etd_slipped": {
+          "prev_etd": "10:15",
+          "slip_min": 15
+        },
         "delayed": false
       },
       "at_risk": false
@@ -55,9 +63,9 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:05",
-        "eta": "13:05",
-        "status": null,
-        "delayed": false
+        "eta": "13:10",
+        "status": "Delayed 5min",
+        "delayed": true
       },
       "departure": {
         "flight": "JQ841",
