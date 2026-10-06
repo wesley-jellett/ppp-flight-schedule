@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T14:45:30.994620+10:00",
+  "generated_at": "2026-10-06T15:00:51.441320+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,8 +9,8 @@
         "number": 836,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "14:49",
-        "status": "On The Way",
+        "eta": "14:51",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -20,7 +20,7 @@
         "destination": "Brisbane",
         "std": "16:15",
         "etd": "16:15",
-        "status": "Relax",
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
@@ -32,8 +32,8 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "14:55",
-        "status": "On The Way",
+        "eta": "14:56",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -43,7 +43,7 @@
         "destination": "Brisbane",
         "std": "15:40",
         "etd": "15:40",
-        "status": "Relax",
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
