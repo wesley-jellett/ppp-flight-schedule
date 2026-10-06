@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T15:45:38.016794+10:00",
+  "generated_at": "2026-10-06T16:00:52.543418+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Brisbane",
         "std": "15:40",
         "etd": "15:40",
-        "status": "Final Call",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
