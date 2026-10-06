@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T09:15:36.672970+10:00",
+  "generated_at": "2026-10-07T09:30:44.930320+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,7 +9,7 @@
         "number": 832,
         "origin": "Melbourne",
         "sta": "09:35",
-        "eta": "09:37",
+        "eta": "09:36",
         "status": "On The Way",
         "delayed": false
       },
