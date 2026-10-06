@@ -65106,6 +65106,51 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "17:00",
+        "flights": [
+          {
+            "flight": "JQ836",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "15:00",
+            "estimated": "14:51",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ837",
+            "kind": "dep",
+            "route": "Brisbane",
+            "scheduled": "16:15",
+            "estimated": "16:15",
+            "status": "Departed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "QN81",
+            "kind": "arr",
+            "route": "Cairns",
+            "scheduled": "17:15",
+            "estimated": "16:59",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "QN82",
+            "kind": "dep",
+            "route": "Cairns  Check in open from 16:15 until 17:15",
+            "scheduled": "17:45",
+            "estimated": "17:45",
+            "status": "Boarding Soon",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }

@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-10-06T16:45:37.509005+10:00",
+  "generated_at": "2026-10-06T17:00:52.399835+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "VA1117",
-        "carrier": "VA",
-        "number": 1117,
-        "origin": "Brisbane",
-        "sta": "15:00",
-        "eta": "14:56",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "VA1118",
-        "carrier": "VA",
-        "number": 1118,
-        "destination": "Brisbane",
-        "std": "15:40",
-        "etd": "15:40",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ836",
@@ -55,8 +32,8 @@
         "number": 81,
         "origin": "Cairns",
         "sta": "17:15",
-        "eta": "17:03",
-        "status": "On The Way",
+        "eta": "16:59",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -66,7 +43,7 @@
         "destination": "Cairns  Check in open from 16:15 until 17:15",
         "std": "17:45",
         "etd": "17:45",
-        "status": "Check-in Open",
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
