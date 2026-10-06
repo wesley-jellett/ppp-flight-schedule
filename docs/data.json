@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-10-06T14:30:44.797336+10:00",
+  "generated_at": "2026-10-06T14:45:30.994620+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "13:05",
-        "eta": "13:03",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney",
-        "std": "13:45",
-        "etd": "13:45",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ836",
@@ -32,7 +9,7 @@
         "number": 836,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "14:51",
+        "eta": "14:49",
         "status": "On The Way",
         "delayed": false
       },
@@ -55,7 +32,7 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "14:56",
+        "eta": "14:55",
         "status": "On The Way",
         "delayed": false
       },
@@ -89,7 +66,7 @@
         "destination": "Cairns  Check in open from 16:15 until 17:15",
         "std": "17:45",
         "etd": "17:45",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
