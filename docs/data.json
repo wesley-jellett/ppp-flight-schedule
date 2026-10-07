@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T11:15:37.346575+10:00",
+  "generated_at": "2026-10-07T11:30:42.756531+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -27,20 +27,6 @@
     },
     {
       "arrival": {
-        "flight": "JQ965",
-        "carrier": "JQ",
-        "number": 965,
-        "origin": "Brisbane",
-        "sta": "11:35",
-        "eta": "12:05",
-        "status": "Delayed 30min",
-        "delayed": true
-      },
-      "departure": null,
-      "at_risk": false
-    },
-    {
-      "arrival": {
         "flight": "JQ834",
         "carrier": "JQ",
         "number": 834,
@@ -60,6 +46,20 @@
         "status": "Check-in Open",
         "delayed": false
       },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ965",
+        "carrier": "JQ",
+        "number": 965,
+        "origin": "Brisbane",
+        "sta": "11:35",
+        "eta": "12:13",
+        "status": "On The Way",
+        "delayed": false
+      },
+      "departure": null,
       "at_risk": false
     },
     {
