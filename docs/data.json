@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T10:00:51.526099+10:00",
+  "generated_at": "2026-10-07T10:15:35.449311+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Melbourne",
         "std": "10:15",
         "etd": "10:30",
-        "status": "Final Call",
+        "status": "Closed",
         "delayed": false
       },
       "at_risk": false
@@ -46,6 +46,20 @@
         "status": "Relax",
         "delayed": false
       },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ965",
+        "carrier": "JQ",
+        "number": 965,
+        "origin": "Brisbane",
+        "sta": "11:35",
+        "eta": "12:05",
+        "status": "Delayed 30min",
+        "delayed": true
+      },
+      "departure": null,
       "at_risk": false
     },
     {
