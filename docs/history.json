@@ -68185,6 +68185,51 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "15:45",
+        "flights": [
+          {
+            "flight": "VA1117",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "15:30",
+            "estimated": "15:32",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1118",
+            "kind": "dep",
+            "route": "Brisbane",
+            "scheduled": "16:10",
+            "estimated": "16:14",
+            "status": "Relax",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ838",
+            "kind": "arr",
+            "route": "Sydney",
+            "scheduled": "17:15",
+            "estimated": "17:53",
+            "status": "On The Way",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ839",
+            "kind": "dep",
+            "route": "Sydney",
+            "scheduled": "17:50",
+            "estimated": "18:10",
+            "status": "Relax",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
