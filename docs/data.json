@@ -1,28 +1,19 @@
 {
-  "generated_at": "2026-10-07T11:30:42.756531+10:00",
+  "generated_at": "2026-10-07T11:45:34.697940+10:00",
   "airport": "PPP",
   "pairs": [
     {
       "arrival": {
-        "flight": "JQ832",
+        "flight": "JQ965",
         "carrier": "JQ",
-        "number": 832,
-        "origin": "Melbourne",
-        "sta": "09:35",
-        "eta": "09:34",
-        "status": "Landed",
+        "number": 965,
+        "origin": "Brisbane",
+        "sta": "11:35",
+        "eta": "12:13",
+        "status": "On The Way",
         "delayed": false
       },
-      "departure": {
-        "flight": "JQ833",
-        "carrier": "JQ",
-        "number": 833,
-        "destination": "Melbourne",
-        "std": "10:15",
-        "etd": "10:30",
-        "status": "Departed",
-        "delayed": false
-      },
+      "departure": null,
       "at_risk": false
     },
     {
@@ -32,7 +23,7 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "11:35",
-        "eta": "12:12",
+        "eta": "12:15",
         "status": "On The Way",
         "delayed": false
       },
@@ -50,27 +41,17 @@
     },
     {
       "arrival": {
-        "flight": "JQ965",
-        "carrier": "JQ",
-        "number": 965,
-        "origin": "Brisbane",
-        "sta": "11:35",
-        "eta": "12:13",
-        "status": "On The Way",
-        "delayed": false
-      },
-      "departure": null,
-      "at_risk": false
-    },
-    {
-      "arrival": {
         "flight": "JQ840",
         "carrier": "JQ",
         "number": 840,
         "origin": "Sydney",
         "sta": "13:05",
-        "eta": "13:21",
+        "eta": "13:05",
         "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "13:21",
+          "slip_min": -16
+        },
         "delayed": false
       },
       "departure": {
@@ -80,10 +61,10 @@
         "destination": "Sydney",
         "std": "13:45",
         "etd": "13:45",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
-      "at_risk": true
+      "at_risk": false
     },
     {
       "arrival": {
