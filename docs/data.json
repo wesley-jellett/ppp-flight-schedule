@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T09:30:43.044328+10:00",
+  "generated_at": "2026-10-09T09:45:35.320424+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Melbourne",
         "std": "10:15",
         "etd": "10:15",
-        "status": "Boarding Soon",
+        "status": "Final Call",
         "delayed": false
       },
       "at_risk": false
