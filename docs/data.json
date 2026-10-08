@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T11:15:41.193454+10:00",
+  "generated_at": "2026-10-08T11:30:40.358391+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -33,7 +33,7 @@
         "origin": "Sydney",
         "sta": "13:05",
         "eta": "13:05",
-        "status": null,
+        "status": "On The Way",
         "delayed": false
       },
       "departure": {
