@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T13:30:44.838275+10:00",
+  "generated_at": "2026-10-09T13:45:35.362569+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -32,8 +32,8 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "15:00",
-        "status": null,
+        "eta": "14:47",
+        "status": "On The Way",
         "delayed": false
       },
       "departure": {
