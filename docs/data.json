@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-10-09T12:30:45.237932+10:00",
+  "generated_at": "2026-10-09T12:45:32.709153+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "QN85",
-        "carrier": "QN",
-        "number": 85,
-        "origin": "Cairns",
-        "sta": "11:20",
-        "eta": "11:23",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN86",
-        "carrier": "QN",
-        "number": 86,
-        "destination": "Cairns  Check in close 11:20",
-        "std": "11:50",
-        "etd": "11:50",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ834",
@@ -55,7 +32,7 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:05",
-        "eta": "13:06",
+        "eta": "13:05",
         "status": "On The Way",
         "delayed": false
       },
@@ -89,7 +66,7 @@
         "destination": "Brisbane  Check in open 14:00 until 15:10",
         "std": "15:40",
         "etd": "15:40",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
