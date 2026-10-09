@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T13:45:35.362569+10:00",
+  "generated_at": "2026-10-09T14:00:50.776714+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Sydney  Check in open 11:45 until 13:05",
         "std": "13:45",
         "etd": "14:00",
-        "status": "Final Call",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -32,7 +32,7 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "14:47",
+        "eta": "15:00",
         "status": "On The Way",
         "delayed": false
       },
