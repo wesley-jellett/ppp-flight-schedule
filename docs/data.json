@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T11:15:37.691981+10:00",
+  "generated_at": "2026-10-09T11:30:50.233082+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -32,8 +32,8 @@
         "number": 85,
         "origin": "Cairns",
         "sta": "11:20",
-        "eta": "11:30",
-        "status": "On The Way",
+        "eta": "11:23",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -55,9 +55,9 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:05",
-        "eta": "13:10",
-        "status": "Delayed 5min",
-        "delayed": true
+        "eta": "13:05",
+        "status": "On The Way",
+        "delayed": false
       },
       "departure": {
         "flight": "JQ841",
