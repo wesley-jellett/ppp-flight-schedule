@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T14:00:50.776714+10:00",
+  "generated_at": "2026-10-09T14:15:35.821520+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -32,8 +32,12 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "15:00",
+        "eta": "14:44",
         "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "15:00",
+          "slip_min": -16
+        },
         "delayed": false
       },
       "departure": {
@@ -55,9 +59,13 @@
         "number": 838,
         "origin": "Sydney",
         "sta": "17:15",
-        "eta": "17:15",
-        "status": null,
-        "delayed": false
+        "eta": "17:40",
+        "status": "Delayed 25min",
+        "eta_slipped": {
+          "prev_eta": "17:15",
+          "slip_min": 25
+        },
+        "delayed": true
       },
       "departure": {
         "flight": "JQ839",
@@ -69,7 +77,7 @@
         "status": null,
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     }
   ]
 }

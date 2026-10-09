@@ -74098,6 +74098,71 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "14:15",
+        "flights": [
+          {
+            "flight": "JQ840",
+            "kind": "arr",
+            "route": "Sydney",
+            "scheduled": "13:05",
+            "estimated": "13:05",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ841",
+            "kind": "dep",
+            "route": "Sydney  Check in open 11:45 until 13:05",
+            "scheduled": "13:45",
+            "estimated": "14:00",
+            "status": "Departed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1117",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "15:00",
+            "estimated": "14:44",
+            "status": "On The Way",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1118",
+            "kind": "dep",
+            "route": "Brisbane  Check in open 14:00 until 15:10",
+            "scheduled": "15:40",
+            "estimated": "15:40",
+            "status": "Relax",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ838",
+            "kind": "arr",
+            "route": "Sydney",
+            "scheduled": "17:15",
+            "estimated": "17:40",
+            "status": "Delayed 25min",
+            "delayed": true,
+            "at_risk": true
+          },
+          {
+            "flight": "JQ839",
+            "kind": "dep",
+            "route": "Sydney  Check in open 15:50 until 17:10",
+            "scheduled": "17:50",
+            "estimated": "17:50",
+            "status": null,
+            "delayed": false,
+            "at_risk": true
+          }
+        ]
       }
     ]
   }
