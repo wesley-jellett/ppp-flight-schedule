@@ -74798,5 +74798,145 @@
         "flights": []
       }
     ]
+  },
+  "2026-10-11": {
+    "date": "2026-10-11",
+    "snapshots": [
+      {
+        "at": "10:04",
+        "flights": [
+          {
+            "flight": "JQ833",
+            "kind": "dep",
+            "route": "Melbourne  Check in close 9:35",
+            "scheduled": "10:15",
+            "estimated": "10:15",
+            "status": "Final Call",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "QN85",
+            "kind": "arr",
+            "route": "Cairns",
+            "scheduled": "11:20",
+            "estimated": "11:13",
+            "status": "On The Way",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "QN86",
+            "kind": "dep",
+            "route": "Cairns  Check in open 10:20 until 11:20",
+            "scheduled": "11:50",
+            "estimated": "11:50",
+            "status": "Relax",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ834",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "11:35",
+            "estimated": "11:30",
+            "status": "On The Way",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ835",
+            "kind": "dep",
+            "route": "Brisbane  Check in open 10:15 until 11:35",
+            "scheduled": "12:15",
+            "estimated": "12:15",
+            "status": "Relax",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ840",
+            "kind": "arr",
+            "route": "Sydney",
+            "scheduled": "13:05",
+            "estimated": "13:05",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ841",
+            "kind": "dep",
+            "route": "Sydney  Check in open 11:45 until 13:05",
+            "scheduled": "13:45",
+            "estimated": "13:45",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ836",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "15:00",
+            "estimated": "15:00",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ837",
+            "kind": "dep",
+            "route": "Brisbane  Check in open 13:45 until 15:05",
+            "scheduled": "15:45",
+            "estimated": "15:45",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1117",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "15:00",
+            "estimated": "15:00",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1118",
+            "kind": "dep",
+            "route": "Brisbane  Check in open 14:00 until 15:10",
+            "scheduled": "15:40",
+            "estimated": "15:40",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ838",
+            "kind": "arr",
+            "route": "Sydney",
+            "scheduled": "17:15",
+            "estimated": "17:15",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ839",
+            "kind": "dep",
+            "route": "Sydney  Check in open 15:50 until 17:10",
+            "scheduled": "17:50",
+            "estimated": "17:50",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
+      }
+    ]
   }
 }
