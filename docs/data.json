@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T09:30:40.283090+10:00",
+  "generated_at": "2026-10-12T09:45:35.012255+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -10,7 +10,7 @@
         "origin": "Melbourne",
         "sta": "09:35",
         "eta": "09:30",
-        "status": "Early 5min",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -78,9 +78,13 @@
         "number": 81,
         "origin": "Cairns",
         "sta": "13:50",
-        "eta": "13:50",
-        "status": null,
-        "delayed": false
+        "eta": "14:34",
+        "status": "Delayed 44min",
+        "eta_slipped": {
+          "prev_eta": "13:50",
+          "slip_min": 44
+        },
+        "delayed": true
       },
       "departure": {
         "flight": "QN82",
@@ -92,7 +96,7 @@
         "status": null,
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     },
     {
       "arrival": {
