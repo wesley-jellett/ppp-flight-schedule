@@ -78095,6 +78095,71 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "15:15",
+        "flights": [
+          {
+            "flight": "VA1117",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "15:00",
+            "estimated": "14:50",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1118",
+            "kind": "dep",
+            "route": "Brisbane  Check in open 14:00 until 15:10",
+            "scheduled": "15:40",
+            "estimated": "15:40",
+            "status": "Final Call",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "QN81",
+            "kind": "arr",
+            "route": "Cairns",
+            "scheduled": "13:50",
+            "estimated": "14:09",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "QN82",
+            "kind": "dep",
+            "route": "Cairns  Check in open 12:50 until 13:50",
+            "scheduled": "14:20",
+            "estimated": "14:50",
+            "status": "Departed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ838",
+            "kind": "arr",
+            "route": "Sydney",
+            "scheduled": "17:15",
+            "estimated": "17:30",
+            "status": "Delayed 15min",
+            "delayed": true,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ839",
+            "kind": "dep",
+            "route": "Sydney  Check in open 15:50 until 17:10",
+            "scheduled": "17:50",
+            "estimated": "18:05",
+            "status": "Relax",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
