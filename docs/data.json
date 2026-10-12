@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T14:15:34.942994+10:00",
+  "generated_at": "2026-10-12T14:30:44.848194+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -43,7 +43,7 @@
         "destination": "Cairns  Check in open 12:50 until 13:50",
         "std": "14:20",
         "etd": "14:50",
-        "status": "Boarding Soon",
+        "status": "Final Call",
         "delayed": false
       },
       "at_risk": false
@@ -55,7 +55,7 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "14:48",
+        "eta": "14:50",
         "status": "On The Way",
         "delayed": false
       },
