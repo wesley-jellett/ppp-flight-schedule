@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T15:00:54.730470+10:00",
+  "generated_at": "2026-10-12T15:09:49.949997+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Brisbane  Check in open 14:00 until 15:10",
         "std": "15:40",
         "etd": "15:40",
-        "status": "Boarding Soon",
+        "status": "Boarding",
         "delayed": false
       },
       "at_risk": false
@@ -55,9 +55,13 @@
         "number": 838,
         "origin": "Sydney",
         "sta": "17:15",
-        "eta": "17:15",
-        "status": null,
-        "delayed": false
+        "eta": "17:30",
+        "status": "Delayed 15min",
+        "eta_slipped": {
+          "prev_eta": "17:15",
+          "slip_min": 15
+        },
+        "delayed": true
       },
       "departure": {
         "flight": "JQ839",
@@ -65,8 +69,12 @@
         "number": 839,
         "destination": "Sydney  Check in open 15:50 until 17:10",
         "std": "17:50",
-        "etd": "17:50",
+        "etd": "18:05",
         "status": "Relax",
+        "etd_slipped": {
+          "prev_etd": "17:50",
+          "slip_min": 15
+        },
         "delayed": false
       },
       "at_risk": false
