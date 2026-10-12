@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-10-12T13:00:56.250194+10:00",
+  "generated_at": "2026-10-12T13:15:37.905215+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "11:35",
-        "eta": "11:24",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane  Check in close 11:35",
-        "std": "12:15",
-        "etd": "12:25",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ840",
@@ -43,7 +20,7 @@
         "destination": "Sydney  Check in close 13:05",
         "std": "13:45",
         "etd": "13:45",
-        "status": "Boarding Soon",
+        "status": "Final Call",
         "delayed": false
       },
       "at_risk": false
@@ -55,9 +32,13 @@
         "number": 81,
         "origin": "Cairns",
         "sta": "13:50",
-        "eta": "14:34",
-        "status": "Delayed 44min",
-        "delayed": true
+        "eta": "14:15",
+        "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "14:34",
+          "slip_min": -19
+        },
+        "delayed": false
       },
       "departure": {
         "flight": "QN82",
@@ -78,9 +59,9 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "15:00",
-        "status": null,
-        "delayed": false
+        "eta": "15:10",
+        "status": "Delayed 10min",
+        "delayed": true
       },
       "departure": {
         "flight": "VA1118",
