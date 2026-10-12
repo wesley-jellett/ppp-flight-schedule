@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-10-12T14:45:35.380358+10:00",
+  "generated_at": "2026-10-12T15:00:54.730470+10:00",
   "airport": "PPP",
   "pairs": [
+    {
+      "arrival": {
+        "flight": "VA1117",
+        "carrier": "VA",
+        "number": 1117,
+        "origin": "Brisbane",
+        "sta": "15:00",
+        "eta": "14:50",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "VA1118",
+        "carrier": "VA",
+        "number": 1118,
+        "destination": "Brisbane  Check in open 14:00 until 15:10",
+        "std": "15:40",
+        "etd": "15:40",
+        "status": "Boarding Soon",
+        "delayed": false
+      },
+      "at_risk": false
+    },
     {
       "arrival": {
         "flight": "QN81",
@@ -27,29 +50,6 @@
     },
     {
       "arrival": {
-        "flight": "VA1117",
-        "carrier": "VA",
-        "number": 1117,
-        "origin": "Brisbane",
-        "sta": "15:00",
-        "eta": "14:53",
-        "status": "On The Way",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "VA1118",
-        "carrier": "VA",
-        "number": 1118,
-        "destination": "Brisbane  Check in open 14:00 until 15:10",
-        "std": "15:40",
-        "etd": "15:40",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
         "flight": "JQ838",
         "carrier": "JQ",
         "number": 838,
@@ -66,7 +66,7 @@
         "destination": "Sydney  Check in open 15:50 until 17:10",
         "std": "17:50",
         "etd": "17:50",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
