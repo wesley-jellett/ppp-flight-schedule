@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T11:30:45.933819+10:00",
+  "generated_at": "2026-10-13T11:45:37.429322+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Brisbane  Check in close 11:35",
         "std": "12:15",
         "etd": "12:15",
-        "status": "Boarding Soon",
+        "status": "Final Call",
         "delayed": false
       },
       "at_risk": false
@@ -32,9 +32,9 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:05",
-        "eta": "13:18",
-        "status": "Delayed 13min",
-        "delayed": true
+        "eta": "13:05",
+        "status": "On The Way",
+        "delayed": false
       },
       "departure": {
         "flight": "JQ841",
