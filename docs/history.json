@@ -81184,6 +81184,91 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "14:45",
+        "flights": [
+          {
+            "flight": "JQ840",
+            "kind": "arr",
+            "route": "Sydney",
+            "scheduled": "13:05",
+            "estimated": "13:11",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ841",
+            "kind": "dep",
+            "route": "Sydney  Check in open 11:45 until 13:05",
+            "scheduled": "13:45",
+            "estimated": "13:55",
+            "status": "Departed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "QN81",
+            "kind": "arr",
+            "route": "Cairns",
+            "scheduled": "13:50",
+            "estimated": "14:39",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "QN82",
+            "kind": "dep",
+            "route": "Cairns  Check in open 13:35 until 14:35",
+            "scheduled": "14:20",
+            "estimated": "15:05",
+            "status": "Check-in Open",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ836",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "15:00",
+            "estimated": "14:46",
+            "status": "On The Way",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ837",
+            "kind": "dep",
+            "route": "Brisbane  Check in close 15:35",
+            "scheduled": "16:15",
+            "estimated": "16:15",
+            "status": "Check-in Open",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1117",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "15:00",
+            "estimated": "15:13",
+            "status": "On The Way",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1118",
+            "kind": "dep",
+            "route": "Brisbane  Check in close 15:10",
+            "scheduled": "15:40",
+            "estimated": "15:54",
+            "status": "Check-in Open",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }

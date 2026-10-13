@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T14:30:43.871428+10:00",
+  "generated_at": "2026-10-13T14:45:37.756396+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -27,12 +27,35 @@
     },
     {
       "arrival": {
+        "flight": "QN81",
+        "carrier": "QN",
+        "number": 81,
+        "origin": "Cairns",
+        "sta": "13:50",
+        "eta": "14:39",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "QN82",
+        "carrier": "QN",
+        "number": 82,
+        "destination": "Cairns  Check in open 13:35 until 14:35",
+        "std": "14:20",
+        "etd": "15:05",
+        "status": "Check-in Open",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
         "flight": "JQ836",
         "carrier": "JQ",
         "number": 836,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "14:45",
+        "eta": "14:46",
         "status": "On The Way",
         "delayed": false
       },
@@ -50,35 +73,12 @@
     },
     {
       "arrival": {
-        "flight": "QN81",
-        "carrier": "QN",
-        "number": 81,
-        "origin": "Cairns",
-        "sta": "13:50",
-        "eta": "14:46",
-        "status": "On The Way",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN82",
-        "carrier": "QN",
-        "number": 82,
-        "destination": "Cairns  Check in open 13:35 until 14:35",
-        "std": "14:20",
-        "etd": "15:05",
-        "status": "Check-in Open",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
         "flight": "VA1117",
         "carrier": "VA",
         "number": 1117,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "15:12",
+        "eta": "15:13",
         "status": "On The Way",
         "delayed": false
       },
@@ -88,7 +88,7 @@
         "number": 1118,
         "destination": "Brisbane  Check in close 15:10",
         "std": "15:40",
-        "etd": "15:40",
+        "etd": "15:54",
         "status": "Check-in Open",
         "delayed": false
       },
