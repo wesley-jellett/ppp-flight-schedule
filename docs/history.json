@@ -86017,6 +86017,31 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "16:15",
+        "flights": [
+          {
+            "flight": "VA1117",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "15:00",
+            "estimated": "15:08",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1118",
+            "kind": "dep",
+            "route": "Brisbane",
+            "scheduled": "15:40",
+            "estimated": "15:45",
+            "status": "Departed",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
