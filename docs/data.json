@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T14:00:53.904927+10:00",
+  "generated_at": "2026-10-15T14:15:36.261611+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Sydney",
         "std": "13:45",
         "etd": "13:55",
-        "status": "Final Call",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -32,7 +32,7 @@
         "number": 836,
         "origin": "Brisbane",
         "sta": "14:45",
-        "eta": "14:41",
+        "eta": "14:42",
         "status": "On The Way",
         "delayed": false
       },
@@ -55,9 +55,9 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "15:10",
-        "status": "Delayed 10min",
-        "delayed": true
+        "eta": "15:08",
+        "status": "On The Way",
+        "delayed": false
       },
       "departure": {
         "flight": "VA1118",
