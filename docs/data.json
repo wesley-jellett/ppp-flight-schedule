@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T08:45:37.636129+10:00",
+  "generated_at": "2026-10-16T09:00:56.898477+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,7 +9,7 @@
         "number": 832,
         "origin": "Melbourne",
         "sta": "09:35",
-        "eta": "09:15",
+        "eta": "09:18",
         "status": "On The Way",
         "delayed": false
       },
@@ -20,7 +20,7 @@
         "destination": "Melbourne",
         "std": "10:15",
         "etd": "10:15",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
@@ -43,7 +43,7 @@
         "destination": "Cairns",
         "std": "11:50",
         "etd": "11:50",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
