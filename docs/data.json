@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T13:15:37.103931+10:00",
+  "generated_at": "2026-10-16T13:30:43.846202+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Sydney",
         "std": "13:45",
         "etd": "13:45",
-        "status": "Boarding Soon",
+        "status": "Boarding",
         "delayed": false
       },
       "at_risk": false
@@ -67,10 +67,6 @@
         "std": "17:50",
         "etd": "18:10",
         "status": "Delayed 20min",
-        "etd_slipped": {
-          "prev_etd": "17:50",
-          "slip_min": 20
-        },
         "delayed": true
       },
       "at_risk": false
