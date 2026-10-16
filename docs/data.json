@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T14:30:48.632694+10:00",
+  "generated_at": "2026-10-16T14:45:36.938308+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,8 +9,12 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "15:42",
+        "eta": "15:22",
         "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "15:42",
+          "slip_min": -20
+        },
         "delayed": false
       },
       "departure": {
@@ -19,7 +23,7 @@
         "number": 1118,
         "destination": "Brisbane",
         "std": "15:40",
-        "etd": "15:56",
+        "etd": "16:07",
         "status": "Relax",
         "delayed": false
       },
