@@ -93014,6 +93014,81 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "15:00",
+        "flights": [
+          {
+            "flight": "QN81",
+            "kind": "arr",
+            "route": "Cairns",
+            "scheduled": "13:50",
+            "estimated": "14:17",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": true
+          },
+          {
+            "flight": "QN82",
+            "kind": "dep",
+            "route": "Cairns  Check in open 12:50 until 13:50",
+            "scheduled": "14:20",
+            "estimated": "14:20",
+            "status": "Departed",
+            "delayed": false,
+            "at_risk": true
+          },
+          {
+            "flight": "VA1117",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "15:00",
+            "estimated": "15:07",
+            "status": "On The Way",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1118",
+            "kind": "dep",
+            "route": "Brisbane  Check in open 14:00 until 15:10",
+            "scheduled": "15:40",
+            "estimated": "15:40",
+            "status": "Relax",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ834",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "11:35",
+            "estimated": "15:11",
+            "status": "On The Way",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ838",
+            "kind": "arr",
+            "route": "Sydney",
+            "scheduled": "17:15",
+            "estimated": "17:15",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ839",
+            "kind": "dep",
+            "route": "Sydney",
+            "scheduled": "17:50",
+            "estimated": "17:50",
+            "status": "Relax",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
