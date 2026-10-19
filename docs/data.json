@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T13:45:38.019252+10:00",
+  "generated_at": "2026-10-19T13:56:23.002803+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -32,12 +32,8 @@
         "number": 81,
         "origin": "Cairns",
         "sta": "13:50",
-        "eta": "14:30",
+        "eta": "14:23",
         "status": "On The Way",
-        "eta_slipped": {
-          "prev_eta": "14:11",
-          "slip_min": 19
-        },
         "delayed": false
       },
       "departure": {
@@ -54,21 +50,21 @@
     },
     {
       "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
+        "flight": "VA1117",
+        "carrier": "VA",
+        "number": 1117,
         "origin": "Brisbane",
-        "sta": "11:35",
-        "eta": "15:05",
-        "status": "Delayed 3h 30min",
-        "delayed": true
+        "sta": "15:00",
+        "eta": "15:00",
+        "status": "On The Way",
+        "delayed": false
       },
       "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane  CHECK IN OPENS 10:15am",
-        "std": "12:15",
+        "flight": "VA1118",
+        "carrier": "VA",
+        "number": 1118,
+        "destination": "Brisbane  Check in open 14:00 until 15:10",
+        "std": "15:40",
         "etd": "15:40",
         "status": "Relax",
         "delayed": false
@@ -77,21 +73,25 @@
     },
     {
       "arrival": {
-        "flight": "VA1117",
-        "carrier": "VA",
-        "number": 1117,
+        "flight": "JQ834",
+        "carrier": "JQ",
+        "number": 834,
         "origin": "Brisbane",
-        "sta": "15:00",
-        "eta": "15:08",
-        "status": "Delayed 8min",
+        "sta": "11:35",
+        "eta": "15:24",
+        "status": "Delayed 3h 49min",
+        "eta_slipped": {
+          "prev_eta": "15:05",
+          "slip_min": 19
+        },
         "delayed": true
       },
       "departure": {
-        "flight": "VA1118",
-        "carrier": "VA",
-        "number": 1118,
-        "destination": "Brisbane  Check in open 14:00 until 15:10",
-        "std": "15:40",
+        "flight": "JQ835",
+        "carrier": "JQ",
+        "number": 835,
+        "destination": "Brisbane  CHECK IN OPENS 10:15am",
+        "std": "12:15",
         "etd": "15:40",
         "status": "Relax",
         "delayed": false
@@ -113,7 +113,7 @@
         "flight": "JQ839",
         "carrier": "JQ",
         "number": 839,
-        "destination": "Sydney  Check in open 15:50 until 17:10",
+        "destination": "Sydney",
         "std": "17:50",
         "etd": "17:50",
         "status": null,
