@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T13:15:36.467578+10:00",
+  "generated_at": "2026-10-19T13:30:41.781923+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -32,8 +32,12 @@
         "number": 81,
         "origin": "Cairns",
         "sta": "13:50",
-        "eta": "13:50",
+        "eta": "14:11",
         "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "13:50",
+          "slip_min": 21
+        },
         "delayed": false
       },
       "departure": {
@@ -46,7 +50,7 @@
         "status": "Relax",
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     },
     {
       "arrival": {
@@ -55,8 +59,12 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "11:35",
-        "eta": "14:45",
-        "status": "Delayed 3h 10min",
+        "eta": "15:05",
+        "status": "Delayed 3h 30min",
+        "eta_slipped": {
+          "prev_eta": "14:45",
+          "slip_min": 20
+        },
         "delayed": true
       },
       "departure": {
@@ -65,8 +73,12 @@
         "number": 835,
         "destination": "Brisbane  CHECK IN OPENS 10:15am",
         "std": "12:15",
-        "etd": "15:20",
+        "etd": "15:40",
         "status": "Relax",
+        "etd_slipped": {
+          "prev_etd": "15:20",
+          "slip_min": 20
+        },
         "delayed": false
       },
       "at_risk": false
@@ -78,9 +90,9 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "15:00",
-        "status": null,
-        "delayed": false
+        "eta": "15:08",
+        "status": "Delayed 8min",
+        "delayed": true
       },
       "departure": {
         "flight": "VA1118",
