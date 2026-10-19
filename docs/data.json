@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T08:30:44.883902+10:00",
+  "generated_at": "2026-10-20T08:45:38.186477+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,7 +9,7 @@
         "number": 832,
         "origin": "Melbourne",
         "sta": "09:35",
-        "eta": "09:38",
+        "eta": "09:25",
         "status": "On The Way",
         "delayed": false
       },
@@ -132,7 +132,7 @@
         "flight": "JQ837",
         "carrier": "JQ",
         "number": 837,
-        "destination": "Brisbane",
+        "destination": "Brisbane  Check in open 14:15 until 15:35",
         "std": "16:15",
         "etd": "16:15",
         "status": null,
