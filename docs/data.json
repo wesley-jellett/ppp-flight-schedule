@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T10:00:57.347770+10:00",
+  "generated_at": "2026-10-19T10:15:31.946321+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,23 +20,9 @@
         "destination": "Melbourne",
         "std": "10:15",
         "etd": "10:15",
-        "status": "Boarding Closed",
+        "status": "Departed",
         "delayed": false
       },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "JQ901",
-        "carrier": "JQ",
-        "number": 901,
-        "origin": "Melbourne",
-        "sta": "09:35",
-        "eta": "09:24",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": null,
       "at_risk": false
     },
     {
