@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T14:09:12.499262+10:00",
+  "generated_at": "2026-10-20T14:15:40.507075+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -32,7 +32,7 @@
         "number": 81,
         "origin": "Cairns",
         "sta": "14:35",
-        "eta": "14:35",
+        "eta": "14:32",
         "status": "On The Way",
         "delayed": false
       },
