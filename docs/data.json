@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-10-20T16:00:54.756792+10:00",
+  "generated_at": "2026-10-20T16:15:38.410798+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "QN81",
-        "carrier": "QN",
-        "number": 81,
-        "origin": "Cairns",
-        "sta": "14:35",
-        "eta": "14:28",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN82",
-        "carrier": "QN",
-        "number": 82,
-        "destination": "Cairns  Check in open 13:45 until 14:45",
-        "std": "15:05",
-        "etd": "15:05",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "VA1117",
@@ -42,8 +19,8 @@
         "number": 1118,
         "destination": "Brisbane  Check in open 14:00 until 15:10",
         "std": "15:40",
-        "etd": "15:47",
-        "status": "Final Call",
+        "etd": "16:00",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -66,7 +43,7 @@
         "destination": "Brisbane  Check in open 14:15 until 15:35",
         "std": "16:15",
         "etd": "16:15",
-        "status": "Final Call",
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
