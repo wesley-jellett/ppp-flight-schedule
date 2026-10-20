@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T12:01:02.043613+10:00",
+  "generated_at": "2026-10-20T12:15:37.646672+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Brisbane  Check in open 10:15 until 11:35",
         "std": "12:15",
         "etd": "12:15",
-        "status": "Final Call",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -66,7 +66,7 @@
         "destination": "Cairns  Check in open 13:45 until 14:45",
         "std": "15:05",
         "etd": "15:05",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
