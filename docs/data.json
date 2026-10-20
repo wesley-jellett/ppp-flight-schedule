@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T09:35:44.869601+10:00",
+  "generated_at": "2026-10-21T09:45:32.418852+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -17,10 +17,10 @@
         "flight": "JQ833",
         "carrier": "JQ",
         "number": 833,
-        "destination": "Melbourne  CHECK IN CLOSES 9:35am",
+        "destination": "Melbourne  CHECK IN CLOSED",
         "std": "10:15",
         "etd": "10:15",
-        "status": "Boarding Soon",
+        "status": "Boarding",
         "delayed": false
       },
       "at_risk": false
