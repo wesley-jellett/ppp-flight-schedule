@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T13:30:49.865001+10:00",
+  "generated_at": "2026-10-20T13:45:32.572393+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Sydney  Check in open 11:45 until 13:05",
         "std": "13:45",
         "etd": "13:45",
-        "status": "Relax",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -33,7 +33,7 @@
         "origin": "Cairns",
         "sta": "14:35",
         "eta": "14:35",
-        "status": null,
+        "status": "On The Way",
         "delayed": false
       },
       "departure": {
@@ -50,36 +50,13 @@
     },
     {
       "arrival": {
-        "flight": "VA1117",
-        "carrier": "VA",
-        "number": 1117,
-        "origin": "Brisbane",
-        "sta": "15:00",
-        "eta": "15:00",
-        "status": null,
-        "delayed": false
-      },
-      "departure": {
-        "flight": "VA1118",
-        "carrier": "VA",
-        "number": 1118,
-        "destination": "Brisbane  Check in open 14:00 until 15:10",
-        "std": "15:40",
-        "etd": "15:40",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
         "flight": "JQ836",
         "carrier": "JQ",
         "number": 836,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "15:00",
-        "status": null,
+        "eta": "15:03",
+        "status": "On The Way",
         "delayed": false
       },
       "departure": {
@@ -93,6 +70,33 @@
         "delayed": false
       },
       "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "VA1117",
+        "carrier": "VA",
+        "number": 1117,
+        "origin": "Brisbane",
+        "sta": "15:00",
+        "eta": "15:15",
+        "status": "Delayed 15min",
+        "eta_slipped": {
+          "prev_eta": "15:00",
+          "slip_min": 15
+        },
+        "delayed": true
+      },
+      "departure": {
+        "flight": "VA1118",
+        "carrier": "VA",
+        "number": 1118,
+        "destination": "Brisbane  Check in open 14:00 until 15:10",
+        "std": "15:40",
+        "etd": "15:40",
+        "status": "Relax",
+        "delayed": false
+      },
+      "at_risk": true
     }
   ]
 }
