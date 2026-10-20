@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T15:45:41.305105+10:00",
+  "generated_at": "2026-10-20T16:00:54.756792+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -27,29 +27,6 @@
     },
     {
       "arrival": {
-        "flight": "JQ836",
-        "carrier": "JQ",
-        "number": 836,
-        "origin": "Brisbane",
-        "sta": "15:00",
-        "eta": "14:52",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ837",
-        "carrier": "JQ",
-        "number": 837,
-        "destination": "Brisbane  Check in open 14:15 until 15:35",
-        "std": "16:15",
-        "etd": "16:15",
-        "status": "Final Call",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
         "flight": "VA1117",
         "carrier": "VA",
         "number": 1117,
@@ -66,6 +43,29 @@
         "destination": "Brisbane  Check in open 14:00 until 15:10",
         "std": "15:40",
         "etd": "15:47",
+        "status": "Final Call",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ836",
+        "carrier": "JQ",
+        "number": 836,
+        "origin": "Brisbane",
+        "sta": "15:00",
+        "eta": "14:52",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ837",
+        "carrier": "JQ",
+        "number": 837,
+        "destination": "Brisbane  Check in open 14:15 until 15:35",
+        "std": "16:15",
+        "etd": "16:15",
         "status": "Final Call",
         "delayed": false
       },
