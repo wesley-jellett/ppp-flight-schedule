@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T09:00:57.426830+10:00",
+  "generated_at": "2026-10-22T09:15:39.867563+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,8 +9,8 @@
         "number": 832,
         "origin": "Melbourne",
         "sta": "09:35",
-        "eta": "09:12",
-        "status": "On The Way",
+        "eta": "09:08",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -20,7 +20,7 @@
         "destination": "Melbourne",
         "std": "10:15",
         "etd": "10:15",
-        "status": "Check-in Open",
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
@@ -32,8 +32,12 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "11:35",
-        "eta": "11:45",
-        "status": "Delayed 10min",
+        "eta": "12:00",
+        "status": "Delayed 25min",
+        "eta_slipped": {
+          "prev_eta": "11:45",
+          "slip_min": 15
+        },
         "delayed": true
       },
       "departure": {
@@ -42,9 +46,13 @@
         "number": 835,
         "destination": "Brisbane",
         "std": "12:15",
-        "etd": "12:15",
-        "status": null,
-        "delayed": false
+        "etd": "12:35",
+        "status": "Delayed 20min",
+        "etd_slipped": {
+          "prev_etd": "12:15",
+          "slip_min": 20
+        },
+        "delayed": true
       },
       "at_risk": false
     },
