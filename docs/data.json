@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T09:15:39.867563+10:00",
+  "generated_at": "2026-10-22T09:30:50.274363+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Melbourne",
         "std": "10:15",
         "etd": "10:15",
-        "status": "Boarding Soon",
+        "status": "Boarding",
         "delayed": false
       },
       "at_risk": false
@@ -34,10 +34,6 @@
         "sta": "11:35",
         "eta": "12:00",
         "status": "Delayed 25min",
-        "eta_slipped": {
-          "prev_eta": "11:45",
-          "slip_min": 15
-        },
         "delayed": true
       },
       "departure": {
@@ -48,10 +44,6 @@
         "std": "12:15",
         "etd": "12:35",
         "status": "Delayed 20min",
-        "etd_slipped": {
-          "prev_etd": "12:15",
-          "slip_min": 20
-        },
         "delayed": true
       },
       "at_risk": false
