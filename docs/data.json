@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T11:45:38.057542+10:00",
+  "generated_at": "2026-10-21T12:00:48.100796+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -17,10 +17,10 @@
         "flight": "JQ835",
         "carrier": "JQ",
         "number": 835,
-        "destination": "Brisbane  CHECK IN CLOSES 11:35am",
+        "destination": "Brisbane",
         "std": "12:15",
         "etd": "12:15",
-        "status": "Boarding",
+        "status": "Final Call",
         "delayed": false
       },
       "at_risk": false
@@ -34,20 +34,16 @@
         "sta": "13:05",
         "eta": "12:46",
         "status": "On The Way",
-        "eta_slipped": {
-          "prev_eta": "13:05",
-          "slip_min": -19
-        },
         "delayed": false
       },
       "departure": {
         "flight": "JQ841",
         "carrier": "JQ",
         "number": 841,
-        "destination": "Sydney  CHECK IN OPENS 11:45am",
+        "destination": "Sydney  CHECK IN CLOSE 13:05",
         "std": "13:45",
         "etd": "13:45",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
