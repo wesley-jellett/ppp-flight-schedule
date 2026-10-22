@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T13:30:51.616616+10:00",
+  "generated_at": "2026-10-22T13:45:37.249462+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -19,31 +19,12 @@
         "number": 841,
         "destination": "Sydney  Check in open from 11:45 until 13:05",
         "std": "13:45",
-        "etd": "13:45",
+        "etd": "14:00",
         "status": "Final Call",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "JQ836",
-        "carrier": "JQ",
-        "number": 836,
-        "origin": "Brisbane",
-        "sta": "14:45",
-        "eta": "14:45",
-        "status": null,
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ837",
-        "carrier": "JQ",
-        "number": 837,
-        "destination": "Brisbane",
-        "std": "15:25",
-        "etd": "15:25",
-        "status": "Check-in Open",
+        "etd_slipped": {
+          "prev_etd": "13:45",
+          "slip_min": 15
+        },
         "delayed": false
       },
       "at_risk": false
@@ -55,9 +36,9 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "15:00",
-        "status": null,
-        "delayed": false
+        "eta": "15:09",
+        "status": "Delayed 9min",
+        "delayed": true
       },
       "departure": {
         "flight": "VA1118",
@@ -66,7 +47,38 @@
         "destination": "Brisbane",
         "std": "15:40",
         "etd": "15:40",
-        "status": "Relax",
+        "status": "Check-in Open",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ836",
+        "carrier": "JQ",
+        "number": 836,
+        "origin": "Brisbane",
+        "sta": "14:45",
+        "eta": "15:15",
+        "status": "Delayed 30min",
+        "eta_slipped": {
+          "prev_eta": "14:45",
+          "slip_min": 30
+        },
+        "delayed": true
+      },
+      "departure": {
+        "flight": "JQ837",
+        "carrier": "JQ",
+        "number": 837,
+        "destination": "Brisbane",
+        "std": "15:25",
+        "etd": "15:50",
+        "status": "Check-in Open",
+        "etd_slipped": {
+          "prev_etd": "15:25",
+          "slip_min": 25
+        },
         "delayed": false
       },
       "at_risk": false
