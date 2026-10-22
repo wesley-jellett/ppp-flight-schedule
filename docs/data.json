@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T12:00:55.990283+10:00",
+  "generated_at": "2026-10-22T12:15:38.244539+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Brisbane  Check in open from 10:15 until 11:35",
         "std": "12:15",
         "etd": "12:35",
-        "status": "Final Call",
+        "status": "Boarding Closed",
         "delayed": false
       },
       "at_risk": false
@@ -32,12 +32,8 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:05",
-        "eta": "12:50",
+        "eta": "12:51",
         "status": "On The Way",
-        "eta_slipped": {
-          "prev_eta": "13:14",
-          "slip_min": -24
-        },
         "delayed": false
       },
       "departure": {
