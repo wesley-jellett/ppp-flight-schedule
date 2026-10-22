@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T09:30:47.792327+10:00",
+  "generated_at": "2026-10-23T09:45:32.693097+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Melbourne  CHECK IN CLOSES AT 9:35am",
         "std": "10:15",
         "etd": "10:15",
-        "status": "Check-in Open",
+        "status": "Final Call",
         "delayed": false
       },
       "at_risk": false
