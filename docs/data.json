@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T14:15:33.171440+10:00",
+  "generated_at": "2026-10-22T14:30:53.178669+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -32,7 +32,7 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "15:00",
+        "eta": "15:01",
         "status": "On The Way",
         "delayed": false
       },
@@ -40,7 +40,7 @@
         "flight": "VA1118",
         "carrier": "VA",
         "number": 1118,
-        "destination": "Brisbane",
+        "destination": "Brisbane  CHECK IN CLOSES 3:10pm",
         "std": "15:40",
         "etd": "15:40",
         "status": "Check-in Open",
@@ -55,7 +55,7 @@
         "number": 836,
         "origin": "Brisbane",
         "sta": "14:45",
-        "eta": "15:17",
+        "eta": "15:08",
         "status": "On The Way",
         "delayed": false
       },
@@ -63,13 +63,17 @@
         "flight": "JQ837",
         "carrier": "JQ",
         "number": 837,
-        "destination": "Brisbane",
+        "destination": "Brisbane  CHECK IN CLOSES 2:45pm",
         "std": "15:25",
-        "etd": "15:50",
+        "etd": "15:25",
         "status": "Check-in Open",
+        "etd_slipped": {
+          "prev_etd": "15:50",
+          "slip_min": -25
+        },
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     }
   ]
 }
