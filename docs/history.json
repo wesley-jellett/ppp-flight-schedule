@@ -104755,6 +104755,31 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "17:00",
+        "flights": [
+          {
+            "flight": "JQ838",
+            "kind": "arr",
+            "route": "Sydney",
+            "scheduled": "17:15",
+            "estimated": "17:18",
+            "status": "On The Way",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ839",
+            "kind": "dep",
+            "route": "Sydney  CHECK IN OPENS AT 3:50pm",
+            "scheduled": "17:50",
+            "estimated": "17:55",
+            "status": "Relax",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
