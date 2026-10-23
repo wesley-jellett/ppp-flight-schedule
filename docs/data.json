@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T11:45:36.737701+10:00",
+  "generated_at": "2026-10-23T12:00:56.362417+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -43,7 +43,7 @@
         "destination": "Cairns  CHECK IN CLOSES AT 11:20am",
         "std": "11:50",
         "etd": "11:50",
-        "status": "Final Call",
+        "status": "Boarding Closed",
         "delayed": false
       },
       "at_risk": false
