@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T10:30:44.628640+10:00",
+  "generated_at": "2026-10-23T10:45:37.057682+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -27,35 +27,12 @@
     },
     {
       "arrival": {
-        "flight": "QN85",
-        "carrier": "QN",
-        "number": 85,
-        "origin": "Cairns",
-        "sta": "11:20",
-        "eta": "11:20",
-        "status": null,
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN86",
-        "carrier": "QN",
-        "number": 86,
-        "destination": "Cairns  CHECK IN OPENS AT 10:20am",
-        "std": "11:50",
-        "etd": "11:50",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
         "flight": "JQ834",
         "carrier": "JQ",
         "number": 834,
         "origin": "Brisbane",
         "sta": "11:35",
-        "eta": "11:33",
+        "eta": "11:20",
         "status": "On The Way",
         "delayed": false
       },
@@ -63,13 +40,40 @@
         "flight": "JQ835",
         "carrier": "JQ",
         "number": 835,
-        "destination": "Brisbane  CHECK IN OPENS AT 10:15am",
+        "destination": "Brisbane  CHECK IN CLOSES AT 11:35am",
         "std": "12:15",
         "etd": "12:15",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "QN85",
+        "carrier": "QN",
+        "number": 85,
+        "origin": "Cairns",
+        "sta": "11:20",
+        "eta": "11:36",
+        "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "11:20",
+          "slip_min": 16
+        },
+        "delayed": false
+      },
+      "departure": {
+        "flight": "QN86",
+        "carrier": "QN",
+        "number": 86,
+        "destination": "Cairns  CHECK IN CLOSES AT 11:20am",
+        "std": "11:50",
+        "etd": "11:50",
+        "status": "Check-in Open",
+        "delayed": false
+      },
+      "at_risk": true
     },
     {
       "arrival": {
@@ -78,9 +82,13 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:05",
-        "eta": "13:05",
-        "status": null,
-        "delayed": false
+        "eta": "13:20",
+        "status": "Delayed 15min",
+        "eta_slipped": {
+          "prev_eta": "13:05",
+          "slip_min": 15
+        },
+        "delayed": true
       },
       "departure": {
         "flight": "JQ841",
@@ -89,10 +97,10 @@
         "destination": "Sydney  CHECK IN IPENS AT 11:45am",
         "std": "13:45",
         "etd": "13:45",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     },
     {
       "arrival": {
@@ -101,9 +109,9 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "15:00",
-        "status": null,
-        "delayed": false
+        "eta": "15:06",
+        "status": "Delayed 6min",
+        "delayed": true
       },
       "departure": {
         "flight": "VA1118",
