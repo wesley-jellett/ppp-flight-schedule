@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-10-23T11:00:55.129897+10:00",
+  "generated_at": "2026-10-23T11:15:39.212645+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ832",
-        "carrier": "JQ",
-        "number": 832,
-        "origin": "Melbourne",
-        "sta": "09:35",
-        "eta": "09:21",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ833",
-        "carrier": "JQ",
-        "number": 833,
-        "destination": "Melbourne  CHECK IN CLOSES AT 9:35am",
-        "std": "10:15",
-        "etd": "10:15",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ834",
@@ -55,7 +32,7 @@
         "number": 85,
         "origin": "Cairns",
         "sta": "11:20",
-        "eta": "11:34",
+        "eta": "11:33",
         "status": "On The Way",
         "delayed": false
       },
@@ -78,8 +55,8 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:05",
-        "eta": "13:20",
-        "status": "Delayed 15min",
+        "eta": "13:26",
+        "status": "Delayed 21min",
         "delayed": true
       },
       "departure": {
@@ -101,8 +78,8 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "15:06",
-        "status": "Delayed 6min",
+        "eta": "15:13",
+        "status": "Delayed 13min",
         "delayed": true
       },
       "departure": {
