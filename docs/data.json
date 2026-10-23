@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T14:00:52.900106+10:00",
+  "generated_at": "2026-10-23T14:15:33.325465+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Sydney  CHECK IN IPENS AT 11:45am",
         "std": "13:45",
         "etd": "13:45",
-        "status": "Boarding",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -32,9 +32,9 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "15:00",
-        "eta": "15:25",
-        "status": "Delayed 25min",
-        "delayed": true
+        "eta": "15:12",
+        "status": "On The Way",
+        "delayed": false
       },
       "departure": {
         "flight": "VA1118",
@@ -46,7 +46,7 @@
         "status": "Check-in Open",
         "delayed": false
       },
-      "at_risk": true
+      "at_risk": false
     },
     {
       "arrival": {
