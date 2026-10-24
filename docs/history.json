@@ -105040,5 +105040,155 @@
         "flights": []
       }
     ]
+  },
+  "2026-10-25": {
+    "date": "2026-10-25",
+    "snapshots": [
+      {
+        "at": "08:49",
+        "flights": [
+          {
+            "flight": "JQ842",
+            "kind": "arr",
+            "route": "Melbourne",
+            "scheduled": "08:30",
+            "estimated": "08:21",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ843",
+            "kind": "dep",
+            "route": "Melbourne  Check in open 7:10 until 8:30",
+            "scheduled": "09:10",
+            "estimated": "09:10",
+            "status": "Boarding",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1113",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "09:55",
+            "estimated": "10:00",
+            "status": "Delayed 5min",
+            "delayed": true,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1114",
+            "kind": "dep",
+            "route": "Brisbane  Check in open 9:00 until 10:05",
+            "scheduled": "10:35",
+            "estimated": "10:35",
+            "status": "Relax",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "QN85",
+            "kind": "arr",
+            "route": "Cairns",
+            "scheduled": "11:20",
+            "estimated": "11:20",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "QN86",
+            "kind": "dep",
+            "route": "Cairns  Check in open 10:20 until 11:20",
+            "scheduled": "11:50",
+            "estimated": "11:50",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ834",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "12:25",
+            "estimated": "12:25",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ835",
+            "kind": "dep",
+            "route": "Brisbane  Check in open 11:05 until 12:25",
+            "scheduled": "13:05",
+            "estimated": "13:05",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ840",
+            "kind": "arr",
+            "route": "Sydney",
+            "scheduled": "13:15",
+            "estimated": "13:15",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ841",
+            "kind": "dep",
+            "route": "Sydney  Check in open 11:55 until 13:15",
+            "scheduled": "13:55",
+            "estimated": "13:55",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ836",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "14:05",
+            "estimated": "14:05",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ837",
+            "kind": "dep",
+            "route": "Brisbane  Check in open 12:45 until 14:05",
+            "scheduled": "14:45",
+            "estimated": "14:45",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1117",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "14:55",
+            "estimated": "14:55",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1118",
+            "kind": "dep",
+            "route": "Brisbane",
+            "scheduled": "15:35",
+            "estimated": "15:35",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
+      }
+    ]
   }
 }
