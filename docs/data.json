@@ -1,56 +1,29 @@
 {
-  "generated_at": "2026-10-25T10:45:22.598510+10:00",
+  "generated_at": "2026-10-25T13:54:42.518613+10:00",
   "airport": "PPP",
   "pairs": [
     {
       "arrival": {
-        "flight": "VA1113",
-        "carrier": "VA",
-        "number": 1113,
-        "origin": "Brisbane",
-        "sta": "09:55",
-        "eta": "10:00",
+        "flight": "JQ840",
+        "carrier": "JQ",
+        "number": 840,
+        "origin": "Sydney",
+        "sta": "13:15",
+        "eta": "13:12",
         "status": "Landed",
         "delayed": false
       },
       "departure": {
-        "flight": "VA1114",
-        "carrier": "VA",
-        "number": 1114,
-        "destination": "Brisbane  Check in open 9:00 until 10:05",
-        "std": "10:35",
-        "etd": "10:35",
-        "status": "Departed",
+        "flight": "JQ841",
+        "carrier": "JQ",
+        "number": 841,
+        "destination": "Sydney  Check in close 13:15",
+        "std": "13:55",
+        "etd": "13:55",
+        "status": "Boarding",
         "delayed": false
       },
       "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "QN85",
-        "carrier": "QN",
-        "number": 85,
-        "origin": "Cairns",
-        "sta": "11:20",
-        "eta": "11:42",
-        "status": "On The Way",
-        "eta_slipped": {
-          "prev_eta": "11:20",
-          "slip_min": 22
-        },
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN86",
-        "carrier": "QN",
-        "number": 86,
-        "destination": "Cairns  Check in open 10:20 until 11:20",
-        "std": "11:50",
-        "etd": "11:50",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": true
     },
     {
       "arrival": {
@@ -60,40 +33,21 @@
         "origin": "Brisbane",
         "sta": "12:25",
         "eta": "12:25",
-        "status": null,
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
         "flight": "JQ835",
         "carrier": "JQ",
         "number": 835,
-        "destination": "Brisbane  Check in open 11:05 until 12:25",
+        "destination": "Brisbane  Check in close 12:25",
         "std": "13:05",
-        "etd": "13:05",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "13:15",
-        "eta": "13:15",
-        "status": null,
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney  Check in open 11:55 until 13:15",
-        "std": "13:55",
-        "etd": "13:55",
-        "status": null,
+        "etd": "13:20",
+        "status": "Departed",
+        "etd_slipped": {
+          "prev_etd": "13:05",
+          "slip_min": 15
+        },
         "delayed": false
       },
       "at_risk": false
@@ -105,8 +59,8 @@
         "number": 836,
         "origin": "Brisbane",
         "sta": "14:05",
-        "eta": "14:05",
-        "status": null,
+        "eta": "13:53",
+        "status": "On The Way",
         "delayed": false
       },
       "departure": {
@@ -116,7 +70,7 @@
         "destination": "Brisbane  Check in open 12:45 until 14:05",
         "std": "14:45",
         "etd": "14:45",
-        "status": null,
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
@@ -128,18 +82,18 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:55",
-        "eta": "14:55",
-        "status": null,
-        "delayed": false
+        "eta": "15:05",
+        "status": "Delayed 10min",
+        "delayed": true
       },
       "departure": {
         "flight": "VA1118",
         "carrier": "VA",
         "number": 1118,
-        "destination": "Brisbane",
+        "destination": "Brisbane  Check in open 14:00 until 15:05",
         "std": "15:35",
         "etd": "15:35",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
