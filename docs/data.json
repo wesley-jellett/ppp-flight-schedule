@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T12:45:34.694469+10:00",
+  "generated_at": "2026-10-26T13:00:58.887215+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -10,7 +10,7 @@
         "origin": "Brisbane",
         "sta": "12:25",
         "eta": "12:43",
-        "status": "On The Way",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -27,36 +27,13 @@
     },
     {
       "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "13:15",
-        "eta": "13:50",
-        "status": "On The Way",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney  Check in close 13:50",
-        "std": "13:55",
-        "etd": "14:30",
-        "status": "Check-in Open",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
         "flight": "QN81",
         "carrier": "QN",
         "number": 81,
         "origin": "Cairns",
         "sta": "13:50",
-        "eta": "13:50",
-        "status": null,
+        "eta": "13:46",
+        "status": "On The Way",
         "delayed": false
       },
       "departure": {
@@ -66,7 +43,7 @@
         "destination": "Cairns  Check in open 12:50 until 13:50",
         "std": "14:20",
         "etd": "14:20",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
@@ -87,13 +64,40 @@
     },
     {
       "arrival": {
+        "flight": "JQ840",
+        "carrier": "JQ",
+        "number": 840,
+        "origin": "Sydney",
+        "sta": "13:15",
+        "eta": "13:51",
+        "status": "On The Way",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ841",
+        "carrier": "JQ",
+        "number": 841,
+        "destination": "Sydney  Check in close 13:50",
+        "std": "13:55",
+        "etd": "14:30",
+        "status": "Check-in Open",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
         "flight": "VA1117",
         "carrier": "VA",
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:55",
-        "eta": "14:57",
-        "status": "Delayed 2min",
+        "eta": "15:24",
+        "status": "Delayed 29min",
+        "eta_slipped": {
+          "prev_eta": "14:57",
+          "slip_min": 27
+        },
         "delayed": true
       },
       "departure": {
@@ -106,7 +110,7 @@
         "status": "Relax",
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     }
   ]
 }
