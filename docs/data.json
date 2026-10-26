@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T11:15:38.747630+10:00",
+  "generated_at": "2026-10-26T11:30:42.834796+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,21 +9,25 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "12:25",
-        "eta": "12:25",
-        "status": null,
+        "eta": "12:55",
+        "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "12:25",
+          "slip_min": 30
+        },
         "delayed": false
       },
       "departure": {
         "flight": "JQ835",
         "carrier": "JQ",
         "number": 835,
-        "destination": "Brisbane  Check in open 11:05 until 12:25",
+        "destination": "Brisbane  Check in close 12:25",
         "std": "13:05",
         "etd": "13:05",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     },
     {
       "arrival": {
@@ -32,21 +36,25 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "13:15",
-        "status": null,
-        "delayed": false
+        "eta": "13:31",
+        "status": "Delayed 16min",
+        "eta_slipped": {
+          "prev_eta": "13:15",
+          "slip_min": 16
+        },
+        "delayed": true
       },
       "departure": {
         "flight": "JQ841",
         "carrier": "JQ",
         "number": 841,
-        "destination": "Sydney  Check in open 11:55 until 12:15",
+        "destination": "Sydney  Check in close 12:15",
         "std": "13:55",
         "etd": "13:55",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     },
     {
       "arrival": {
@@ -66,7 +74,7 @@
         "destination": "Cairns  Check in open 12:50 until 13:50",
         "std": "14:20",
         "etd": "14:20",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
