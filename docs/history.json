@@ -107847,6 +107847,31 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "16:15",
+        "flights": [
+          {
+            "flight": "VA1117",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "14:55",
+            "estimated": "15:37",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1118",
+            "kind": "dep",
+            "route": "Brisbane  Check in open 14:00 until 15:40",
+            "scheduled": "15:35",
+            "estimated": "16:18",
+            "status": "Final Call",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
