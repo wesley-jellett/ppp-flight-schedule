@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T13:30:48.113384+10:00",
+  "generated_at": "2026-10-26T13:45:36.250167+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Brisbane  Check in close 12:25",
         "std": "13:05",
         "etd": "13:30",
-        "status": "Boarding Closed",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -32,7 +32,7 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "13:50",
+        "eta": "13:49",
         "status": "On The Way",
         "delayed": false
       },
@@ -46,20 +46,6 @@
         "status": "Check-in Open",
         "delayed": false
       },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "QN71",
-        "carrier": "QN",
-        "number": 71,
-        "origin": "Cairns",
-        "sta": "13:50",
-        "eta": "14:00",
-        "status": "On The Way",
-        "delayed": false
-      },
-      "departure": null,
       "at_risk": false
     },
     {
@@ -80,9 +66,23 @@
         "destination": "Cairns  Check in open 12:50 until 13:50",
         "std": "14:20",
         "etd": "14:20",
-        "status": "Check-in Open",
+        "status": "Check-in Closed",
         "delayed": false
       },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "QN71",
+        "carrier": "QN",
+        "number": 71,
+        "origin": "Cairns",
+        "sta": "13:50",
+        "eta": "14:00",
+        "status": "On The Way",
+        "delayed": false
+      },
+      "departure": null,
       "at_risk": false
     },
     {
