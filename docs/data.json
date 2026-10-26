@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T13:00:58.887215+10:00",
+  "generated_at": "2026-10-26T13:15:37.612790+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,46 +20,9 @@
         "destination": "Brisbane  Check in close 12:25",
         "std": "13:05",
         "etd": "13:30",
-        "status": "Boarding Soon",
+        "status": "Boarding",
         "delayed": false
       },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "QN81",
-        "carrier": "QN",
-        "number": 81,
-        "origin": "Cairns",
-        "sta": "13:50",
-        "eta": "13:46",
-        "status": "On The Way",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN82",
-        "carrier": "QN",
-        "number": 82,
-        "destination": "Cairns  Check in open 12:50 until 13:50",
-        "std": "14:20",
-        "etd": "14:20",
-        "status": "Check-in Open",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "QN71",
-        "carrier": "QN",
-        "number": 71,
-        "origin": "Cairns",
-        "sta": "13:50",
-        "eta": "13:50",
-        "status": null,
-        "delayed": false
-      },
-      "departure": null,
       "at_risk": false
     },
     {
@@ -87,6 +50,43 @@
     },
     {
       "arrival": {
+        "flight": "QN71",
+        "carrier": "QN",
+        "number": 71,
+        "origin": "Cairns",
+        "sta": "13:50",
+        "eta": "13:58",
+        "status": "On The Way",
+        "delayed": false
+      },
+      "departure": null,
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "QN81",
+        "carrier": "QN",
+        "number": 81,
+        "origin": "Cairns",
+        "sta": "13:50",
+        "eta": "13:58",
+        "status": "On The Way",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "QN82",
+        "carrier": "QN",
+        "number": 82,
+        "destination": "Cairns  Check in open 12:50 until 13:50",
+        "std": "14:20",
+        "etd": "14:20",
+        "status": "Check-in Open",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
         "flight": "VA1117",
         "carrier": "VA",
         "number": 1117,
@@ -94,10 +94,6 @@
         "sta": "14:55",
         "eta": "15:24",
         "status": "Delayed 29min",
-        "eta_slipped": {
-          "prev_eta": "14:57",
-          "slip_min": 27
-        },
         "delayed": true
       },
       "departure": {
