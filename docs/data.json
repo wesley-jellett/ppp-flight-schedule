@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T11:30:44.907978+10:00",
+  "generated_at": "2026-10-27T11:45:37.279874+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -17,14 +17,10 @@
         "flight": "JQ835",
         "carrier": "JQ",
         "number": 835,
-        "destination": "Brisbane  Check in open 11:05 until 12:25",
+        "destination": "Brisbane  Check in close 13:10",
         "std": "13:05",
         "etd": "13:35",
         "status": "Check-in Open",
-        "etd_slipped": {
-          "prev_etd": "13:05",
-          "slip_min": 30
-        },
         "delayed": false
       },
       "at_risk": false
@@ -44,10 +40,10 @@
         "flight": "JQ841",
         "carrier": "JQ",
         "number": 841,
-        "destination": "Sydney  Check in open 11:30 until 13:15",
+        "destination": "Sydney  Check in close 13:15",
         "std": "13:55",
         "etd": "13:55",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
@@ -67,7 +63,7 @@
         "flight": "QN82",
         "carrier": "QN",
         "number": 82,
-        "destination": "Cairns  Check in open 13:45 until 14:35",
+        "destination": "Cairns",
         "std": "14:20",
         "etd": "15:05",
         "status": "Relax",
