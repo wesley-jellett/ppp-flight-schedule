@@ -110351,6 +110351,51 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "15:45",
+        "flights": [
+          {
+            "flight": "VA1117",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "14:55",
+            "estimated": "14:57",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1118",
+            "kind": "dep",
+            "route": "Brisbane  Check in open 14:00 until 15:05",
+            "scheduled": "15:35",
+            "estimated": "15:40",
+            "status": "Departed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "QN81",
+            "kind": "arr",
+            "route": "Cairns",
+            "scheduled": "13:50",
+            "estimated": "14:35",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "QN82",
+            "kind": "dep",
+            "route": "Cairns",
+            "scheduled": "14:20",
+            "estimated": "18:00",
+            "status": "Relax",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
