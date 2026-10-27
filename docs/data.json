@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T17:45:34.678187+10:00",
+  "generated_at": "2026-10-27T19:59:01.009856+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Cairns",
         "std": "14:20",
         "etd": "19:35",
-        "status": "Relax",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
