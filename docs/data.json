@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T16:15:37.358458+10:00",
+  "generated_at": "2026-10-27T16:30:48.229591+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -19,8 +19,12 @@
         "number": 1118,
         "destination": "Brisbane  Check in open 14:00 until 15:05",
         "std": "15:35",
-        "etd": "16:10",
+        "etd": "16:25",
         "status": "Relax",
+        "etd_slipped": {
+          "prev_etd": "16:10",
+          "slip_min": 15
+        },
         "delayed": false
       },
       "at_risk": false
@@ -42,8 +46,12 @@
         "number": 82,
         "destination": "Cairns",
         "std": "14:20",
-        "etd": "18:00",
+        "etd": "19:35",
         "status": "Relax",
+        "etd_slipped": {
+          "prev_etd": "18:00",
+          "slip_min": 95
+        },
         "delayed": false
       },
       "at_risk": false
