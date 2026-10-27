@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T11:00:55.356507+10:00",
+  "generated_at": "2026-10-27T11:15:34.408721+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -40,7 +40,7 @@
         "flight": "JQ841",
         "carrier": "JQ",
         "number": 841,
-        "destination": "Sydney",
+        "destination": "Sydney  Check in open 11:30 until 13:15",
         "std": "13:55",
         "etd": "13:55",
         "status": "Relax",
@@ -63,13 +63,17 @@
         "flight": "QN82",
         "carrier": "QN",
         "number": 82,
-        "destination": "Cairns",
+        "destination": "Cairns  Check in open 13:45 until 14:35",
         "std": "14:20",
-        "etd": "14:20",
-        "status": null,
+        "etd": "15:05",
+        "status": "Relax",
+        "etd_slipped": {
+          "prev_etd": "14:20",
+          "slip_min": 45
+        },
         "delayed": false
       },
-      "at_risk": true
+      "at_risk": false
     },
     {
       "arrival": {
@@ -86,7 +90,7 @@
         "flight": "VA1118",
         "carrier": "VA",
         "number": 1118,
-        "destination": "Brisbane",
+        "destination": "Brisbane  Check in open 14:00 until 15:05",
         "std": "15:35",
         "etd": "15:35",
         "status": null,
