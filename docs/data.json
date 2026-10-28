@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-10-28T12:00:55.344600+10:00",
+  "generated_at": "2026-10-28T12:15:33.157906+10:00",
   "airport": "PPP",
   "pairs": [
+    {
+      "arrival": {
+        "flight": "JQ834",
+        "carrier": "JQ",
+        "number": 834,
+        "origin": "Brisbane",
+        "sta": "12:25",
+        "eta": "13:30",
+        "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "13:15",
+          "slip_min": 15
+        },
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ835",
+        "carrier": "JQ",
+        "number": 835,
+        "destination": "Brisbane  Check in open 11:05 until 12:25",
+        "std": "13:05",
+        "etd": "13:55",
+        "status": "Check-in Open",
+        "delayed": false
+      },
+      "at_risk": false
+    },
     {
       "arrival": {
         "flight": "JQ840",
@@ -9,8 +36,12 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "13:15",
+        "eta": "13:50",
         "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "13:15",
+          "slip_min": 35
+        },
         "delayed": false
       },
       "departure": {
@@ -21,37 +52,6 @@
         "std": "13:55",
         "etd": "14:15",
         "status": "Check-in Open",
-        "etd_slipped": {
-          "prev_etd": "13:55",
-          "slip_min": 20
-        },
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "12:25",
-        "eta": "13:15",
-        "status": "Delayed 50min",
-        "delayed": true
-      },
-      "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane  Check in open 11:05 until 12:25",
-        "std": "13:05",
-        "etd": "13:55",
-        "status": "Check-in Open",
-        "etd_slipped": {
-          "prev_etd": "13:05",
-          "slip_min": 50
-        },
         "delayed": false
       },
       "at_risk": false
