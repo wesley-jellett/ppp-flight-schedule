@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T15:30:42.344914+10:00",
+  "generated_at": "2026-10-28T15:45:35.324693+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Brisbane  Check in open 14:00 until 15:05",
         "std": "15:35",
         "etd": "15:35",
-        "status": "Final Call",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
