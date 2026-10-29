@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T08:45:37.543435+10:00",
+  "generated_at": "2026-10-30T09:00:55.050517+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,8 +9,8 @@
         "number": 842,
         "origin": "Melbourne",
         "sta": "08:30",
-        "eta": "08:52",
-        "status": "On The Way",
+        "eta": "08:53",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -20,7 +20,7 @@
         "destination": "Melbourne",
         "std": "09:10",
         "etd": "09:25",
-        "status": "Check-in Closed",
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
@@ -43,7 +43,7 @@
         "destination": "Cairns",
         "std": "11:50",
         "etd": "11:50",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
