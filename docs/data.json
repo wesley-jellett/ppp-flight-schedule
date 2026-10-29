@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-10-29T10:00:53.035623+10:00",
+  "generated_at": "2026-10-29T10:15:33.634174+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ842",
-        "carrier": "JQ",
-        "number": 842,
-        "origin": "Melbourne",
-        "sta": "08:30",
-        "eta": "08:25",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ843",
-        "carrier": "JQ",
-        "number": 843,
-        "destination": "Melbourne",
-        "std": "09:10",
-        "etd": "09:10",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ834",
