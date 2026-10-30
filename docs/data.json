@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-10-30T15:00:50.664758+10:00",
+  "generated_at": "2026-10-30T15:15:37.139300+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "13:15",
-        "eta": "13:33",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney",
-        "std": "13:55",
-        "etd": "14:20",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ836",
@@ -66,7 +43,7 @@
         "destination": "Brisbane",
         "std": "15:35",
         "etd": "15:35",
-        "status": "Boarding Soon",
+        "status": "Final Call",
         "delayed": false
       },
       "at_risk": false
