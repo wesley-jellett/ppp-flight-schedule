@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T11:00:54.159067+10:00",
+  "generated_at": "2026-10-30T11:15:40.148919+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,7 +9,7 @@
         "number": 85,
         "origin": "Cairns",
         "sta": "11:20",
-        "eta": "11:28",
+        "eta": "11:25",
         "status": "On The Way",
         "delayed": false
       },
@@ -43,7 +43,7 @@
         "destination": "Brisbane",
         "std": "13:05",
         "etd": "13:20",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
