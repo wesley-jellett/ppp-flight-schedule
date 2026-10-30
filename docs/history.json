@@ -117094,6 +117094,71 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "14:45",
+        "flights": [
+          {
+            "flight": "JQ836",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "14:05",
+            "estimated": "14:05",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ837",
+            "kind": "dep",
+            "route": "Brisbane",
+            "scheduled": "14:45",
+            "estimated": "14:45",
+            "status": "Boarding",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ840",
+            "kind": "arr",
+            "route": "Sydney",
+            "scheduled": "13:15",
+            "estimated": "13:33",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ841",
+            "kind": "dep",
+            "route": "Sydney",
+            "scheduled": "13:55",
+            "estimated": "14:20",
+            "status": "Departed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1117",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "14:55",
+            "estimated": "14:52",
+            "status": "On The Way",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1118",
+            "kind": "dep",
+            "route": "Brisbane",
+            "scheduled": "15:35",
+            "estimated": "15:35",
+            "status": "Relax",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
