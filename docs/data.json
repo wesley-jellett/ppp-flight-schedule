@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T11:15:40.148919+10:00",
+  "generated_at": "2026-10-30T11:30:49.241456+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,8 +9,8 @@
         "number": 85,
         "origin": "Cairns",
         "sta": "11:20",
-        "eta": "11:25",
-        "status": "On The Way",
+        "eta": "11:23",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -20,7 +20,7 @@
         "destination": "Cairns",
         "std": "11:50",
         "etd": "11:50",
-        "status": "Relax",
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
