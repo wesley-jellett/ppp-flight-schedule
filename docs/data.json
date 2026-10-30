@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T13:15:34.591302+10:00",
+  "generated_at": "2026-10-30T13:30:45.055554+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -10,8 +10,8 @@
         "origin": "Brisbane",
         "sta": "12:25",
         "eta": "13:15",
-        "status": "Delayed 50min",
-        "delayed": true
+        "status": "Landed",
+        "delayed": false
       },
       "departure": {
         "flight": "JQ835",
@@ -32,7 +32,7 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "13:33",
+        "eta": "13:37",
         "status": "On The Way",
         "delayed": false
       },
