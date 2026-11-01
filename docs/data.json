@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T07:30:47.958215+10:00",
+  "generated_at": "2026-11-02T07:45:34.512001+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -86,7 +86,7 @@
         "flight": "QN82",
         "carrier": "QN",
         "number": 82,
-        "destination": "Cairns",
+        "destination": "Cairns  Check in open 12:50 until 13:50",
         "std": "14:20",
         "etd": "14:20",
         "status": null,
@@ -109,7 +109,7 @@
         "flight": "VA1118",
         "carrier": "VA",
         "number": 1118,
-        "destination": "Brisbane",
+        "destination": "Brisbane  Check in open 14:00 until 15:05",
         "std": "15:35",
         "etd": "15:35",
         "status": null,
