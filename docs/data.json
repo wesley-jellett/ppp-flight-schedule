@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T13:00:59.727996+10:00",
+  "generated_at": "2026-11-02T13:15:42.006150+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -32,8 +32,8 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "13:06",
-        "status": "On The Way",
+        "eta": "13:04",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -55,8 +55,12 @@
         "number": 81,
         "origin": "Cairns",
         "sta": "13:50",
-        "eta": "13:50",
-        "status": null,
+        "eta": "14:08",
+        "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "13:50",
+          "slip_min": 18
+        },
         "delayed": false
       },
       "departure": {
@@ -69,7 +73,7 @@
         "status": "Relax",
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     },
     {
       "arrival": {
