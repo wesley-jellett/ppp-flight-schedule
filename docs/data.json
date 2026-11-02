@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:00:55.787355+10:00",
+  "generated_at": "2026-11-02T14:15:32.534654+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -19,8 +19,12 @@
         "number": 835,
         "destination": "Brisbane  Check in close 12:55",
         "std": "13:05",
-        "etd": "13:40",
+        "etd": "13:55",
         "status": "Check-in Closed",
+        "etd_slipped": {
+          "prev_etd": "13:40",
+          "slip_min": 15
+        },
         "delayed": false
       },
       "at_risk": false
@@ -56,7 +60,7 @@
         "origin": "Cairns",
         "sta": "13:50",
         "eta": "13:59",
-        "status": "On The Way",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -78,9 +82,9 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:55",
-        "eta": "15:10",
-        "status": "Delayed 15min",
-        "delayed": true
+        "eta": "14:57",
+        "status": "On The Way",
+        "delayed": false
       },
       "departure": {
         "flight": "VA1118",
@@ -92,7 +96,7 @@
         "status": "Relax",
         "delayed": false
       },
-      "at_risk": true
+      "at_risk": false
     }
   ]
 }
