@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:15:40.750132+10:00",
+  "generated_at": "2026-11-03T13:30:51.148931+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -40,10 +40,14 @@
         "flight": "JQ841",
         "carrier": "JQ",
         "number": 841,
-        "destination": "Sydney  Check in close 13:45",
+        "destination": "Sydney  Check in close 14:20",
         "std": "13:55",
-        "etd": "14:25",
+        "etd": "15:00",
         "status": "Check-in Open",
+        "etd_slipped": {
+          "prev_etd": "14:25",
+          "slip_min": 35
+        },
         "delayed": false
       },
       "at_risk": false
