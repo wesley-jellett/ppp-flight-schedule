@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T11:15:40.930161+10:00",
+  "generated_at": "2026-11-03T11:30:43.799133+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,18 +9,18 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "12:25",
-        "eta": "12:25",
-        "status": null,
+        "eta": "12:39",
+        "status": "On The Way",
         "delayed": false
       },
       "departure": {
         "flight": "JQ835",
         "carrier": "JQ",
         "number": 835,
-        "destination": "Brisbane  Check in open 11:05 until 12:25",
+        "destination": "Brisbane  Check in close 12:25",
         "std": "13:05",
         "etd": "13:10",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
@@ -32,18 +32,26 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "13:15",
-        "status": null,
-        "delayed": false
+        "eta": "13:45",
+        "status": "Delayed 30min",
+        "eta_slipped": {
+          "prev_eta": "13:15",
+          "slip_min": 30
+        },
+        "delayed": true
       },
       "departure": {
         "flight": "JQ841",
         "carrier": "JQ",
         "number": 841,
-        "destination": "Sydney  Check in open 11:05 until 13:15",
+        "destination": "Sydney  Check in close 13:45",
         "std": "13:55",
-        "etd": "13:55",
-        "status": "Relax",
+        "etd": "14:25",
+        "status": "Check-in Open",
+        "etd_slipped": {
+          "prev_etd": "13:55",
+          "slip_min": 30
+        },
         "delayed": false
       },
       "at_risk": false
@@ -78,9 +86,13 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:55",
-        "eta": "14:55",
-        "status": null,
-        "delayed": false
+        "eta": "15:20",
+        "status": "Delayed 25min",
+        "eta_slipped": {
+          "prev_eta": "14:55",
+          "slip_min": 25
+        },
+        "delayed": true
       },
       "departure": {
         "flight": "VA1118",
@@ -92,7 +104,7 @@
         "status": null,
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     }
   ]
 }
