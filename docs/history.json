@@ -124164,6 +124164,21 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "16:30",
+        "flights": [
+          {
+            "flight": "VA1117",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "14:55",
+            "estimated": "14:49",
+            "status": "Early 6min",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T16:15:36.276380+10:00",
+  "generated_at": "2026-11-04T16:30:45.920182+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -13,16 +13,7 @@
         "status": "Early 6min",
         "delayed": false
       },
-      "departure": {
-        "flight": "VA1118",
-        "carrier": "VA",
-        "number": 1118,
-        "destination": "Brisbane  Check in close 15:10",
-        "std": "15:35",
-        "etd": "15:38",
-        "status": "Departed",
-        "delayed": false
-      },
+      "departure": null,
       "at_risk": false
     }
   ]
