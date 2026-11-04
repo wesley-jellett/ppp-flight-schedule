@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T12:00:57.717546+10:00",
+  "generated_at": "2026-11-04T12:15:42.314987+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -34,17 +34,13 @@
         "sta": "12:25",
         "eta": "13:28",
         "status": "Delayed 1h 3min",
-        "eta_slipped": {
-          "prev_eta": "13:10",
-          "slip_min": 18
-        },
         "delayed": true
       },
       "departure": {
         "flight": "JQ835",
         "carrier": "JQ",
         "number": 835,
-        "destination": "Brisbane  Check in close 13:20",
+        "destination": "Brisbane  Check in close 14:00",
         "std": "13:05",
         "etd": "14:05",
         "status": "Check-in Open",
@@ -67,7 +63,7 @@
         "flight": "VA1118",
         "carrier": "VA",
         "number": 1118,
-        "destination": "Brisbane  Check in open 13:40 until 15:10",
+        "destination": "Brisbane  Check in open 13:50 until 15:10",
         "std": "15:35",
         "etd": "15:35",
         "status": null,
