@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T11:15:37.792061+10:00",
+  "generated_at": "2026-11-04T11:30:47.302896+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -17,7 +17,7 @@
         "flight": "JQ835",
         "carrier": "JQ",
         "number": 835,
-        "destination": "Brisbane  Check in open 11:05 until 12:25",
+        "destination": "Brisbane  Check in open 11:05 until 13:20",
         "std": "13:05",
         "etd": "13:05",
         "status": "Check-in Open",
