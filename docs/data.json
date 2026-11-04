@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T09:45:38.514040+10:00",
+  "generated_at": "2026-11-04T10:00:57.025446+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -32,9 +32,13 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "12:25",
-        "eta": "12:25",
-        "status": null,
-        "delayed": false
+        "eta": "13:10",
+        "status": "Delayed 45min",
+        "eta_slipped": {
+          "prev_eta": "12:25",
+          "slip_min": 45
+        },
+        "delayed": true
       },
       "departure": {
         "flight": "JQ835",
@@ -46,7 +50,7 @@
         "status": null,
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     },
     {
       "arrival": {
