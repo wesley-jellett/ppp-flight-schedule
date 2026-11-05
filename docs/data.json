@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T12:45:35.271204+10:00",
+  "generated_at": "2026-11-05T13:01:01.775222+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Brisbane",
         "std": "13:05",
         "etd": "13:05",
-        "status": "Check-in Open",
+        "status": "Boarding",
         "delayed": false
       },
       "at_risk": false
@@ -43,7 +43,7 @@
         "destination": "Sydney",
         "std": "13:55",
         "etd": "14:20",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
