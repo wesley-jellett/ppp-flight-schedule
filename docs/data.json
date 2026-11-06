@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T12:00:57.288356+10:00",
+  "generated_at": "2026-11-06T12:15:34.931521+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Cairns",
         "std": "11:50",
         "etd": "11:50",
-        "status": "Boarding",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -32,7 +32,7 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "12:25",
-        "eta": "12:42",
+        "eta": "12:43",
         "status": "On The Way",
         "delayed": false
       },
@@ -44,10 +44,6 @@
         "std": "13:05",
         "etd": "13:25",
         "status": "Check-in Open",
-        "etd_slipped": {
-          "prev_etd": "13:05",
-          "slip_min": 20
-        },
         "delayed": false
       },
       "at_risk": false
