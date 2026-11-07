@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T10:34:40.644986+10:00",
+  "generated_at": "2026-11-07T15:19:07.590707+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,41 +9,26 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "12:25",
-        "eta": "12:25",
-        "status": null,
+        "eta": "14:40",
+        "status": "Landed",
+        "eta_slipped": {
+          "prev_eta": "12:25",
+          "slip_min": 135
+        },
         "delayed": false
       },
       "departure": {
         "flight": "JQ835",
         "carrier": "JQ",
         "number": 835,
-        "destination": "Brisbane  check in open 11:05 check in close 12:25",
+        "destination": "Brisbane  check in close 14:40",
         "std": "13:05",
-        "etd": "13:05",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "13:15",
-        "eta": "13:15",
-        "status": null,
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney  check in open 11:55 check in close 13:05",
-        "std": "13:55",
-        "etd": "13:55",
-        "status": null,
+        "etd": "15:20",
+        "status": "Boarding Soon",
+        "etd_slipped": {
+          "prev_etd": "13:05",
+          "slip_min": 135
+        },
         "delayed": false
       },
       "at_risk": false
@@ -55,8 +40,8 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:55",
-        "eta": "14:55",
-        "status": null,
+        "eta": "14:47",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -66,7 +51,7 @@
         "destination": "Brisbane  check in open 13:40 check in close 15:05",
         "std": "15:35",
         "etd": "15:35",
-        "status": null,
+        "status": "Boarding",
         "delayed": false
       },
       "at_risk": false
