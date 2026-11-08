@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T08:45:39.715153+10:00",
+  "generated_at": "2026-11-09T09:00:56.204364+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -32,9 +32,9 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "12:25",
-        "eta": "12:25",
-        "status": null,
-        "delayed": false
+        "eta": "12:35",
+        "status": "Delayed 10min",
+        "delayed": true
       },
       "departure": {
         "flight": "JQ835",
