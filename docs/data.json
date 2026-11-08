@@ -1,52 +1,5 @@
 {
-  "generated_at": "2026-11-08T15:16:12.415759+10:00",
+  "generated_at": "2026-11-08T22:06:11.018705+10:00",
   "airport": "PPP",
-  "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ836",
-        "carrier": "JQ",
-        "number": 836,
-        "origin": "Brisbane",
-        "sta": "14:05",
-        "eta": "14:05",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ837",
-        "carrier": "JQ",
-        "number": 837,
-        "destination": "Brisbane  Check in open from 12:45 until 14:05",
-        "std": "14:45",
-        "etd": "14:45",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "VA1117",
-        "carrier": "VA",
-        "number": 1117,
-        "origin": "Brisbane",
-        "sta": "14:55",
-        "eta": "14:49",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "VA1118",
-        "carrier": "VA",
-        "number": 1118,
-        "destination": "Brisbane  Check in open from 13:40 until 15;05",
-        "std": "15:35",
-        "etd": "15:35",
-        "status": "Boarding",
-        "delayed": false
-      },
-      "at_risk": false
-    }
-  ]
+  "pairs": []
 }
