@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-11-09T14:15:39.298200+10:00",
+  "generated_at": "2026-11-09T14:30:52.767437+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "12:25",
-        "eta": "13:33",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane  Check in close 13:30",
-        "std": "13:05",
-        "etd": "14:10",
-        "status": "Boarding Closed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "QN81",
@@ -66,7 +43,30 @@
         "destination": "Sydney  Check in close 14:05",
         "std": "13:55",
         "etd": "14:45",
-        "status": "Boarding Soon",
+        "status": "Boarding",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ834",
+        "carrier": "JQ",
+        "number": 834,
+        "origin": "Brisbane",
+        "sta": "12:25",
+        "eta": "13:33",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ835",
+        "carrier": "JQ",
+        "number": 835,
+        "destination": "Brisbane  Check in close 13:30",
+        "std": "13:05",
+        "etd": "14:10",
+        "status": "Boarding Closed",
         "delayed": false
       },
       "at_risk": false
@@ -78,7 +78,7 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:55",
-        "eta": "14:44",
+        "eta": "14:47",
         "status": "On The Way",
         "delayed": false
       },
