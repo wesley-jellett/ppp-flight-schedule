@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T13:30:49.743584+10:00",
+  "generated_at": "2026-11-10T13:45:41.247448+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,8 +20,8 @@
         "destination": "Brisbane  Check in closes at 13:10",
         "std": "13:05",
         "etd": "13:50",
-        "status": "Boarding Soon",
-        "delayed": false
+        "status": "Delayed 45min",
+        "delayed": true
       },
       "at_risk": false
     },
@@ -63,7 +63,7 @@
         "flight": "QN82",
         "carrier": "QN",
         "number": 82,
-        "destination": "Cairns  Check in open 13:35 until 15:35",
+        "destination": "Cairns  Check in open 13:45 until 15:35",
         "std": "15:05",
         "etd": "16:05",
         "status": "Delayed",
@@ -80,10 +80,6 @@
         "sta": "14:55",
         "eta": "14:50",
         "status": "On The Way",
-        "eta_slipped": {
-          "prev_eta": "15:12",
-          "slip_min": -22
-        },
         "delayed": false
       },
       "departure": {
