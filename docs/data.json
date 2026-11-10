@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T16:30:47.872448+10:00",
+  "generated_at": "2026-11-10T16:39:29.628942+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -43,11 +43,7 @@
         "destination": "Brisbane",
         "std": "15:35",
         "etd": "16:20",
-        "status": "Boarding Closed",
-        "etd_slipped": {
-          "prev_etd": "16:04",
-          "slip_min": 16
-        },
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
