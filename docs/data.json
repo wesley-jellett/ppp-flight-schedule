@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T12:15:39.768855+10:00",
+  "generated_at": "2026-11-10T12:30:52.435953+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,18 +9,26 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "12:25",
-        "eta": "12:25",
+        "eta": "13:04",
         "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "12:25",
+          "slip_min": 39
+        },
         "delayed": false
       },
       "departure": {
         "flight": "JQ835",
         "carrier": "JQ",
         "number": 835,
-        "destination": "Brisbane  Check in closes at 12:25",
+        "destination": "Brisbane  Check in closes at 13:10",
         "std": "13:05",
-        "etd": "13:10",
+        "etd": "13:50",
         "status": "Check-in Open",
+        "etd_slipped": {
+          "prev_etd": "13:10",
+          "slip_min": 40
+        },
         "delayed": false
       },
       "at_risk": false
@@ -32,7 +40,7 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "13:20",
+        "eta": "13:12",
         "status": "On The Way",
         "delayed": false
       },
