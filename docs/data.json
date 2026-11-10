@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-11-10T16:00:58.399300+10:00",
+  "generated_at": "2026-11-10T16:15:37.160222+10:00",
   "airport": "PPP",
   "pairs": [
+    {
+      "arrival": {
+        "flight": "QN81",
+        "carrier": "QN",
+        "number": 81,
+        "origin": "Cairns",
+        "sta": "14:35",
+        "eta": "15:31",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "QN82",
+        "carrier": "QN",
+        "number": 82,
+        "destination": "Cairns  Check in open 13:45 until 15:35",
+        "std": "15:05",
+        "etd": "16:05",
+        "status": "Departed",
+        "delayed": false
+      },
+      "at_risk": false
+    },
     {
       "arrival": {
         "flight": "VA1117",
@@ -21,29 +44,6 @@
         "std": "15:35",
         "etd": "16:04",
         "status": "Boarding Closed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "QN81",
-        "carrier": "QN",
-        "number": 81,
-        "origin": "Cairns",
-        "sta": "14:35",
-        "eta": "15:31",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN82",
-        "carrier": "QN",
-        "number": 82,
-        "destination": "Cairns  Check in open 13:45 until 15:35",
-        "std": "15:05",
-        "etd": "16:05",
-        "status": "Boarding",
         "delayed": false
       },
       "at_risk": false
