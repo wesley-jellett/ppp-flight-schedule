@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T07:15:37.990538+10:00",
+  "generated_at": "2026-11-12T07:31:02.117991+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -17,10 +17,10 @@
         "flight": "JQ843",
         "carrier": "JQ",
         "number": 843,
-        "destination": "Melbourne",
+        "destination": "Melbourne  open at 7:10 closed at 8:30",
         "std": "09:10",
         "etd": "09:10",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
@@ -40,7 +40,7 @@
         "flight": "JQ835",
         "carrier": "JQ",
         "number": 835,
-        "destination": "Brisbane",
+        "destination": "Brisbane  open at 11:05 closed at 12:25",
         "std": "13:05",
         "etd": "13:05",
         "status": null,
@@ -63,7 +63,7 @@
         "flight": "JQ841",
         "carrier": "JQ",
         "number": 841,
-        "destination": "Sydney",
+        "destination": "Sydney  open at 11:55 closed at 13:15",
         "std": "13:55",
         "etd": "13:55",
         "status": null,
@@ -86,7 +86,7 @@
         "flight": "VA1118",
         "carrier": "VA",
         "number": 1118,
-        "destination": "Brisbane",
+        "destination": "Brisbane  open at 13:40 closed at 15:10",
         "std": "15:35",
         "etd": "15:35",
         "status": null,
