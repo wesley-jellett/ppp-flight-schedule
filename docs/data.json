@@ -1,29 +1,5 @@
 {
-  "generated_at": "2026-11-11T16:45:40.479910+10:00",
+  "generated_at": "2026-11-11T17:01:02.384007+10:00",
   "airport": "PPP",
-  "pairs": [
-    {
-      "arrival": {
-        "flight": "VA1117",
-        "carrier": "VA",
-        "number": 1117,
-        "origin": "Brisbane",
-        "sta": "14:55",
-        "eta": "15:00",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "VA1118",
-        "carrier": "VA",
-        "number": 1118,
-        "destination": "Brisbane  Check in open 13:40 until 15:05",
-        "std": "15:35",
-        "etd": "16:02",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    }
-  ]
+  "pairs": []
 }
