@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T08:30:50.758744+10:00",
+  "generated_at": "2026-11-12T08:45:42.672741+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Melbourne  open at 7:10 closed at 8:30",
         "std": "09:10",
         "etd": "09:10",
-        "status": "Boarding Soon",
+        "status": "Final Call",
         "delayed": false
       },
       "at_risk": false
@@ -34,10 +34,6 @@
         "sta": "12:25",
         "eta": "13:05",
         "status": "Delayed 40min",
-        "eta_slipped": {
-          "prev_eta": "12:25",
-          "slip_min": 40
-        },
         "delayed": true
       },
       "departure": {
