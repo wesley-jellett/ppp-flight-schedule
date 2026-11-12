@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T16:15:42.357614+10:00",
+  "generated_at": "2026-11-12T16:29:56.388186+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -19,7 +19,7 @@
         "number": 1118,
         "destination": "Brisbane  open at 13:40 closed at 15:10",
         "std": "15:35",
-        "etd": "16:01",
+        "etd": "16:07",
         "status": "Departed",
         "delayed": false
       },
