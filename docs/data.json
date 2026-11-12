@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-11-12T14:15:42.584082+10:00",
+  "generated_at": "2026-11-12T14:30:51.779190+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "12:25",
-        "eta": "13:25",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane  open at 11:05 closed at 12:25",
-        "std": "13:05",
-        "etd": "14:10",
-        "status": "Relax",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ840",
@@ -50,14 +27,37 @@
     },
     {
       "arrival": {
+        "flight": "JQ834",
+        "carrier": "JQ",
+        "number": 834,
+        "origin": "Brisbane",
+        "sta": "12:25",
+        "eta": "13:25",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ835",
+        "carrier": "JQ",
+        "number": 835,
+        "destination": "Brisbane  open at 11:05 closed at 12:25",
+        "std": "13:05",
+        "etd": "14:06",
+        "status": "Departed",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
         "flight": "VA1117",
         "carrier": "VA",
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:55",
-        "eta": "15:30",
-        "status": "Delayed 35min",
-        "delayed": true
+        "eta": "15:22",
+        "status": "On The Way",
+        "delayed": false
       },
       "departure": {
         "flight": "VA1118",
@@ -65,8 +65,12 @@
         "number": 1118,
         "destination": "Brisbane  open at 13:40 closed at 15:10",
         "std": "15:35",
-        "etd": "15:42",
+        "etd": "16:01",
         "status": "Relax",
+        "etd_slipped": {
+          "prev_etd": "15:42",
+          "slip_min": 19
+        },
         "delayed": false
       },
       "at_risk": false
