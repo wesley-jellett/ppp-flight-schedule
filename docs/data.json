@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T08:45:37.434784+10:00",
+  "generated_at": "2026-11-13T09:00:54.782615+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -43,7 +43,7 @@
         "destination": "Cairns  open at 10:20 close at 11:20",
         "std": "11:50",
         "etd": "11:50",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
@@ -55,9 +55,13 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "12:25",
-        "eta": "12:25",
-        "status": null,
-        "delayed": false
+        "eta": "12:40",
+        "status": "Delayed 15min",
+        "eta_slipped": {
+          "prev_eta": "12:25",
+          "slip_min": 15
+        },
+        "delayed": true
       },
       "departure": {
         "flight": "JQ835",
@@ -69,7 +73,7 @@
         "status": null,
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     },
     {
       "arrival": {
