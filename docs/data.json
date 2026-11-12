@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T14:00:58.422325+10:00",
+  "generated_at": "2026-11-12T14:15:42.584082+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Brisbane  open at 11:05 closed at 12:25",
         "std": "13:05",
         "etd": "14:10",
-        "status": "Boarding Closed",
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
@@ -57,10 +57,6 @@
         "sta": "14:55",
         "eta": "15:30",
         "status": "Delayed 35min",
-        "eta_slipped": {
-          "prev_eta": "15:10",
-          "slip_min": 20
-        },
         "delayed": true
       },
       "departure": {
