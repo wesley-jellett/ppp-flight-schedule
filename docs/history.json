@@ -137827,6 +137827,71 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "12:45",
+        "flights": [
+          {
+            "flight": "JQ834",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "12:25",
+            "estimated": "13:29",
+            "status": "On The Way",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ835",
+            "kind": "dep",
+            "route": "Brisbane  open at 11:05 closed at 12:25",
+            "scheduled": "13:05",
+            "estimated": "14:10",
+            "status": "Check-in Open",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ840",
+            "kind": "arr",
+            "route": "Sydney",
+            "scheduled": "13:15",
+            "estimated": "14:09",
+            "status": "On The Way",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ841",
+            "kind": "dep",
+            "route": "Sydney  open at 11:55 closed at 13:15",
+            "scheduled": "13:55",
+            "estimated": "14:20",
+            "status": "Check-in Open",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1117",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "14:55",
+            "estimated": "14:56",
+            "status": "Delayed 1min",
+            "delayed": true,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1118",
+            "kind": "dep",
+            "route": "Brisbane  open at 13:40 closed at 15:10",
+            "scheduled": "15:35",
+            "estimated": "15:35",
+            "status": "Relax",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
