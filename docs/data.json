@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T11:30:44.920767+10:00",
+  "generated_at": "2026-11-13T11:38:11.753318+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Cairns  open at 10:20 close at 11:20",
         "std": "11:50",
         "etd": "11:50",
-        "status": "Boarding Soon",
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
@@ -33,7 +33,7 @@
         "origin": "Sydney",
         "sta": "13:15",
         "eta": "13:15",
-        "status": null,
+        "status": "On The Way",
         "delayed": false
       },
       "departure": {
@@ -67,10 +67,6 @@
         "std": "13:05",
         "etd": "14:40",
         "status": "Check-in Open",
-        "etd_slipped": {
-          "prev_etd": "14:00",
-          "slip_min": 40
-        },
         "delayed": false
       },
       "at_risk": false
