@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T12:15:35.133860+10:00",
+  "generated_at": "2026-11-13T12:30:49.259214+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -32,8 +32,12 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "13:15",
+        "eta": "13:55",
         "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "13:15",
+          "slip_min": 40
+        },
         "delayed": false
       },
       "departure": {
@@ -42,33 +46,10 @@
         "number": 841,
         "destination": "Sydney  Check in close at 13:55",
         "std": "13:55",
-        "etd": "14:20",
-        "status": "Delayed",
-        "delayed": true
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "12:25",
-        "eta": "13:20",
-        "status": "Delayed 55min",
-        "delayed": true
-      },
-      "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane  Check in close 14:25",
-        "std": "13:05",
-        "etd": "15:05",
+        "etd": "14:35",
         "status": "Delayed",
         "etd_slipped": {
-          "prev_etd": "14:50",
+          "prev_etd": "14:20",
           "slip_min": 15
         },
         "delayed": true
@@ -92,7 +73,38 @@
         "number": 837,
         "destination": "Brisbane  Check in close 14:05",
         "std": "14:45",
-        "etd": "14:55",
+        "etd": "15:10",
+        "status": "Delayed",
+        "etd_slipped": {
+          "prev_etd": "14:55",
+          "slip_min": 15
+        },
+        "delayed": true
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "JQ834",
+        "carrier": "JQ",
+        "number": 834,
+        "origin": "Brisbane",
+        "sta": "12:25",
+        "eta": "14:40",
+        "status": "Delayed 2h 15min",
+        "eta_slipped": {
+          "prev_eta": "13:20",
+          "slip_min": 80
+        },
+        "delayed": true
+      },
+      "departure": {
+        "flight": "JQ835",
+        "carrier": "JQ",
+        "number": 835,
+        "destination": "Brisbane  Check in close 14:25",
+        "std": "13:05",
+        "etd": "15:05",
         "status": "Delayed",
         "delayed": true
       },
