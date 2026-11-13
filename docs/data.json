@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T11:45:36.328634+10:00",
+  "generated_at": "2026-11-13T12:00:54.924890+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -19,8 +19,8 @@
         "number": 86,
         "destination": "Cairns  open at 10:20 close at 11:20",
         "std": "11:50",
-        "etd": "11:50",
-        "status": "Relax",
+        "etd": "11:44",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -42,8 +42,12 @@
         "number": 841,
         "destination": "Sydney  open at 11:55 close at 13:15",
         "std": "13:55",
-        "etd": "13:55",
+        "etd": "14:20",
         "status": "Check-in Open",
+        "etd_slipped": {
+          "prev_etd": "13:55",
+          "slip_min": 25
+        },
         "delayed": false
       },
       "at_risk": false
@@ -65,7 +69,7 @@
         "number": 835,
         "destination": "Brisbane  open 11:05 close 14:00",
         "std": "13:05",
-        "etd": "14:40",
+        "etd": "14:50",
         "status": "Check-in Open",
         "delayed": false
       },
@@ -89,8 +93,8 @@
         "destination": "Brisbane  open at 13:45 close 14:05",
         "std": "14:45",
         "etd": "14:55",
-        "status": "Delayed 10min",
-        "delayed": true
+        "status": "Relax",
+        "delayed": false
       },
       "at_risk": false
     },
