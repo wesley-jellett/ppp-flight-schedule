@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-11-13T16:00:56.262367+10:00",
+  "generated_at": "2026-11-13T16:15:37.139102+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "12:25",
-        "eta": "14:39",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane  Check in close 14:50",
-        "std": "13:05",
-        "etd": "15:30",
-        "status": "Final Call",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ836",
