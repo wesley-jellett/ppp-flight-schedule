@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T13:45:41.081966+10:00",
+  "generated_at": "2026-11-13T14:00:59.310926+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,9 +9,9 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "14:05",
-        "status": "On The Way",
-        "delayed": false
+        "eta": "14:00",
+        "status": "Delayed 45min",
+        "delayed": true
       },
       "departure": {
         "flight": "JQ841",
@@ -20,8 +20,8 @@
         "destination": "Sydney  Check in close at 13:55",
         "std": "13:55",
         "etd": "14:35",
-        "status": "Delayed",
-        "delayed": true
+        "status": "Boarding Soon",
+        "delayed": false
       },
       "at_risk": false
     },
@@ -32,7 +32,7 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "12:25",
-        "eta": "14:35",
+        "eta": "14:37",
         "status": "On The Way",
         "delayed": false
       },
@@ -55,9 +55,9 @@
         "number": 836,
         "origin": "Brisbane",
         "sta": "14:05",
-        "eta": "15:00",
-        "status": "Delayed 55min",
-        "delayed": true
+        "eta": "14:55",
+        "status": "On The Way",
+        "delayed": false
       },
       "departure": {
         "flight": "JQ837",
@@ -78,9 +78,9 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:55",
-        "eta": "15:05",
-        "status": "Delayed 10min",
-        "delayed": true
+        "eta": "15:07",
+        "status": "On The Way",
+        "delayed": false
       },
       "departure": {
         "flight": "VA1118",
@@ -88,7 +88,7 @@
         "number": 1118,
         "destination": "Brisbane  open 13:40 close 15:10",
         "std": "15:35",
-        "etd": "15:35",
+        "etd": "15:39",
         "status": "Check-in Open",
         "delayed": false
       },
