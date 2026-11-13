@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-11-13T12:30:49.259214+10:00",
+  "generated_at": "2026-11-13T12:45:39.039643+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "QN85",
-        "carrier": "QN",
-        "number": 85,
-        "origin": "Cairns",
-        "sta": "11:20",
-        "eta": "11:20",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN86",
-        "carrier": "QN",
-        "number": 86,
-        "destination": "Cairns  open at 10:20 close at 11:20",
-        "std": "11:50",
-        "etd": "11:44",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ840",
@@ -34,10 +11,6 @@
         "sta": "13:15",
         "eta": "13:55",
         "status": "On The Way",
-        "eta_slipped": {
-          "prev_eta": "13:15",
-          "slip_min": 40
-        },
         "delayed": false
       },
       "departure": {
@@ -48,10 +21,6 @@
         "std": "13:55",
         "etd": "14:35",
         "status": "Delayed",
-        "etd_slipped": {
-          "prev_etd": "14:20",
-          "slip_min": 15
-        },
         "delayed": true
       },
       "at_risk": false
@@ -75,10 +44,6 @@
         "std": "14:45",
         "etd": "15:10",
         "status": "Delayed",
-        "etd_slipped": {
-          "prev_etd": "14:55",
-          "slip_min": 15
-        },
         "delayed": true
       },
       "at_risk": false
@@ -92,10 +57,6 @@
         "sta": "12:25",
         "eta": "14:40",
         "status": "Delayed 2h 15min",
-        "eta_slipped": {
-          "prev_eta": "13:20",
-          "slip_min": 80
-        },
         "delayed": true
       },
       "departure": {
@@ -128,7 +89,7 @@
         "destination": "Brisbane  open 13:40 close 15:10",
         "std": "15:35",
         "etd": "15:35",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
