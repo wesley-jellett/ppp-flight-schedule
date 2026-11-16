@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T07:15:42.815078+10:00",
+  "generated_at": "2026-11-17T07:30:50.731560+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,17 +9,21 @@
         "number": 842,
         "origin": "Melbourne",
         "sta": "08:30",
-        "eta": "08:30",
+        "eta": "08:45",
         "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "08:30",
+          "slip_min": 15
+        },
         "delayed": false
       },
       "departure": {
         "flight": "JQ843",
         "carrier": "JQ",
         "number": 843,
-        "destination": "Melbourne",
+        "destination": "Melbourne  Check in open at 7:10 until 8:30",
         "std": "09:10",
-        "etd": "09:10",
+        "etd": "09:20",
         "status": "Relax",
         "delayed": false
       },
@@ -40,7 +44,7 @@
         "flight": "JQ835",
         "carrier": "JQ",
         "number": 835,
-        "destination": "Brisbane",
+        "destination": "Brisbane  Check in open at 11;05 until 12:25",
         "std": "13:05",
         "etd": "13:05",
         "status": null,
