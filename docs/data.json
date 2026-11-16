@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T13:15:40.603451+10:00",
+  "generated_at": "2026-11-16T13:30:52.298607+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Brisbane",
         "std": "13:05",
         "etd": "13:05",
-        "status": "Final Call",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -32,7 +32,7 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "13:34",
+        "eta": "13:30",
         "status": "On The Way",
         "delayed": false
       },
@@ -55,7 +55,7 @@
         "number": 81,
         "origin": "Cairns",
         "sta": "13:50",
-        "eta": "13:57",
+        "eta": "13:55",
         "status": "On The Way",
         "delayed": false
       },
@@ -78,9 +78,13 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:55",
-        "eta": "14:50",
-        "status": "Early 5min",
-        "delayed": false
+        "eta": "15:05",
+        "status": "Delayed 10min",
+        "eta_slipped": {
+          "prev_eta": "14:50",
+          "slip_min": 15
+        },
+        "delayed": true
       },
       "departure": {
         "flight": "VA1118",
