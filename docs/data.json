@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T14:30:50.294257+10:00",
+  "generated_at": "2026-11-17T14:45:38.774725+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Sydney  Check in open at 11:55 until 13:16",
         "std": "13:55",
         "etd": "14:20",
-        "status": "Boarding Closed",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -42,7 +42,7 @@
         "number": 1118,
         "destination": "Brisbane  Check in open at 13:40 until 15:05",
         "std": "15:35",
-        "etd": "15:35",
+        "etd": "15:45",
         "status": "Relax",
         "delayed": false
       },
@@ -66,7 +66,7 @@
         "destination": "Cairns  Check in open at 16:15 until 17:15",
         "std": "17:45",
         "etd": "17:45",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
