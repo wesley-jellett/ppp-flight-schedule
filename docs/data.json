@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T10:01:01.299475+10:00",
+  "generated_at": "2026-11-17T10:15:38.672482+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -19,8 +19,12 @@
         "number": 843,
         "destination": "Melbourne  Check in open at 7:10 until 8:30",
         "std": "09:10",
-        "etd": "09:20",
+        "etd": "09:50",
         "status": "Departed",
+        "etd_slipped": {
+          "prev_etd": "09:20",
+          "slip_min": 30
+        },
         "delayed": false
       },
       "at_risk": false
@@ -43,7 +47,7 @@
         "destination": "Brisbane  Check in open at 11;05 until 12:25",
         "std": "13:05",
         "etd": "13:05",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
