@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T13:30:48.983891+10:00",
+  "generated_at": "2026-11-17T13:45:41.227893+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Brisbane  Check in open at 11:05 until 12:25",
         "std": "13:05",
         "etd": "13:20",
-        "status": "Boarding Closed",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -33,7 +33,7 @@
         "origin": "Sydney",
         "sta": "13:15",
         "eta": "13:31",
-        "status": "On The Way",
+        "status": "Landed",
         "delayed": false
       },
       "departure": {
@@ -43,7 +43,7 @@
         "destination": "Sydney  Check in open at 11:55 until 13:16",
         "std": "13:55",
         "etd": "14:20",
-        "status": "Check-in Open",
+        "status": "Boarding Soon",
         "delayed": false
       },
       "at_risk": false
@@ -55,9 +55,9 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:55",
-        "eta": "15:00",
-        "status": "Delayed 5min",
-        "delayed": true
+        "eta": "15:12",
+        "status": "On The Way",
+        "delayed": false
       },
       "departure": {
         "flight": "VA1118",
@@ -69,7 +69,7 @@
         "status": "Relax",
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     },
     {
       "arrival": {
