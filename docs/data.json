@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T11:45:36.235480+10:00",
+  "generated_at": "2026-11-17T12:00:57.611602+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -34,10 +34,6 @@
         "sta": "13:15",
         "eta": "13:35",
         "status": "On The Way",
-        "eta_slipped": {
-          "prev_eta": "13:15",
-          "slip_min": 20
-        },
         "delayed": false
       },
       "departure": {
@@ -48,10 +44,6 @@
         "std": "13:55",
         "etd": "14:10",
         "status": "Check-in Open",
-        "etd_slipped": {
-          "prev_etd": "13:55",
-          "slip_min": 15
-        },
         "delayed": false
       },
       "at_risk": false
