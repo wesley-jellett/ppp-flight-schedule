@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T13:45:41.227893+10:00",
+  "generated_at": "2026-11-17T14:00:59.808404+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -43,7 +43,7 @@
         "destination": "Sydney  Check in open at 11:55 until 13:16",
         "std": "13:55",
         "etd": "14:20",
-        "status": "Boarding Soon",
+        "status": "Final Call",
         "delayed": false
       },
       "at_risk": false
