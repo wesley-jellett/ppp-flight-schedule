@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T17:00:57.683611+10:00",
+  "generated_at": "2026-11-17T17:14:33.575314+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,8 +9,12 @@
         "number": 81,
         "origin": "Cairns",
         "sta": "17:15",
-        "eta": "17:45",
+        "eta": "18:05",
         "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "17:45",
+          "slip_min": 20
+        },
         "delayed": false
       },
       "departure": {
