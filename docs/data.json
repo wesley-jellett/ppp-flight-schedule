@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T07:45:43.057461+10:00",
+  "generated_at": "2026-11-19T08:00:57.538154+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -17,7 +17,7 @@
         "flight": "JQ843",
         "carrier": "JQ",
         "number": 843,
-        "destination": "Melbourne",
+        "destination": "Melbourne  open 7:10 close 8:30",
         "std": "09:10",
         "etd": "09:10",
         "status": "Relax",
