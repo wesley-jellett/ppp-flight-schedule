@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T08:00:57.538154+10:00",
+  "generated_at": "2026-11-19T08:15:38.400750+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,7 +9,7 @@
         "number": 842,
         "origin": "Melbourne",
         "sta": "08:30",
-        "eta": "08:26",
+        "eta": "08:30",
         "status": "On The Way",
         "delayed": false
       },
@@ -17,7 +17,7 @@
         "flight": "JQ843",
         "carrier": "JQ",
         "number": 843,
-        "destination": "Melbourne  open 7:10 close 8:30",
+        "destination": "Melbourne  Check in closes at 8:30am",
         "std": "09:10",
         "etd": "09:10",
         "status": "Relax",
@@ -40,7 +40,7 @@
         "flight": "JQ835",
         "carrier": "JQ",
         "number": 835,
-        "destination": "Brisbane",
+        "destination": "Brisbane  Check in opens 11:05am and closes at 12:25pm",
         "std": "13:05",
         "etd": "13:05",
         "status": null,
@@ -63,7 +63,7 @@
         "flight": "JQ841",
         "carrier": "JQ",
         "number": 841,
-        "destination": "Sydney",
+        "destination": "Sydney  Check in opens 11:55am and closes at 1:15pm",
         "std": "13:55",
         "etd": "13:55",
         "status": null,
@@ -86,7 +86,7 @@
         "flight": "VA1118",
         "carrier": "VA",
         "number": 1118,
-        "destination": "Brisbane",
+        "destination": "Brisbane  Check in opens at 1:40pm and closes at 3:05pm",
         "std": "15:35",
         "etd": "15:35",
         "status": null,

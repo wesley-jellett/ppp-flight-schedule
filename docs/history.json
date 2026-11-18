@@ -148601,6 +148601,91 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "08:15",
+        "flights": [
+          {
+            "flight": "JQ842",
+            "kind": "arr",
+            "route": "Melbourne",
+            "scheduled": "08:30",
+            "estimated": "08:30",
+            "status": "On The Way",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ843",
+            "kind": "dep",
+            "route": "Melbourne  Check in closes at 8:30am",
+            "scheduled": "09:10",
+            "estimated": "09:10",
+            "status": "Relax",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ834",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "12:25",
+            "estimated": "12:25",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ835",
+            "kind": "dep",
+            "route": "Brisbane  Check in opens 11:05am and closes at 12:25pm",
+            "scheduled": "13:05",
+            "estimated": "13:05",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ840",
+            "kind": "arr",
+            "route": "Sydney",
+            "scheduled": "13:15",
+            "estimated": "13:15",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ841",
+            "kind": "dep",
+            "route": "Sydney  Check in opens 11:55am and closes at 1:15pm",
+            "scheduled": "13:55",
+            "estimated": "13:55",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1117",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "14:55",
+            "estimated": "14:55",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1118",
+            "kind": "dep",
+            "route": "Brisbane  Check in opens at 1:40pm and closes at 3:05pm",
+            "scheduled": "15:35",
+            "estimated": "15:35",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
