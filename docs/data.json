@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T09:01:09.415729+10:00",
+  "generated_at": "2026-11-19T09:15:35.967800+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Melbourne  Check in closes at 8:30am",
         "std": "09:10",
         "etd": "09:10",
-        "status": "Final Call",
+        "status": "Boarding Closed",
         "delayed": false
       },
       "at_risk": false
@@ -42,9 +42,13 @@
         "number": 835,
         "destination": "Brisbane  Check in opens 11:05am and closes at 12:25pm",
         "std": "13:05",
-        "etd": "13:05",
-        "status": null,
-        "delayed": false
+        "etd": "13:20",
+        "status": "Delayed 15min",
+        "etd_slipped": {
+          "prev_etd": "13:05",
+          "slip_min": 15
+        },
+        "delayed": true
       },
       "at_risk": false
     },
