@@ -1,53 +1,7 @@
 {
-  "generated_at": "2026-11-19T15:00:53.779008+10:00",
+  "generated_at": "2026-11-19T15:15:40.709188+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "13:15",
-        "eta": "13:33",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney  Check in opens 11:55am and closes at 1:15pm",
-        "std": "13:55",
-        "etd": "14:20",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "12:25",
-        "eta": "13:42",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane  Check in opens 11:05am and closes at 12:25pm",
-        "std": "13:05",
-        "etd": "14:25",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "VA1117",
@@ -66,7 +20,7 @@
         "destination": "Brisbane  Check in opens at 1:40pm and closes at 3:05pm",
         "std": "15:35",
         "etd": "15:35",
-        "status": "Check-in Open",
+        "status": "Boarding",
         "delayed": false
       },
       "at_risk": false
