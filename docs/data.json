@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-11-19T12:30:51.008091+10:00",
+  "generated_at": "2026-11-19T12:45:39.746699+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "12:25",
-        "eta": "12:58",
-        "status": "On The Way",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane  Check in opens 11:05am and closes at 12:25pm",
-        "std": "13:05",
-        "etd": "13:20",
-        "status": "Check-in Open",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ840",
@@ -32,7 +9,7 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "13:35",
+        "eta": "13:34",
         "status": "On The Way",
         "delayed": false
       },
@@ -47,6 +24,33 @@
         "delayed": false
       },
       "at_risk": true
+    },
+    {
+      "arrival": {
+        "flight": "JQ834",
+        "carrier": "JQ",
+        "number": 834,
+        "origin": "Brisbane",
+        "sta": "12:25",
+        "eta": "13:36",
+        "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "12:58",
+          "slip_min": 38
+        },
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ835",
+        "carrier": "JQ",
+        "number": 835,
+        "destination": "Brisbane  Check in opens 11:05am and closes at 12:25pm",
+        "std": "13:05",
+        "etd": "13:20",
+        "status": "Check-in Open",
+        "delayed": false
+      },
+      "at_risk": false
     },
     {
       "arrival": {
@@ -66,7 +70,7 @@
         "destination": "Brisbane  Check in opens at 1:40pm and closes at 3:05pm",
         "std": "15:35",
         "etd": "15:35",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
