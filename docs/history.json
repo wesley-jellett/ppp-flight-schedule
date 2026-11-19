@@ -150051,6 +150051,31 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "15:45",
+        "flights": [
+          {
+            "flight": "VA1117",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "14:55",
+            "estimated": "14:48",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1118",
+            "kind": "dep",
+            "route": "Brisbane  Check in opens at 1:40pm and closes at 3:05pm",
+            "scheduled": "15:35",
+            "estimated": "15:35",
+            "status": "Departed",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
