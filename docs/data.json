@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-11-20T12:01:02.484549+10:00",
+  "generated_at": "2026-11-20T12:15:37.177782+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "QN85",
-        "carrier": "QN",
-        "number": 85,
-        "origin": "Cairns",
-        "sta": "11:20",
-        "eta": "11:20",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "QN86",
-        "carrier": "QN",
-        "number": 86,
-        "destination": "Cairns  Check in open from 10:20 close at 11:20",
-        "std": "11:50",
-        "etd": "16:40",
-        "status": "Delayed",
-        "delayed": true
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ834",
@@ -32,7 +9,7 @@
         "number": 834,
         "origin": "Brisbane",
         "sta": "12:25",
-        "eta": "12:22",
+        "eta": "12:19",
         "status": "On The Way",
         "delayed": false
       },
@@ -55,7 +32,7 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "13:15",
+        "eta": "13:08",
         "status": "On The Way",
         "delayed": false
       },
@@ -116,6 +93,29 @@
         "delayed": false
       },
       "at_risk": true
+    },
+    {
+      "arrival": {
+        "flight": "QN85",
+        "carrier": "QN",
+        "number": 85,
+        "origin": "Cairns",
+        "sta": "11:20",
+        "eta": "11:20",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "QN86",
+        "carrier": "QN",
+        "number": 86,
+        "destination": "Cairns  Check in open from 10:20 close at 11:20",
+        "std": "11:50",
+        "etd": "16:40",
+        "status": "Delayed",
+        "delayed": true
+      },
+      "at_risk": false
     }
   ]
 }
