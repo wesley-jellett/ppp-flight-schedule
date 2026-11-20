@@ -153365,6 +153365,31 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "17:15",
+        "flights": [
+          {
+            "flight": "QN85",
+            "kind": "arr",
+            "route": "Cairns",
+            "scheduled": "11:20",
+            "estimated": "11:20",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "QN86",
+            "kind": "dep",
+            "route": "Cairns  Check in open from 10:20 close at 11:20",
+            "scheduled": "11:50",
+            "estimated": "16:40",
+            "status": "Departed",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
