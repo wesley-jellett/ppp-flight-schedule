@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T16:30:51.384022+10:00",
+  "generated_at": "2026-11-20T16:45:37.008407+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -43,8 +43,8 @@
         "destination": "Cairns  Check in open from 10:20 close at 11:20",
         "std": "11:50",
         "etd": "16:40",
-        "status": "Delayed",
-        "delayed": true
+        "status": "Departed",
+        "delayed": false
       },
       "at_risk": false
     }
