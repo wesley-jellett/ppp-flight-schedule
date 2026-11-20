@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T10:00:59.900053+10:00",
+  "generated_at": "2026-11-20T10:15:38.966354+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -66,7 +66,7 @@
         "destination": "Brisbane",
         "std": "13:05",
         "etd": "13:05",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
@@ -124,9 +124,9 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:55",
-        "eta": "14:55",
-        "status": null,
-        "delayed": false
+        "eta": "14:59",
+        "status": "Delayed 4min",
+        "delayed": true
       },
       "departure": {
         "flight": "VA1118",
