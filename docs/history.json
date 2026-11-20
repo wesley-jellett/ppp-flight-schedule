@@ -151755,6 +151755,111 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "11:45",
+        "flights": [
+          {
+            "flight": "QN85",
+            "kind": "arr",
+            "route": "Cairns",
+            "scheduled": "11:20",
+            "estimated": "11:20",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "QN86",
+            "kind": "dep",
+            "route": "Cairns  Check in open from 10:20 close at 11:20",
+            "scheduled": "11:50",
+            "estimated": "11:50",
+            "status": "Check-in Open",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ834",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "12:25",
+            "estimated": "12:20",
+            "status": "On The Way",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ835",
+            "kind": "dep",
+            "route": "Brisbane  Check in open from 11:05 close at 12:25",
+            "scheduled": "13:05",
+            "estimated": "13:05",
+            "status": "Check-in Open",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ840",
+            "kind": "arr",
+            "route": "Sydney",
+            "scheduled": "13:15",
+            "estimated": "13:15",
+            "status": "On The Way",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ841",
+            "kind": "dep",
+            "route": "Sydney  Check in open from 11:55 close at 13:15",
+            "scheduled": "13:55",
+            "estimated": "13:55",
+            "status": "Relax",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ836",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "14:05",
+            "estimated": "14:05",
+            "status": null,
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ837",
+            "kind": "dep",
+            "route": "Brisbane  Check in open from 13:40 close at 15:00",
+            "scheduled": "14:45",
+            "estimated": "14:45",
+            "status": "Relax",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1117",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "14:55",
+            "estimated": "15:11",
+            "status": "Delayed 16min",
+            "delayed": true,
+            "at_risk": true
+          },
+          {
+            "flight": "VA1118",
+            "kind": "dep",
+            "route": "Brisbane  Check in open from 13:40 close at 15:05",
+            "scheduled": "15:35",
+            "estimated": "15:35",
+            "status": null,
+            "delayed": false,
+            "at_risk": true
+          }
+        ]
       }
     ]
   }
