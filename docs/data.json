@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T13:30:49.352388+10:00",
+  "generated_at": "2026-11-20T13:45:36.832719+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -55,7 +55,7 @@
         "number": 836,
         "origin": "Brisbane",
         "sta": "14:05",
-        "eta": "14:00",
+        "eta": "14:01",
         "status": "On The Way",
         "delayed": false
       },
@@ -63,7 +63,7 @@
         "flight": "JQ837",
         "carrier": "JQ",
         "number": 837,
-        "destination": "Brisbane  Check in open from 13:40 close at 15:00",
+        "destination": "Brisbane  Check in open from 12:45 close at 14:05",
         "std": "14:45",
         "etd": "14:45",
         "status": "Check-in Open",
@@ -78,8 +78,8 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:55",
-        "eta": "15:11",
-        "status": "Delayed 16min",
+        "eta": "15:20",
+        "status": "Delayed 25min",
         "delayed": true
       },
       "departure": {
