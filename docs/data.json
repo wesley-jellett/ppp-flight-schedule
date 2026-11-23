@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T07:15:41.265451+10:00",
+  "generated_at": "2026-11-24T07:30:51.398260+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,7 +9,7 @@
         "number": 842,
         "origin": "Melbourne",
         "sta": "08:30",
-        "eta": "08:30",
+        "eta": "08:19",
         "status": "On The Way",
         "delayed": false
       },
@@ -20,7 +20,7 @@
         "destination": "Melbourne  Check In Open 7:15am - 8:35am",
         "std": "09:10",
         "etd": "09:10",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
@@ -55,9 +55,13 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "13:15",
-        "status": null,
-        "delayed": false
+        "eta": "13:50",
+        "status": "Delayed 35min",
+        "eta_slipped": {
+          "prev_eta": "13:15",
+          "slip_min": 35
+        },
+        "delayed": true
       },
       "departure": {
         "flight": "JQ841",
@@ -69,7 +73,7 @@
         "status": null,
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     },
     {
       "arrival": {
