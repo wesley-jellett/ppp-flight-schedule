@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T13:30:49.731630+10:00",
+  "generated_at": "2026-11-23T13:45:44.440395+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -21,10 +21,6 @@
         "std": "13:05",
         "etd": "13:20",
         "status": "Departed",
-        "etd_slipped": {
-          "prev_etd": "13:05",
-          "slip_min": 15
-        },
         "delayed": false
       },
       "at_risk": false
@@ -59,7 +55,7 @@
         "number": 81,
         "origin": "Cairns",
         "sta": "13:50",
-        "eta": "13:57",
+        "eta": "13:54",
         "status": "On The Way",
         "delayed": false
       },
@@ -82,11 +78,11 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:55",
-        "eta": "14:35",
+        "eta": "14:55",
         "status": "On The Way",
         "eta_slipped": {
-          "prev_eta": "14:55",
-          "slip_min": -20
+          "prev_eta": "14:35",
+          "slip_min": 20
         },
         "delayed": false
       },
