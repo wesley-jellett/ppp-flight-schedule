@@ -1,53 +1,7 @@
 {
-  "generated_at": "2026-11-24T16:15:39.256258+10:00",
+  "generated_at": "2026-11-24T16:30:56.188411+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "13:15",
-        "eta": "14:29",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney  Check In Open 11:55am - 1:50pm",
-        "std": "13:55",
-        "etd": "15:15",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "VA1117",
-        "carrier": "VA",
-        "number": 1117,
-        "origin": "Brisbane",
-        "sta": "14:55",
-        "eta": "14:43",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "VA1118",
-        "carrier": "VA",
-        "number": 1118,
-        "destination": "Brisbane  Check In Close 3:05pm",
-        "std": "15:35",
-        "etd": "15:35",
-        "status": "Departed",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "QN81",
@@ -55,7 +9,7 @@
         "number": 81,
         "origin": "Cairns",
         "sta": "14:25",
-        "eta": "16:47",
+        "eta": "16:43",
         "status": "On The Way",
         "delayed": false
       },
