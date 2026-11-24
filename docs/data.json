@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T13:15:39.722527+10:00",
+  "generated_at": "2026-11-24T13:30:52.600626+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -44,10 +44,6 @@
         "std": "14:20",
         "etd": "14:55",
         "status": "Check-in Open",
-        "etd_slipped": {
-          "prev_etd": "14:20",
-          "slip_min": 35
-        },
         "delayed": false
       },
       "at_risk": false
@@ -83,7 +79,7 @@
         "number": 841,
         "destination": "Sydney  Check In Open 11:55am - 1:50pm",
         "std": "13:55",
-        "etd": "15:05",
+        "etd": "15:10",
         "status": "Check-in Open",
         "delayed": false
       },
@@ -97,7 +93,7 @@
         "origin": "Brisbane",
         "sta": "14:55",
         "eta": "14:55",
-        "status": null,
+        "status": "On The Way",
         "delayed": false
       },
       "departure": {
