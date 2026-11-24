@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T13:30:52.600626+10:00",
+  "generated_at": "2026-11-24T13:45:40.634958+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -69,7 +69,7 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "14:30",
+        "eta": "14:26",
         "status": "On The Way",
         "delayed": false
       },
@@ -100,10 +100,10 @@
         "flight": "VA1118",
         "carrier": "VA",
         "number": 1118,
-        "destination": "Brisbane  Check In Open 2:10pm - 3pm",
+        "destination": "Brisbane  Check In Close 3:05pm",
         "std": "15:35",
         "etd": "15:35",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
