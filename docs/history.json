@@ -158533,6 +158533,81 @@
             "at_risk": false
           }
         ]
+      },
+      {
+        "at": "15:15",
+        "flights": [
+          {
+            "flight": "QN81",
+            "kind": "arr",
+            "route": "Cairns",
+            "scheduled": "13:50",
+            "estimated": "14:25",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "QN82",
+            "kind": "dep",
+            "route": "Cairns  New departure time 16:55",
+            "scheduled": "14:20",
+            "estimated": "14:55",
+            "status": "Delayed",
+            "delayed": true,
+            "at_risk": false
+          },
+          {
+            "flight": "QN702",
+            "kind": "arr",
+            "route": "Cairns",
+            "scheduled": "13:50",
+            "estimated": "14:25",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ840",
+            "kind": "arr",
+            "route": "Sydney",
+            "scheduled": "13:15",
+            "estimated": "14:29",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "JQ841",
+            "kind": "dep",
+            "route": "Sydney  Check In Open 11:55am - 1:50pm",
+            "scheduled": "13:55",
+            "estimated": "15:15",
+            "status": "Final Call",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1117",
+            "kind": "arr",
+            "route": "Brisbane",
+            "scheduled": "14:55",
+            "estimated": "14:43",
+            "status": "Landed",
+            "delayed": false,
+            "at_risk": false
+          },
+          {
+            "flight": "VA1118",
+            "kind": "dep",
+            "route": "Brisbane  Check In Close 3:05pm",
+            "scheduled": "15:35",
+            "estimated": "15:35",
+            "status": "Final Call",
+            "delayed": false,
+            "at_risk": false
+          }
+        ]
       }
     ]
   }
