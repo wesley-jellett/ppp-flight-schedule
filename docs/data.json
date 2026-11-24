@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-11-24T14:15:40.382272+10:00",
+  "generated_at": "2026-11-24T14:30:55.398200+10:00",
   "airport": "PPP",
   "pairs": [
     {
       "arrival": {
-        "flight": "JQ834",
-        "carrier": "JQ",
-        "number": 834,
-        "origin": "Brisbane",
-        "sta": "12:25",
-        "eta": "12:10",
+        "flight": "QN81",
+        "carrier": "QN",
+        "number": 81,
+        "origin": "Cairns",
+        "sta": "13:50",
+        "eta": "14:25",
         "status": "Landed",
         "delayed": false
       },
       "departure": {
-        "flight": "JQ835",
-        "carrier": "JQ",
-        "number": 835,
-        "destination": "Brisbane  Check In Open 11:05am - 12:25pm",
-        "std": "13:05",
-        "etd": "13:05",
-        "status": "Departed",
-        "delayed": false
+        "flight": "QN82",
+        "carrier": "QN",
+        "number": 82,
+        "destination": "Cairns  Check In Open 12:50pm - 1:25pm",
+        "std": "14:20",
+        "etd": "14:55",
+        "status": "Delayed",
+        "delayed": true
       },
       "at_risk": false
     },
@@ -32,34 +32,15 @@
         "number": 702,
         "origin": "Cairns",
         "sta": "13:50",
-        "eta": "13:50",
+        "eta": "14:25",
         "status": "Landed",
+        "eta_slipped": {
+          "prev_eta": "13:50",
+          "slip_min": 35
+        },
         "delayed": false
       },
       "departure": null,
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "QN81",
-        "carrier": "QN",
-        "number": 81,
-        "origin": "Cairns",
-        "sta": "13:50",
-        "eta": "14:25",
-        "status": "Delayed 35min",
-        "delayed": true
-      },
-      "departure": {
-        "flight": "QN82",
-        "carrier": "QN",
-        "number": 82,
-        "destination": "Cairns  Check In Open 12:50pm - 1:25pm",
-        "std": "14:20",
-        "etd": "14:55",
-        "status": "Check-in Open",
-        "delayed": false
-      },
       "at_risk": false
     },
     {
@@ -69,7 +50,7 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "14:33",
+        "eta": "14:29",
         "status": "On The Way",
         "delayed": false
       },
@@ -92,7 +73,7 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:55",
-        "eta": "14:42",
+        "eta": "14:40",
         "status": "On The Way",
         "delayed": false
       },
