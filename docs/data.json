@@ -1,20 +1,5 @@
 {
-  "generated_at": "2026-11-24T17:15:40.177464+10:00",
+  "generated_at": "2026-11-24T17:30:46.876727+10:00",
   "airport": "PPP",
-  "pairs": [
-    {
-      "arrival": {
-        "flight": "QN81",
-        "carrier": "QN",
-        "number": 81,
-        "origin": "Cairns",
-        "sta": "14:25",
-        "eta": "16:39",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": null,
-      "at_risk": false
-    }
-  ]
+  "pairs": []
 }
