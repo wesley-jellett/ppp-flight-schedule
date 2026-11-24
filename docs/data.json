@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T12:15:42.884116+10:00",
+  "generated_at": "2026-11-24T12:30:49.208635+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,34 +20,7 @@
         "destination": "Brisbane  Check In Open 11:05am - 12:25pm",
         "std": "13:05",
         "etd": "13:05",
-        "status": "Check-in Open",
-        "delayed": false
-      },
-      "at_risk": false
-    },
-    {
-      "arrival": {
-        "flight": "JQ840",
-        "carrier": "JQ",
-        "number": 840,
-        "origin": "Sydney",
-        "sta": "13:15",
-        "eta": "14:05",
-        "status": "Delayed 50min",
-        "delayed": true
-      },
-      "departure": {
-        "flight": "JQ841",
-        "carrier": "JQ",
-        "number": 841,
-        "destination": "Sydney  Check In Open 11:55am - 1:15pm",
-        "std": "13:55",
-        "etd": "14:45",
-        "status": "Check-in Open",
-        "etd_slipped": {
-          "prev_etd": "14:30",
-          "slip_min": 15
-        },
+        "status": "Boarding",
         "delayed": false
       },
       "at_risk": false
@@ -74,6 +47,33 @@
         "delayed": false
       },
       "at_risk": true
+    },
+    {
+      "arrival": {
+        "flight": "JQ840",
+        "carrier": "JQ",
+        "number": 840,
+        "origin": "Sydney",
+        "sta": "13:15",
+        "eta": "14:29",
+        "status": "On The Way",
+        "eta_slipped": {
+          "prev_eta": "14:05",
+          "slip_min": 24
+        },
+        "delayed": false
+      },
+      "departure": {
+        "flight": "JQ841",
+        "carrier": "JQ",
+        "number": 841,
+        "destination": "Sydney  Check In Open 11:55am - 1:15pm",
+        "std": "13:55",
+        "etd": "14:45",
+        "status": "Check-in Open",
+        "delayed": false
+      },
+      "at_risk": false
     },
     {
       "arrival": {
