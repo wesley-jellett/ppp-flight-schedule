@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T13:45:40.634958+10:00",
+  "generated_at": "2026-11-24T14:01:03.103083+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -27,6 +27,24 @@
     },
     {
       "arrival": {
+        "flight": "QN702",
+        "carrier": "QN",
+        "number": 702,
+        "origin": "Cairns",
+        "sta": "13:50",
+        "eta": "13:50",
+        "status": "Landed",
+        "eta_slipped": {
+          "prev_eta": "14:25",
+          "slip_min": -35
+        },
+        "delayed": false
+      },
+      "departure": null,
+      "at_risk": false
+    },
+    {
+      "arrival": {
         "flight": "QN81",
         "carrier": "QN",
         "number": 81,
@@ -50,26 +68,12 @@
     },
     {
       "arrival": {
-        "flight": "QN702",
-        "carrier": "QN",
-        "number": 702,
-        "origin": "Cairns",
-        "sta": "13:50",
-        "eta": "14:25",
-        "status": "Delayed 35min",
-        "delayed": true
-      },
-      "departure": null,
-      "at_risk": false
-    },
-    {
-      "arrival": {
         "flight": "JQ840",
         "carrier": "JQ",
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "14:26",
+        "eta": "14:28",
         "status": "On The Way",
         "delayed": false
       },
@@ -92,7 +96,7 @@
         "number": 1117,
         "origin": "Brisbane",
         "sta": "14:55",
-        "eta": "14:55",
+        "eta": "14:42",
         "status": "On The Way",
         "delayed": false
       },
