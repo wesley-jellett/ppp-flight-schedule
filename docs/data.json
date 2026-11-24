@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T14:01:03.103083+10:00",
+  "generated_at": "2026-11-24T14:15:40.382272+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -34,10 +34,6 @@
         "sta": "13:50",
         "eta": "13:50",
         "status": "Landed",
-        "eta_slipped": {
-          "prev_eta": "14:25",
-          "slip_min": -35
-        },
         "delayed": false
       },
       "departure": null,
@@ -73,7 +69,7 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "14:28",
+        "eta": "14:33",
         "status": "On The Way",
         "delayed": false
       },
