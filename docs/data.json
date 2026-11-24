@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-11-24T15:30:52.631392+10:00",
+  "generated_at": "2026-11-24T15:45:37.971909+10:00",
   "airport": "PPP",
   "pairs": [
-    {
-      "arrival": {
-        "flight": "VA1117",
-        "carrier": "VA",
-        "number": 1117,
-        "origin": "Brisbane",
-        "sta": "14:55",
-        "eta": "14:43",
-        "status": "Landed",
-        "delayed": false
-      },
-      "departure": {
-        "flight": "VA1118",
-        "carrier": "VA",
-        "number": 1118,
-        "destination": "Brisbane  Check In Close 3:05pm",
-        "std": "15:35",
-        "etd": "15:35",
-        "status": "Final Call",
-        "delayed": false
-      },
-      "at_risk": false
-    },
     {
       "arrival": {
         "flight": "JQ840",
@@ -43,7 +20,30 @@
         "destination": "Sydney  Check In Open 11:55am - 1:50pm",
         "std": "13:55",
         "etd": "15:15",
-        "status": "Boarding Closed",
+        "status": "Departed",
+        "delayed": false
+      },
+      "at_risk": false
+    },
+    {
+      "arrival": {
+        "flight": "VA1117",
+        "carrier": "VA",
+        "number": 1117,
+        "origin": "Brisbane",
+        "sta": "14:55",
+        "eta": "14:43",
+        "status": "Landed",
+        "delayed": false
+      },
+      "departure": {
+        "flight": "VA1118",
+        "carrier": "VA",
+        "number": 1118,
+        "destination": "Brisbane  Check In Close 3:05pm",
+        "std": "15:35",
+        "etd": "15:35",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -57,22 +57,9 @@
         "sta": "14:25",
         "eta": "16:32",
         "status": "Delayed 2h 7min",
-        "eta_slipped": {
-          "prev_eta": "14:25",
-          "slip_min": 127
-        },
         "delayed": true
       },
-      "departure": {
-        "flight": "QN82",
-        "carrier": "QN",
-        "number": 82,
-        "destination": "Cairns  New departure time 16:55",
-        "std": "14:20",
-        "etd": "14:55",
-        "status": "Departed",
-        "delayed": false
-      },
+      "departure": null,
       "at_risk": false
     }
   ]
