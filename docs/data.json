@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T10:45:46.340996+10:00",
+  "generated_at": "2026-11-25T11:01:06.663534+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -43,7 +43,7 @@
         "destination": "Sydney",
         "std": "13:55",
         "etd": "13:55",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
