@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T08:30:46.072541+10:00",
+  "generated_at": "2026-11-27T08:45:38.722508+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,7 +9,7 @@
         "number": 842,
         "origin": "Melbourne",
         "sta": "08:30",
-        "eta": "08:37",
+        "eta": "08:50",
         "status": "On The Way",
         "delayed": false
       },
@@ -20,10 +20,10 @@
         "destination": "Melbourne  Check in open from 9:10 close at 8:30",
         "std": "09:10",
         "etd": "09:10",
-        "status": "Check-in Open",
+        "status": "Check-in Closed",
         "delayed": false
       },
-      "at_risk": false
+      "at_risk": true
     },
     {
       "arrival": {
