@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T09:30:55.742056+10:00",
+  "generated_at": "2026-11-27T09:45:37.755529+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -19,8 +19,12 @@
         "number": 843,
         "destination": "Melbourne  Check in open from 9:10 close at 8:30",
         "std": "09:10",
-        "etd": "09:30",
-        "status": "Boarding",
+        "etd": "09:50",
+        "status": "Final Call",
+        "etd_slipped": {
+          "prev_etd": "09:30",
+          "slip_min": 20
+        },
         "delayed": false
       },
       "at_risk": false
