@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T14:30:58.134636+10:00",
+  "generated_at": "2026-11-27T14:45:39.900927+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -55,7 +55,7 @@
         "number": 836,
         "origin": "Brisbane",
         "sta": "14:05",
-        "eta": "15:02",
+        "eta": "15:04",
         "status": "On The Way",
         "delayed": false
       },
@@ -65,11 +65,15 @@
         "number": 837,
         "destination": "Brisbane  Check in open from 12:45 close at 14:50",
         "std": "14:45",
-        "etd": "14:45",
+        "etd": "15:45",
         "status": "Check-in Open",
+        "etd_slipped": {
+          "prev_etd": "14:45",
+          "slip_min": 60
+        },
         "delayed": false
       },
-      "at_risk": true
+      "at_risk": false
     }
   ]
 }
