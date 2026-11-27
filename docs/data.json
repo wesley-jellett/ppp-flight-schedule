@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T11:00:52.243169+10:00",
+  "generated_at": "2026-11-27T11:15:36.872367+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -9,7 +9,7 @@
         "number": 85,
         "origin": "Cairns",
         "sta": "11:20",
-        "eta": "11:26",
+        "eta": "11:22",
         "status": "On The Way",
         "delayed": false
       },
@@ -33,7 +33,7 @@
         "origin": "Brisbane",
         "sta": "12:25",
         "eta": "12:25",
-        "status": null,
+        "status": "On The Way",
         "delayed": false
       },
       "departure": {
@@ -43,7 +43,7 @@
         "destination": "Brisbane  Check in open from 11:05 clise at 12:25",
         "std": "13:05",
         "etd": "13:05",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
@@ -55,9 +55,9 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "13:15",
-        "status": null,
-        "delayed": false
+        "eta": "13:26",
+        "status": "Delayed 11min",
+        "delayed": true
       },
       "departure": {
         "flight": "JQ841",
@@ -66,7 +66,7 @@
         "destination": "Sydney",
         "std": "13:55",
         "etd": "13:55",
-        "status": "Relax",
+        "status": "Check-in Open",
         "delayed": false
       },
       "at_risk": false
