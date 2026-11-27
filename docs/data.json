@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T13:01:01.103879+10:00",
+  "generated_at": "2026-11-27T13:15:40.377894+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Brisbane  Check in open from 11:05 clise at 12:25",
         "std": "13:05",
         "etd": "13:05",
-        "status": "Boarding Closed",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -32,7 +32,7 @@
         "number": 840,
         "origin": "Sydney",
         "sta": "13:15",
-        "eta": "13:18",
+        "eta": "13:15",
         "status": "On The Way",
         "delayed": false
       },
@@ -40,7 +40,7 @@
         "flight": "JQ841",
         "carrier": "JQ",
         "number": 841,
-        "destination": "Sydney  Check in open from 11:55 close at 13:05",
+        "destination": "Sydney  Check in open from 11:55 close at 13:15",
         "std": "13:55",
         "etd": "14:00",
         "status": "Check-in Open",
@@ -63,10 +63,14 @@
         "flight": "JQ837",
         "carrier": "JQ",
         "number": 837,
-        "destination": "Brisbane  Check in open from 12:45 close at 14:40",
+        "destination": "Brisbane  Check in open from 12:45 close at 14:55",
         "std": "14:45",
-        "etd": "15:20",
+        "etd": "15:35",
         "status": "Relax",
+        "etd_slipped": {
+          "prev_etd": "15:20",
+          "slip_min": 15
+        },
         "delayed": false
       },
       "at_risk": false
