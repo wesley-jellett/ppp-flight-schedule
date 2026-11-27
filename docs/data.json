@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T10:00:59.593174+10:00",
+  "generated_at": "2026-11-27T10:15:40.705177+10:00",
   "airport": "PPP",
   "pairs": [
     {
@@ -20,7 +20,7 @@
         "destination": "Melbourne  Check in open from 9:10 close at 8:30",
         "std": "09:10",
         "etd": "09:50",
-        "status": "Final Call",
+        "status": "Departed",
         "delayed": false
       },
       "at_risk": false
@@ -33,7 +33,7 @@
         "origin": "Cairns",
         "sta": "11:20",
         "eta": "11:20",
-        "status": null,
+        "status": "On The Way",
         "delayed": false
       },
       "departure": {
@@ -66,7 +66,7 @@
         "destination": "Brisbane  Check in open from 11:05 clise at 12:25",
         "std": "13:05",
         "etd": "13:05",
-        "status": null,
+        "status": "Relax",
         "delayed": false
       },
       "at_risk": false
@@ -101,9 +101,13 @@
         "number": 836,
         "origin": "Brisbane",
         "sta": "14:05",
-        "eta": "14:05",
-        "status": null,
-        "delayed": false
+        "eta": "14:25",
+        "status": "Delayed 20min",
+        "eta_slipped": {
+          "prev_eta": "14:05",
+          "slip_min": 20
+        },
+        "delayed": true
       },
       "departure": {
         "flight": "JQ837",
@@ -111,9 +115,13 @@
         "number": 837,
         "destination": "Brisbane",
         "std": "14:45",
-        "etd": "14:45",
-        "status": null,
-        "delayed": false
+        "etd": "15:00",
+        "status": "Delayed 15min",
+        "etd_slipped": {
+          "prev_etd": "14:45",
+          "slip_min": 15
+        },
+        "delayed": true
       },
       "at_risk": false
     },
